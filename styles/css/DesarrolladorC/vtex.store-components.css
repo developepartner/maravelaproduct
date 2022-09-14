@@ -1,0 +1,179 @@
+.imageElement--minicart-circulo-negro {
+  border-radius: 50%;
+}
+/*Borrar estilos de las hojas originales y remplazar por estos sin los importants*/
+.searchBarIcon--clear-button--search {
+  background-color: transparent !important;
+}
+.suffixWrapper {
+  background-color: transparent !important;
+}
+.imageElement--minicart-circulo-negro {
+  width: 27px !important;
+}
+.autoCompleteOuterContainer--clear-button :global(.vtex-styleguide-9-x-input){
+  border-radius: 5px !important;
+  width: 100%;
+}
+.vtex-store-components-3-x-searchBarContainer {
+  margin-right: 6% !important;
+  margin-top: 12px;
+  max-width: 147%;
+  margin-left: -27% !important;
+  min-width: 100%;
+}
+/*Cerrado de borrado*/
+.imageElement--storePrint {
+  margin-top: 0;
+}
+
+.skuSelectorItem--hueso {
+  background: #cfad83;
+}
+
+.skuSelectorItem--gris-carbon {
+    background: #434549;
+}
+
+.skuSelectorContainer--selector {
+  color: #181e2a;
+}
+
+@media screen and (max-width: 900px) {
+  .searchBarContainer {margin: 0;padding: 0;width: 100%;}
+
+.logoLink{
+  margin: 0px;
+}
+
+.minicartContainer--minicart-home{
+  margin: 0px;
+}
+
+.carouselGaleryCursor {padding-top: 0;padding-bottom: 0;}
+
+.productBrand--quickview {
+  font-size: 26px;
+}
+.infoCardCallActionContainer--categorias2-banners :global(.vtex-button) {
+  background: white;
+  border: none;
+  border-radius: 0;
+}
+
+.infoCardContainer--categorias2-banners {
+  width: 100%;
+  min-height: 300px;
+}
+
+.infoCardContainer--categorias2-banners {
+  width: 100%;
+  min-height: 300px;
+}
+
+.brandName {
+  font-size: 12px;
+}
+
+}
+@media screen and (max-width: 1025px) {
+
+.logoLink{
+  margin: 0px;
+}
+
+.minicartContainer--minicart-home{
+  margin: 0px;
+}
+
+}
+.skuSelectorContainer--vitrina {
+  position: relative;
+}
+
+.infoCardContainer--info-card-shoes-left {
+  height: 96%;
+  background-position: bottom !important;
+}
+.infoCardContainer--depto-desk {
+  height: 97%;
+  background-position: inherit;
+}
+.infoCardContainer--depto-desk {min-height: 440px;}
+
+
+.searchResultContainer {max-width: 2000px;}
+.container {max-width: 2000px;}
+
+/*Producto ajustes*/
+/*.productImagesContainer--carousel::after {content: "";width: 30px;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/iconoampliar.png) no-repeat;position: absolute;z-index: 999;right: 4%;top: 3%;background-size: 100%;}
+*/
+/*Nombre de los colores*/
+
+
+
+
+
+
+.skuSelectorContainer {
+  position: relative;
+}
+
+.skuSelectorContainer--sticky .skuSelectorTextContainer{
+  display: block;
+}
+.skuSelectorContainer--sticky .skuSelectorName{
+  display: block;
+}
+
+.productNameContainer--nombresticky {font-size: 13px;padding: 10%;font-weight: 900;}
+
+.price_listPriceLabel--preciosS {display: none;}
+
+.price_sellingPriceLabel--preciosS {display: none;}
+
+.currencyFraction--preciosS:last-child {display: none;}
+
+.currencyDecimal--preciosS {display: none;}
+
+.price_sellingPrice--preciosS {font-size: 25px;}
+
+.price_listPrice--preciosS {font-size: 18px;}
+
+.productImagesContainer--imagenunica--first-image {width: 70%;margin: 0 auto;}
+
+.imageElementLink--whtasapp {position: fixed;bottom: 1%;right: 1%;
+  z-index: 999;
+}
+
+/*.skuSelectorContainer:hover .skuSelectorSubcontainer--talla::after {content: "Selecciona tu talla";background: red;border: 1px solid;border-radius: 5px;font-size: 12px;color: white;text-align: center;width: 32%;padding: 0 2%;margin: 0 2%;}
+*/
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.productImagesGallerySlide {
+  width: 100% !important;
+}
+.productImageTag.productImageTag--images-modal-zoom.productImageTag--main.productImageTag--images-modal-zoom--main:hover {
+  transform: scale(1);
+}
+.productImageTag.productImageTag--main {
+  max-height: none !important;
+  margin: 10px;
+}
+.productImage.productImage--images-modal-zoom:last-child {
+  left: 0;
+}
+@media screen and (max-width: 900px) {
+  .productImageTag.productImageTag--main {
+    max-height: none !important;
+    margin: 10px 0;
+  }
+  :global(.vtex-search-result-3-x-gallery) .skuSelectorSubcontainer--talla{
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+  }
+}
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla::after {content: "" !important;}
+
+.productImageTag.productImageTag--images-modal-zoom.productImageTag--main.productImageTag--images-modal-zoom--main {min-width: 100% !important;}

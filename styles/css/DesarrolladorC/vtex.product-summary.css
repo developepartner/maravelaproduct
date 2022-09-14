@@ -1,0 +1,42 @@
+@media screen and (max-width: 900px) {
+
+.brandName {
+  font-size: 12px;
+}
+.nameWrapper {min-height: 56px;}
+
+}
+
+.containerNormal {
+    max-width: 500px!important;
+    border-radius: 0;
+}
+
+.imageStackContainer {width: 100%;}
+
+.element {padding-top: 0;}
+
+
+.skuSelectorItem--selected {
+  border: 1px solid;
+  border-radius: 5px;}
+
+
+@media screen and (min-width: 700px) and (max-width: 1026px) {
+  .productBrand.brandName {
+    min-height: 60px;
+    display: block;
+}
+}
+
+.productNameContainer{
+  min-height: 60px;
+  padding: 0 5px;
+}
+/*Quitar borde de color en category*/
+.frameAround.frameAround--vitrina {
+  border: none;
+}
+.container--categoria .productNameContainer{
+  min-height: 40px;
+}

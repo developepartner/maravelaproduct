@@ -1,0 +1,57 @@
+
+.boxContainer{
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.dataEntryLabel{
+    font-weight: 700;
+    color:#3A3A3A;
+}
+.dataEntryChildren{
+    color: #747474;
+}
+:global(.vtex-pageHeader__container){
+    display: none;
+}
+:global(.vtex-account__page-body){
+    margin-top: 100px;
+}
+.menuLinks{
+    margin-top: 48px;
+    width: 100%;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.menu{
+    padding-right: 10px;
+}
+
+@media(max-width:1000px){
+    :global(.vtex-pageHeader__container){
+        display: block;
+    }
+    :global(.vtex-pageHeader__title){
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    :global(.vtex-account__page-body){
+        margin-top: 0px;
+    }
+    .menu{
+        padding: 15px;
+    }
+    :global(.vtex__icon-arrow-back){
+        visibility: hidden;
+    }
+    :global(.vtex-pageHeader__container) :global(.vtex-button)::before{
+        content:"<";
+        /* background: url("https://callearturop.vtexassets.com/arquivos/flecha-abajo-maravela-png.png") no-repeat; */
+        visibility: visible;
+        font-size: 15px;
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 0%;
+    }
+
+}

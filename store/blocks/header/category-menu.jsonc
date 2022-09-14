@@ -1,0 +1,2841 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name"
+    },
+    "children": [
+      "menu-item#category-hombre",
+      "menu-item#category-mujer",
+      "menu-item#category-nino",
+      "menu-item#category-nina"
+/*      "menu-item#category-leather",
+      "menu-item#category-freedom",
+      "menu-item#category-ofertas"*/
+      //"menu-item#category-adicional"
+
+    ]
+  },
+
+  "menu-item#category-hombre": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "blockClass": "item",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maravela/hombre",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "HOMBRE"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#hombre"]
+  },
+
+
+  "menu-item#category-mujer": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maravela/mujer",
+        "noFollow": false,
+        "tagTitle": "Woman",
+        "text": "WOMAN"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#mujer"]
+  },
+
+  "menu-item#category-nino": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maravela/nino",
+        "noFollow": false,
+        "tagTitle": "Niño",
+        "text": "NIÑO"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#nino"]
+  },
+
+  "menu-item#category-nina": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maravela/nina",
+        "noFollow": false,
+        "tagTitle": "Niña",
+        "text": "NIÑA"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#nina"]
+  },
+
+  "menu-item#category-accsesorios": {
+    "props": {
+      "id": "menu-item-category-accsesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Accsesorios",
+        "text": "Accsesorios"
+        }
+    }
+  },
+
+  "menu-item#category-leather": {
+    "props": {
+      "id": "menu-item-category-leather",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/viaje",
+        "noFollow": false,
+        "tagTitle": "Leather",
+        "text": "VIAJE"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#leather"]
+  },
+
+  "menu-item#category-freedom": {
+    "props": {
+      "id": "menu-item-category-freedom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/freedom?initialMap=c,c&initialQuery=hombre/ropa&map=category-1,category-2,brand",
+        "noFollow": false,
+        "tagTitle": "Freedom",
+        "text": "FREEDOM"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#freedom"]
+  },
+
+  "menu-item#category-ofertas": {
+    "props": {
+      "id": "menu-item-category-ofertas",
+      "blockClass": "sales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        // "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "OFERTAS"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ofertas"]
+  },
+  /*
+  "menu-item#category-adicional": {
+    "props": {
+      "id": "menu-item-category-adicional",
+      "type": "custom",
+      "blockClass": "item",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/store/blocks/home/homeAditional.jsonc",
+        "noFollow": false,
+        "tagTitle": "More",
+        "text": "MÁS"
+        }
+    }
+  },*/
+
+  "vtex.menu@2.x:submenu#hombre": {
+    "children": [
+      "flex-layout.row#rowCatsHombre"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#mujer": {
+    "children": [
+      "flex-layout.row#rowCatsMujer"
+    ]
+  },
+  "vtex.menu@2.x:submenu#nino": {
+    "children": [
+      "flex-layout.row#rowCatsNino"
+    ]
+  },
+  "vtex.menu@2.x:submenu#nina": {
+    "children": [
+      "flex-layout.row#rowCatsNina"
+    ]
+  },
+  "vtex.menu@2.x:submenu#leather": {
+    "children": [
+      "flex-layout.row#rowCatsLeather"
+    ]
+  },
+  "vtex.menu@2.x:submenu#freedom": {
+    "children": [
+      "flex-layout.row#rowCatsFreedom"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ofertas": {
+    "children": [
+      "flex-layout.row#rowCatsOfertas"
+    ]
+  },
+
+
+  "flex-layout.row#rowCatsHombre":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-cat2",
+      "flex-layout.col#menu-nivel-hombre-cat4",
+      "flex-layout.col#menu-nivel-hombre-cat5",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean"
+    ]
+  },
+  "flex-layout.row#rowCatsMujer":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-mujer-cat2",
+      "flex-layout.col#menu-nivel-mujer-cat3",
+      "flex-layout.col#menu-nivel-mujer-cat4",
+      "flex-layout.col#menu-nivel-mujer-cat5",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean"
+
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-mujer-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-mujer-cat1-sub1",
+      "rich-text#menu-nivel-mujer-cat1-sub2",
+      "rich-text#menu-nivel-mujer-cat1-sub3",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-mujer-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Nuevos](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Bono Regalo](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat-bold-warn",
+      "text":"[Ofertas](/ofertas/mujer)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-mujer-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-mujer-cat2-sub1",
+      "rich-text#menu-nivel-mujer-cat2-sub2",
+      "rich-text#menu-nivel-mujer-cat2-sub3",
+      "rich-text#menu-nivel-mujer-cat2-sub4",
+      //"rich-text#menu-nivel-mujer-cat2-sub5",
+      "rich-text#menu-nivel-mujer-cat2-sub6",
+      //"rich-text#menu-nivel-mujer-cat2-sub7",
+      "rich-text#menu-nivel-mujer-cat2-sub8",
+      "rich-text#menu-nivel-mujer-cat2-sub9",
+      "rich-text#menu-nivel-mujer-cat2-sub10",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-mujer-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ROPA](/maravela/mujer/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Blusas](/maravela/mujer/ropa/blusa-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/maravela/mujer/ropa/cam-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/maravela/mujer/ropa/camiseta-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/maravela/mujer/ropa/camiseta-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Enterizos](/maravela/mujer/ropa/enterizo-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Faldas](/maravela/mujer/ropa/faldas)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Faldas](/maravela/mujer/ropa/faldas)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Kimonos](/maravela/mujer/ropa/kimono-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat2-sub10":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/maravela/mujer/ropa/Pantalones)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-mujer-cat3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-mujer-cat3-sub1",
+      "rich-text#menu-nivel-mujer-cat3-sub2",
+      "rich-text#menu-nivel-mujer-cat3-sub4",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-mujer-cat3-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Shorts](/maravela/mujer/ropa/short-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat3-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos de Baño](/maravela/mujer/ropa/Vestidos-de-Baño)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat3-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos](/maravela/mujer/ropa/vestido-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat3-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pijamas](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat3-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Shorts](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat3-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Medias](/mujer/ropa/medias)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat3-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos de baño](/mujer)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-mujer-cat4": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-mujer-cat4-sub1"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-mujer-cat4-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ZAPATOS](/maravela/mujer/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat4-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Botas y Botines](/mujer/zapatos/botas-y-botines)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat4-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tacones](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat4-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Planos](/mujer/zapatos/tacones)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat4-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tenis](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat4-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sandalias](/mujer/zapatos/sandalias)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-mujer-cat5": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-mujer-cat5-sub1",
+      //"rich-text#menu-nivel-mujer-cat5-sub2",
+     // "rich-text#menu-nivel-mujer-cat5-sub3",
+      //"rich-text#menu-nivel-mujer-cat5-sub4",
+      //"rich-text#menu-nivel-mujer-cat5-sub5",
+      "rich-text#menu-nivel-mujer-cat5-sub6",
+      "rich-text#menu-nivel-mujer-cat5-sub7",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-mujer-cat5-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ACCESORIOS](/maravela/mujer/accesorios/)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Accesorios Cabello Mujer](/maravela/mujer/accesorios/accesorios-cabello-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Cuelga Gafas](/maravela/mujer/accesorios/cuelga-gafas-m)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bisuteria](/maravela/mujer/accesorios/bisuteria)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sombreros](/maravela/mujer/accesorios/sombrero)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bolsos](/maravela/mujer/accesorios/bolso-mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Esmaltes y Busutería](/maravela/mujer/accesorios)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sombrillas](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tapabocas](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat5-sub10":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Otros Accsesorios](/mujer)"
+    }
+  },
+  "flex-layout.col#menu-nivel-mujer-cat6": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-mujer-cat6-sub1",
+      "rich-text#menu-nivel-mujer-cat6-sub2",
+      "rich-text#menu-nivel-mujer-cat6-sub3",
+      "rich-text#menu-nivel-mujer-cat6-sub4",
+      "rich-text#menu-nivel-mujer-cat6-sub5",
+      "rich-text#menu-nivel-mujer-cat6-sub6"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-mujer-cat6-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"COLECCIÓN"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat6-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Soft Nautic](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat6-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Urban Fall](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat6-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[ECO](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat6-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Active](/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-mujer-cat6-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Formal Luxe](/mujer)"
+    }
+  },
+
+  "flex-layout.row#rowCatsNino":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-nino-cat2",
+      "flex-layout.col#menu-nivel-nino-cat4",
+      "flex-layout.col#menu-nivel-nino-cat5",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean"
+
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-nino-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-nino-cat1-sub1",
+      "rich-text#menu-nivel-nino-cat1-sub2",
+      "rich-text#menu-nivel-nino-cat1-sub3",
+      "rich-text#clean"
+    ]
+  },
+
+  "rich-text#menu-nivel-nino-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Nuevos](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Bono Regalo](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat-bold-warn",
+      "text":"[Ofertas](/nino)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-nino-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nino-cat2-sub1",
+      "rich-text#menu-nivel-nino-cat2-sub2",
+   //   "rich-text#menu-nivel-nino-cat2-sub3",
+    //  "rich-text#menu-nivel-nino-cat2-sub4",
+      "rich-text#menu-nivel-nino-cat2-sub5",
+  //    "rich-text#menu-nivel-nino-cat2-sub6",
+      "rich-text#menu-nivel-nino-cat2-sub7",
+      "rich-text#menu-nivel-nino-cat2-sub8",
+      "rich-text#clean"
+    ]
+  },
+  "rich-text#menu-nivel-nino-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ROPA](/maravela/nino/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bermudas](/maravela/nino/ropa/Bermudas)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/maravela/nino/ropa/Camisa)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/maravela/nino/ropa/Camisa)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/maravela/nino/ropa/Camiseta)"
+    }
+  },
+
+  "rich-text#menu-nivel-nino-cat2-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/maravela/nino/ropa/pantalon)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalonetas](/maravela/nino/ropa/Pantaloneta)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Polos](/maravela/nino/ropa/Polo)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat2-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Trajes](/kids/nino/ropa/trajes)"
+    }
+  },
+  "flex-layout.col#menu-nivel-nino-cat3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-nino-cat3-sub1",
+      "rich-text#menu-nivel-nino-cat3-sub2",
+      "rich-text#menu-nivel-nino-cat3-sub3",
+      "rich-text#menu-nivel-nino-cat3-sub4",
+      "rich-text#menu-nivel-nino-cat3-sub5",
+      "rich-text#menu-nivel-nino-cat3-sub6",
+      "rich-text#menu-nivel-nino-cat3-sub7",
+      "rich-text#clean"
+    ]
+  },
+  "rich-text#menu-nivel-nino-cat3-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Jeans](/kids/nino/ropa/jeans)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat3-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/kids/nino/ropa/pantalones)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat3-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bermudas](/kids/nino/ropa/bermudas)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat3-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalonetas de Baño](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat3-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pijamas](/kids/nino/ropa/pijamas)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat3-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Ropa Interior](/kids/nino/ropa/ropa-interior)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat3-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Medias](/nino)"
+    }
+  },
+
+
+  "flex-layout.col#menu-nivel-nino-cat4": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nino-cat4-sub1"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nino-cat4-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ZAPATOS](/maravela/nino/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat4-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tenis](/kids/nino/zapatos/tenis)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat4-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Zapatos](/kids/nino/zapatos/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat4-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sandalias](/kids/nino/zapatos/sandalias)"
+    }
+  },
+  "flex-layout.col#menu-nivel-nino-cat5": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nino-cat5-sub1",
+      //"rich-text#menu-nivel-nino-cat5-sub2",
+      "rich-text#menu-nivel-nino-cat5-sub3",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nino-cat5-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ACCESORIOS](/maravela/nino/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tapabocas](/maravela/nino/accesorios/Tapabocas)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Toallas](/maravela/nino/accesorios/toalla-niño)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Corbatas y Corbatines](/kids/nino/accesorios/corbatas-y-corbatines)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gafas de sol](/kids/nino/accesorios/gafas-de-sol)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gorras y Gorros](/kids/nino/accesorios/gorras-gorros-y-boinas)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Morrales y Loncheras](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Perfumes](/kids/nino/accesorios/perfumes)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat5-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tapabocas](/nino)"
+    }
+  },
+  "flex-layout.col#menu-nivel-nino-cat6": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nino-cat6-sub1",
+      "rich-text#menu-nivel-nino-cat6-sub2",
+      "rich-text#menu-nivel-nino-cat6-sub3",
+      "rich-text#menu-nivel-nino-cat6-sub4",
+      "rich-text#menu-nivel-nino-cat6-sub5",
+      "rich-text#menu-nivel-nino-cat6-sub6",
+      "rich-text#menu-nivel-nino-cat6-sub7"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nino-cat6-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"COLECCIÓN"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat6-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bosque Encantado](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat6-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Comfort](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat6-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Intensamente](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat6-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gamer](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat6-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[ECO](/nino)"
+    }
+  },
+  "rich-text#menu-nivel-nino-cat6-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Padre e hijo](/nino)"
+    }
+  },
+
+  "flex-layout.row#rowCatsNina":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-nina-cat2",
+      "flex-layout.col#menu-nivel-nina-cat4",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean"
+
+    ]
+  },
+
+
+  "flex-layout.col#menu-nivel-nina-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-nina-cat1-sub1",
+      "rich-text#menu-nivel-nina-cat1-sub2"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nina-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Nuevos](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat-bold-warn",
+      "text":"[Bono Regalo](/nina)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-nina-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nina-cat2-sub1",
+      "rich-text#menu-nivel-nina-cat2-sub2",
+      "rich-text#menu-nivel-nina-cat2-sub3",
+      "rich-text#menu-nivel-nina-cat2-sub4",
+    //  "rich-text#menu-nivel-nina-cat2-sub5",
+      "rich-text#menu-nivel-nina-cat2-sub6",
+    //  "rich-text#menu-nivel-nina-cat2-sub7",
+    //  "rich-text#menu-nivel-nina-cat2-sub8",
+      "rich-text#menu-nivel-nina-cat2-sub9",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nina-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ROPA](/maravela/nina/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Blusas](/maravela/nina/ropa/blusa-niña)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/maravela/nina/ropa/camiseta-niña)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Enterizos](/maravela/nina/ropa/enterizo-niña)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Faldas](/maravela/nina/ropa/falda)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/maravela/nina/ropa/jean-niña)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Shorts](/maravela/nina/ropa/Shorts)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos de Baño](/maravela/nina/ropa/Vestidos-de-Baño)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat2-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos](/maravela/nina/ropa/vestido-niña)"
+    }
+  },
+  "flex-layout.col#menu-nivel-nina-cat3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-nina-cat3-sub1",
+      "rich-text#menu-nivel-nina-cat3-sub2",
+      "rich-text#menu-nivel-nina-cat3-sub3",
+      "rich-text#menu-nivel-nina-cat3-sub4",
+      "rich-text#menu-nivel-nina-cat3-sub5",
+      "rich-text#menu-nivel-nina-cat3-sub6"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nina-cat3-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/kids/nina/ropa/pantalones) "
+    }
+  },
+  "rich-text#menu-nivel-nina-cat3-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pijamas](/kids/nina/ropa/pijamas)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat3-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Shorts](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat3-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Ropa Interior](/kids/nina/ropa/ropa-interior)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat3-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Medias](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat3-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos de Baño](/nina)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-nina-cat4": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nina-cat4-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ZAPATOS](/maravela/nina/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat4-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Botas](/kids/nina/zapatos/botas)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat4-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tenis](/kids/nina/zapatos/tenis)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat4-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sandalias](/kids/nina/zapatos/sandalias)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat4-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Colegiales](/kids/nina/zapatos/zapatos)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-nina-cat5": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nina-cat5-sub1",
+      "rich-text#menu-nivel-nina-cat5-sub2",
+      "rich-text#menu-nivel-nina-cat5-sub3",
+      "rich-text#menu-nivel-nina-cat5-sub4",
+      "rich-text#menu-nivel-nina-cat5-sub5",
+      "rich-text#menu-nivel-nina-cat5-sub6",
+      "rich-text#menu-nivel-nina-cat5-sub7",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nina-cat5-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ACCESORIOS](/maravela//nina/accesorios)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat5-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Balacas](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat5-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bufandas y Cuellos](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat5-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gorras y Sombreros](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat5-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Esmaltes](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat5-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Maletas y Loncheras](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat5-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tapabocas](/Sistema/buscavazia?ft=tapabocas)"
+    }
+  },
+  "flex-layout.col#menu-nivel-nina-cat6": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-nina-cat6-sub1",
+      "rich-text#menu-nivel-nina-cat6-sub2",
+      "rich-text#menu-nivel-nina-cat6-sub3",
+      "rich-text#menu-nivel-nina-cat6-sub4",
+      "rich-text#menu-nivel-nina-cat6-sub5",
+      "rich-text#menu-nivel-nina-cat6-sub6",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-nina-cat6-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[COLECCIÓN](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat6-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bosque Encantado](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat6-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Comfort](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat6-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Intensamente](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat6-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gamer](/nina)"
+    }
+  },
+  "rich-text#menu-nivel-nina-cat6-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Madre e Hija](/nina)"
+    }
+  },
+
+
+  "flex-layout.row#rowCatsLeather":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-accesorios-cat1",
+      "flex-layout.col#menu-nivel-accesorios-cat2",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean"
+    ]
+  },
+
+
+  "flex-layout.col#menu-nivel-accesorios-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-accesorios-cat1-sub1",
+      "rich-text#menu-nivel-accesorios-cat1-sub3",
+      "rich-text#menu-nivel-accesorios-cat1-sub2",
+      "rich-text#menu-nivel-accesorios-cat1-sub4",
+      "rich-text#clean",
+      "rich-text#clean"
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-sorprendePapa-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub1",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub3",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub2",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub4",
+      "rich-text#clean",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-accesorios-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[MALETAS DE VIAJE](/viaje/maletas-de-viaje)"
+    }
+  },
+  "rich-text#menu-nivel-accesorios-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Maletas Grandes](/viaje/maletas-de-viaje)"
+    }
+  },
+  "rich-text#menu-nivel-accesorios-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Maletas Medianas](/viaje/maletas-de-viaje)"
+    }
+  },
+  "rich-text#menu-nivel-accesorios-cat1-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Maletas Pequeñas](/viaje/maletas-de-viaje)"
+    }
+  },
+
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[SORPRENDE A PAPÁ](/guia-regalos-padres)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Polos y Camisetas](/[861]?map=productClusterIds)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Jeans y pantalones](/[863]?map=productClusterIds)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/hombre/ropa/camisas)"
+    }
+  },
+
+
+  "flex-layout.col#menu-nivel-accesorios-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-accesorios-cat2-sub1",
+      "rich-text#menu-nivel-accesorios-cat2-sub2",
+      "rich-text#clean"
+    ]
+  },
+  "flex-layout.col#menu-nivel-sorprendePapa-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-sorprendePapa-cat2-sub1",
+      "rich-text#menu-nivel-sorprendePapa-cat2-sub2",
+      "rich-text#menu-nivel-sorprendePapa-cat2-sub3",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-accesorios-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Accesorios de Viaje](/viaje/maletas-de-viaje)"
+    }
+  },
+  "rich-text#menu-nivel-accesorios-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Maletines y Morrales](/viaje/maletas-de-viaje)"
+    }
+  },
+
+  "rich-text#menu-nivel-sorprendePapa-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Zapatos](/hombre/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Accesorios](/hombre/accesorios)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bono de Regalo](/bono-de-regalo/)"
+    }
+  },
+
+
+  "flex-layout.row#rowCatsFreedom":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-freedom-cat1",
+      "flex-layout.col#menu-nivel-freedom-cat2",
+      "flex-layout.col#menu-nivel-freedom-cat3",
+      "flex-layout.col#menu-nivel-freedom-cat4",
+      "flex-layout.col#menu-nivel-freedom-cat5",
+      "flex-layout.col#menu-nivel-hombre-clean"
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-freedom-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-freedom-cat1-sub1",
+      "rich-text#menu-nivel-freedom-cat1-sub2",
+      "rich-text#menu-nivel-freedom-cat1-sub3",
+      "rich-text#menu-nivel-freedom-cat1-sub4",
+      "rich-text#menu-nivel-freedom-cat1-sub5",
+      "rich-text#menu-nivel-freedom-cat1-sub6",
+      "rich-text#menu-nivel-freedom-cat1-sub7",
+      "rich-text#menu-nivel-freedom-cat1-sub8",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-freedom-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[HOMBRE](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Blazers](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Buzos](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Chaquetas](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Jeans](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat1-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Joggers](/hombre/ropa/freedom)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-freedom-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-freedom-cat2-sub1",
+      "rich-text#menu-nivel-freedom-cat2-sub2",
+      "rich-text#menu-nivel-freedom-cat2-sub3",
+      "rich-text#menu-nivel-freedom-cat2-sub4",
+      "rich-text#menu-nivel-freedom-cat2-sub5",
+      "rich-text#menu-nivel-freedom-cat2-sub6",
+      "rich-text#menu-nivel-freedom-cat2-sub7",
+      "rich-text#menu-nivel-freedom-cat2-sub8",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-freedom-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Medias](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalonetas y Bermudas](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Polos](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Ropa Interior](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sweaters](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Botas](/hombre/ropa/freedom)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat2-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tenis](/hombre/ropa/freedom)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-freedom-cat3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-freedom-cat3-sub1",
+      "rich-text#menu-nivel-freedom-cat3-sub2",
+      "rich-text#menu-nivel-freedom-cat3-sub3",
+      "rich-text#menu-nivel-freedom-cat3-sub4",
+      "rich-text#menu-nivel-freedom-cat3-sub5",
+      "rich-text#menu-nivel-freedom-cat3-sub6",
+      "rich-text#menu-nivel-freedom-cat3-sub7",
+      "rich-text#menu-nivel-freedom-cat3-sub8",
+      "rich-text#menu-nivel-freedom-cat3-sub9",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-freedom-cat3-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[MUJER](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Blusas y Camisas](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Buzos](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Chalecos](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Chaquetas](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Faldas](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Jeans](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat3-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Medias](/)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-freedom-cat4": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-freedom-cat4-sub1",
+      "rich-text#menu-nivel-freedom-cat4-sub2",
+      "rich-text#menu-nivel-freedom-cat4-sub3",
+      "rich-text#menu-nivel-freedom-cat4-sub4",
+      "rich-text#menu-nivel-freedom-cat4-sub5"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-freedom-cat4-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat4-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Shorts](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat4-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Vestidos Enterizos](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat4-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Botas](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat4-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tenis](/)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-freedom-cat5": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-freedom-cat5-sub1",
+      "rich-text#menu-nivel-freedom-cat5-sub2",
+      "rich-text#menu-nivel-freedom-cat5-sub3",
+      "rich-text#menu-nivel-freedom-cat5-sub4",
+      "rich-text#menu-nivel-freedom-cat5-sub5",
+      "rich-text#menu-nivel-freedom-cat5-sub6"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-freedom-cat5-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ACCESORIOS](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat5-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Cinturones](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat5-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gorras](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat5-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Morrales y bolsos](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat5-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pulseras y Brazaletes](/)"
+    }
+  },
+  "rich-text#menu-nivel-freedom-cat5-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tapabocas](/)"
+    }
+  },
+
+
+  "flex-layout.row#rowCatsOfertas":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-ofertas-cat1",
+      "flex-layout.col#menu-nivel-ofertas-cat2",
+      "flex-layout.col#menu-nivel-ofertas-cat3",
+      "flex-layout.col#menu-nivel-ofertas-cat4",
+      "flex-layout.col#menu-nivel-ofertas-cat5",
+      "flex-layout.col#menu-nivel-ofertas-cat6",
+      "flex-layout.col#menu-nivel-hombre-clean"
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-ofertas-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-ofertas-cat1-sub1",
+      "rich-text#menu-nivel-ofertas-cat1-sub2",
+      "rich-text#menu-nivel-ofertas-cat1-sub3",
+      "rich-text#menu-nivel-ofertas-cat1-sub4",
+      "rich-text#menu-nivel-ofertas-cat1-sub5",
+      "rich-text#menu-nivel-ofertas-cat1-sub6",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-ofertas-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Nuevos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[25% OFF](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[35% OFF](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat1-sub4":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[50% OFF](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat1-sub5":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Ver todos](/ofertas)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat1-sub6":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[HOMBRE](/ofertas/hombre)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-ofertas-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-ofertas-cat2-sub1",
+      "rich-text#menu-nivel-ofertas-cat2-sub2",
+      "rich-text#menu-nivel-ofertas-cat2-sub3",
+      "rich-text#menu-nivel-ofertas-cat2-sub4",
+      "rich-text#menu-nivel-ofertas-cat2-sub5",
+      "rich-text#menu-nivel-ofertas-cat2-sub6",
+      "rich-text#menu-nivel-ofertas-cat2-sub7",
+      "rich-text#menu-nivel-ofertas-cat2-sub8",
+      "rich-text#menu-nivel-ofertas-cat2-sub9",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-ofertas-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[BLAZERS](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Buzos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Chaquetas](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Zapatos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Polos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat2-sub9":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Ver todo](/ofertas/hombre)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-ofertas-cat3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-ofertas-cat3-sub1",
+      "rich-text#menu-nivel-ofertas-cat3-sub2",
+      "rich-text#menu-nivel-ofertas-cat3-sub3",
+      "rich-text#menu-nivel-ofertas-cat3-sub4",
+      "rich-text#menu-nivel-ofertas-cat3-sub5",
+      "rich-text#menu-nivel-ofertas-cat3-sub6",
+      "rich-text#menu-nivel-ofertas-cat3-sub7",
+      "rich-text#menu-nivel-ofertas-cat3-sub8",
+      "rich-text#menu-nivel-ofertas-cat3-sub9",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-ofertas-cat3-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[MUJER](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Chaquetas](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Blusas y Camisas](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Shorts](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Faldas](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Zapatos](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat3-sub9":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Ver todo](/ofertas/mujer)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-ofertas-cat4": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-ofertas-cat4-sub1",
+      "rich-text#menu-nivel-ofertas-cat4-sub2",
+      "rich-text#menu-nivel-ofertas-cat4-sub3",
+      "rich-text#menu-nivel-ofertas-cat4-sub4",
+      "rich-text#menu-nivel-ofertas-cat4-sub5",
+      "rich-text#menu-nivel-ofertas-cat4-sub6",
+      "rich-text#menu-nivel-ofertas-cat4-sub7",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-ofertas-cat4-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[NIÑO](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat4-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Blazers](/nino/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat4-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat4-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Chaquetas](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat4-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Buzos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat4-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Suéteres](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat4-sub7":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Ver todo](/ofertas/hombre)"
+    }
+  },
+  "flex-layout.col#menu-nivel-ofertas-cat5": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-ofertas-cat5-sub1",
+      "rich-text#menu-nivel-ofertas-cat5-sub2",
+      "rich-text#menu-nivel-ofertas-cat5-sub3",
+      "rich-text#menu-nivel-ofertas-cat5-sub4",
+      "rich-text#menu-nivel-ofertas-cat5-sub5",
+      "rich-text#menu-nivel-ofertas-cat5-sub6",
+      "rich-text#menu-nivel-ofertas-cat5-sub7",
+      "rich-text#menu-nivel-ofertas-cat5-sub8",
+      "rich-text#clean"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-ofertas-cat5-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[NIÑA](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Buzos](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sweaters](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pijamas](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Ropa Interior](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat5-sub8":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Ver todo](/ofertas/mujer)"
+    }
+  },
+  "flex-layout.col#menu-nivel-ofertas-cat6": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-ofertas-cat6-sub1",
+      "rich-text#menu-nivel-ofertas-cat6-sub2",
+      "rich-text#menu-nivel-ofertas-cat6-sub3",
+      "rich-text#menu-nivel-ofertas-cat6-sub4",
+      "rich-text#menu-nivel-ofertas-cat6-sub5"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-ofertas-cat6-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ACCESORIOS](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat6-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Para Hombre](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat6-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Para Mujer](/ofertas/mujer)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat6-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Para Niño](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-ofertas-cat6-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Para Niña](/ofertas/mujer)"
+    }
+  },
+
+
+  "flex-layout.col#menu-nivel-hombre-clean": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean"
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-hombre-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-hombre-cat1-sub1",
+      "rich-text#menu-nivel-hombre-cat1-sub2",
+      "rich-text#menu-nivel-hombre-cat1-sub3",
+      "rich-text#menu-nivel-hombre-cat1-sub4",
+      "rich-text#menu-nivel-hombre-cat1-sub5",
+      "rich-text#menu-nivel-hombre-cat1-sub6",
+      "rich-text#menu-nivel-hombre-cat1-sub7"
+    ]
+  },
+
+
+  "rich-text#menu-nivel-hombre-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Nuevos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Formal](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Business](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat1-sub4":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Casual](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat1-sub5":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Linos](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat1-sub6":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[Bono Regalo](/ofertas/hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat1-sub7":{
+    "props": {
+      "blockClass":"item-cat-bold-warn",
+      "text":"[Ofertas](/ofertas/hombre)"
+    }
+  },
+
+  "flex-layout.col#menu-nivel-hombre-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-hombre-cat2-sub1",
+      "rich-text#menu-nivel-hombre-cat2-sub2",
+      "rich-text#menu-nivel-hombre-cat2-sub3",
+      "rich-text#menu-nivel-hombre-cat2-sub4",
+      "rich-text#menu-nivel-hombre-cat2-sub5",
+      "rich-text#menu-nivel-hombre-cat2-sub6",
+      "rich-text#menu-nivel-hombre-cat2-sub7",
+      "rich-text#menu-nivel-hombre-cat2-sub8"
+    ]
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ROPA](/maravela/hombre/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bermudas](/maravela/hombre/ropa/bermudas)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](/maravela/hombre/ropa/camisa-hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisetas](/maravela/hombre/ropa/camiseta)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/maravela/hombre/ropa/pantalon)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalonetas](/maravela/hombre/ropa/pantaloneta)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Polos](/maravela/hombre/ropa/polo)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sacos](/maravela/hombre/ropa/saco-hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat2-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sweaters](/hombre/ropa)"
+    }
+  },
+  "flex-layout.col#menu-nivel-hombre-cat3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-hombre-cat3-sub1",
+      "rich-text#menu-nivel-hombre-cat3-sub2",
+      "rich-text#menu-nivel-hombre-cat3-sub3",
+      "rich-text#menu-nivel-hombre-cat3-sub4",
+      "rich-text#menu-nivel-hombre-cat3-sub5",
+      "rich-text#menu-nivel-hombre-cat3-sub6",
+      "rich-text#menu-nivel-hombre-cat3-sub7",
+      "rich-text#menu-nivel-hombre-cat3-sub8"
+    ]
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Jeans](/hombre/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalones](/hombre/ropa/pantalones)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bermudas](/hombre/ropa/bermudas)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pantalonetas](/hombre/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Pijamas](/hombre/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Ropa Interior](/hombre/ropa/ropa-interior)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Medias](/hombre/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat3-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisillas](/hombre/ropa)"
+    }
+  },
+  "flex-layout.col#menu-nivel-hombre-cat4": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-hombre-cat4-sub1"
+
+    ]
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ZAPATOS](/maravela/hombre/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Formales](/hombre/zapatos/zapatos-formales)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Casuales](/hombre/zapatos/zapatos-casual)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Mocasines](/hombre/zapatos/mocasines)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Botas](/hombre/zapatos/botas)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tenis](/hombre/zapatos/tenis)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Sandalias](/hombre/zapatos/sandalias)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat4-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Cuidado Zapatos](/hombre/zapatos/productos-cuidado-zapatos)"
+    }
+  },
+  "flex-layout.col#menu-nivel-hombre-cat5": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-hombre-cat5-sub1",
+ //     "rich-text#menu-nivel-hombre-cat5-sub2",
+ //     "rich-text#menu-nivel-hombre-cat5-sub3",
+ //     "rich-text#menu-nivel-hombre-cat5-sub4",
+ //     "rich-text#menu-nivel-hombre-cat5-sub5",
+      "rich-text#menu-nivel-hombre-cat5-sub6",
+      "rich-text#menu-nivel-hombre-cat5-sub7"
+ //     "rich-text#menu-nivel-hombre-cat5-sub8"
+    ]
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[ACCESORIOS](/maravela/hombre/accesorios)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Correas](/maravela/hombre/accesorios/correa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Gafas](/maravela/hombre/accesorios/gafas)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Productos Cuidado Piel](/maravela/hombre/accesorios/productos-cuidado-piel)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub5":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Reatas](/maravela/hombre/accesorios/reata)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub6":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tapabocas](/maravela/hombre/accesorios/tapabocas-hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub7":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Toallas](/maravela/hombre/accesorios/toalla-hombre)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub8":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Tulas](/maravela/hombre/accesorios/tulas)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub9":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Mancornas](/hombre/accesorios)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat5-sub10":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Otros Accesorios](/hombre/accesorios)"
+    }
+  },
+  "flex-layout.col#menu-nivel-hombre-cat6": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#menu-nivel-hombre-cat6-sub1",
+      "rich-text#menu-nivel-hombre-cat6-sub2",
+      "rich-text#menu-nivel-hombre-cat6-sub3"
+    ]
+  },
+  "rich-text#menu-nivel-hombre-cat6-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"COLECCIÓN"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat6-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[ECO](/hombre/ropa)"
+    }
+  },
+  "rich-text#menu-nivel-hombre-cat6-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Active](/hombre/ropa)"
+    }
+  },
+
+  "rich-text#clean":{
+    "props": {
+      "blockClass":"item-cat-clean",
+      "text":"-"
+    }
+  },
+
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel & Accessories",
+        "text": "Apparel & Accessories"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

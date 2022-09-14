@@ -1,0 +1,14 @@
+.input {
+  background-color: #efefef;
+  width: 320px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/*----------------------------------------------------*/
+/*               Orden de lupa y buscador            */
+/*--------------------------------------------------*/
+.hideDecorators.noAppearance {
+  order: 2;
+}
+/* >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/

@@ -1,0 +1,122 @@
+/*-------------------------------------*/
+/*           Category-menu            */
+/*----------   ----------------------*/
+
+.styledLinkContent--item {
+  border: none;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 35px;
+}
+
+.styledLinkContent--sales {
+  border: none;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 35px;
+}
+
+.styledLinkContent--item:hover {
+  width: 100%;
+  color: #033A5F;
+  font-weight: 700;
+  transition: 400ms all ;
+}
+.menuItem--itemR {
+  width: 100%;
+}
+
+/* >>>>>Cierre de Category-menu*/
+
+
+/*Color solo para palabra OFERTAS de category menu*/
+.styledLinkContent--sales{
+  border: none;
+  font-size: 15px;
+  background: #F6A905;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  padding: 6px;
+}
+/* .styledLinkContainer--sales {
+  padding: 0;
+} */
+/*Menú #1 del header*/
+
+.styledLinkContainer .mh6 .pv5 {
+  margin-left: 0.5rem;
+  margin-right: 1.5rem;
+}
+
+.imageElement--storePrint {
+  max-width: 15px;
+  max-height: 15px;
+  margin-top: 13px;
+  margin-right: -19px;
+  font-weight: 500;
+}
+.styledLinkContainer--texpre {
+  padding: 0;
+}
+.menuContainer--menusupe{
+  display: flex;
+  align-items: center;
+}
+
+/*---------------------------------------------*/
+/*       Tamaño de altuta de top-menu         */
+/*-------------------------------------------*/
+.menuContainer {
+  height: 100%;
+  margin-bottom: 0;
+  margin-right: 10px;
+  align-items: center;
+}
+/* >>>>>Cierre de Tamaño de altura de top-menu*/
+
+
+/*---------------------------------------------*/
+/* sub menu css                                */
+/*---------------------------------------------*/
+.styledLinkContent--home__mis-pedidos--mi-cuenta{
+  position: absolute;
+  top: 5px;
+  left: 9%;
+  font-size: 12px;
+}
+
+.submenuWrapper--submenu--mi-cuenta{
+  top: 8px;
+  width: 114px;
+  height: 5px;
+  left: -16px;
+  box-shadow: 0px -2px 0px rgb(0 0 0 / 70%), 0px 0px 20px -7px rgb(0 0 0 / 70%);
+}
+
+
+.submenuWrapper--submenu--contactenos{
+  left: -95px;
+  top: 8px;
+  height: 365px;
+  width: 308px;
+  box-shadow: 0px -2px 0px rgb(0 0 0 / 70%), 0px 0px 20px -7px rgb(0 0 0 / 70%);
+}
+
+.submenuWrapper--paises--opciones{
+  width: 100px;
+  height: 100px;
+  margin-top: 8px;
+  padding-top: 19px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+/*Ajuste header*/
+
+.submenu--paises--opciones .styledLinkContainer{
+  display: none;
+}
+.menuContainer--menusupe {
+  justify-content: flex-end;
+  margin-right: 0px;
+}

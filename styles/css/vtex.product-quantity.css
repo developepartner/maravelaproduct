@@ -1,0 +1,23 @@
+
+
+/*Product*/
+.quantitySelectorContainer--cantidad {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+}
+
+.quantitySelectorTitle--cantidad {
+    margin: 0 17px 0 0;
+    text-transform: uppercase;
+    color: black;
+}
+.quantitySelectorDropdownContainer--cantidad {
+    width: 21%;
+    border-color: black;
+}
+.quantitySelectorContainer--cantidad {
+    margin-top: 10px;
+}
+
+

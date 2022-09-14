@@ -1,0 +1,55 @@
+/***********************************/
+/*         AJUSTES DISEÑO          */
+/***********************************/
+.container.container--shoes {
+  padding: 0;
+}
+.container.container--shirt {
+  padding: 0;
+}
+.container.container--depto-tab {
+  padding-bottom: 0;
+}
+
+/*------------------------------------------------*/
+/* Tamaño de textos intermedios en departamentos */
+/*----------------------------------------------*/
+.title.title--pag-deptos {
+  font-weight: 700;
+  color: #171b1b;
+}
+/*----------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  .title.title--pag-deptos {
+    display: none;
+  }
+}
+
+
+/*Margen vitrinas mobile*/
+@media screen and (max-width: 900px) {
+  .container.container--slider--general.container--pag-deptos {
+      margin: 0 3%;
+  }
+
+  /*Quitar ícono de flechas en mobile*/
+  .caretIcon {
+    display: none;
+  }
+
+  .title.title--pag-deptos {
+    display: none;
+  }
+}
+
+
+/*Eliminar titulo por defecto del shelf*/
+.title.title--slider--general.title--pag-deptos {
+  display: none;
+}
+
+/*Espacio entre vitrina dinamica y botones*/
+.container.container--depto-tab {
+  margin-top: 20px;
+}

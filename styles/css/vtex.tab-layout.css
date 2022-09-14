@@ -1,0 +1,88 @@
+.container--home__product__Hombre .listItem :global(.vtex-button) {
+  width: 100%;
+  font-weight: 700;
+  color: #181E2A;
+  background-color: #EEEEEE;
+}
+.container--home__product__Hombre .listItemActive :global(.vtex-button) {
+  background-color: #0FADC6;
+  border: none;
+  color: white;
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+@media screen and (max-width: 900px) {
+.container--home__product__Hombre .listItem {
+  width: 43%;
+}
+}
+/*Tap producto*/
+.listItem {
+  width: 33.33%;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+}
+
+.listContainer {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.listContainer :global(.vtex-button) {
+  background: initial;
+  border: none;
+  color: initial;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.listContainer :global(.vtex-button__label) {
+  text-transform: initial;
+  justify-content: center;
+  display: flex;
+}
+
+.listItem {
+  justify-content: center;
+  display: flex;
+}
+/* .listItemActive {
+  background: #DADADA !important;
+} */
+.contentContainer {
+  width: 96%;
+  margin: 0 auto;
+  border: 1px solid #d7d7d7;
+  min-height: 200px;
+}
+.container--product {margin-top: 31px;}
+
+.listItem :global(.vtex-button__label) {
+  color: #c1bebe;
+}
+
+.listItemActive :global(.vtex-button__label) {
+  color: black;
+}
+
+@media (max-width: 900px) {
+  .container--product .listContainer {
+    margin-top: 0 !important;
+  }
+  .container--product {
+    margin-top: 0 !important;
+  }
+  .listItem :global(.vtex-button__label){
+    font-size: 13px;
+  }
+  .listItem--tab--right  {
+    width: 36%;
+  }
+  .listItem--tab--center  {
+    width: 30%;
+  }
+  .listItemActive--tab--left {
+    width: 30%;
+  }
+}

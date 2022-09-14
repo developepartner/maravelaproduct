@@ -1,0 +1,25 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout {
+  background-color: white;
+  position: relative;
+    z-index: 999;
+}
+
+.socialNetworksContainer{
+  justify-content: center;
+  width: 90%;
+  margin: 14px auto;
+}
+
+

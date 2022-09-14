@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+    :global(.vtex-menu-2-x-menuItem--isOpen)  > div{
+        height: auto !important;
+    }
+}
+
+
+:global(.vtex-search-result-3-x-filter__container--color):nth-child(odd){
+    display: none;
+}
+

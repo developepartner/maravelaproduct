@@ -1,0 +1,131 @@
+/*Inicio list price*/
+.listPrice {
+  color: #727273;
+  margin-bottom: .25rem;
+  font-size: 1rem;
+}
+
+.sellingPrice {
+  color: #033A5F;
+  font-size: 1.1rem;
+}
+
+.sellingPriceValue {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  font-weight: 500;
+  color: #79B03A;
+}
+
+.savings--summary {
+  background: #8BC34A;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: .875rem;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+  background: #0f3e99;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+/*Product*/
+.currencyDecimal {
+  display: none;
+}
+
+.currencyFraction {
+  display: none;
+}
+
+/*vitrina*/
+.sellingPrice--summary{
+  padding: 0 5px;
+  margin: 0px;
+}
+.sellingPrice{
+  margin: 0 !important;
+}
+.sellingPriceValue {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.sellingPriceValue--summary {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #033A5F;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--lateralCol) .savings{
+  background: #0FADC6;
+  color: white;
+  padding: 6px 5px;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: auto;
+  margin-top: -32px;
+  left: 7px;
+  top: 118px;
+  transform: rotate(-90deg);
+}
+.savings .currencyContainer{
+  color: white;
+  padding: 10px 5px;
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--lateralCol) .savings{
+    background: #0FADC6;
+    color: white;
+    padding: 6px 5px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: auto;
+    margin-top: -32px;
+    left: -1px;
+    top: 84px;
+    transform: rotate(-90deg);
+  }
+}

@@ -1,0 +1,640 @@
+{
+  // Contenido Columnas
+    "flex-layout.col#PrimeraCol1": {
+      "children": [
+        "disclosure-layout#simple"
+      ],
+      "props":{
+        "blockClass": "apertura"
+      }
+    },
+    "flex-layout.col#PrimeraCol2":{
+      "children": [
+        "disclosure-layout#simple2"
+      ],
+      "props":{
+        "blockClass": "apertura"
+      }
+    },
+    "flex-layout.col#PrimeraCol3":{
+      "children": [
+        "disclosure-layout#simple3"
+      ],
+      "props":{
+        "blockClass": "apertura"
+      }
+    },
+    "flex-layout.col#PrimeraCol4":{
+      "children": [
+        "disclosure-layout#simple4"
+      ],
+      "props":{
+        "blockClass": "apertura"
+      }
+    },
+    "flex-layout.col#PrimeraCol5":{
+      "children": [
+        "disclosure-layout#simple5"
+      ],
+      "props":{
+        "blockClass": "apertura"
+      }
+    },
+   // Cierre contenido
+
+
+    /*----------------------------------------------------------------------------*/
+    /*                         Comienzo de Columna 1                             */
+    /*--------------------------------------------------------------------------*/
+
+    "disclosure-layout#simple":{
+      "children": ["disclosure-trigger#simple", "disclosure-content#simple"],
+      "props": {
+        "animated":"true"
+      }
+    },
+    "disclosure-trigger#simple": {
+      "children": ["flex-layout.row#home__footer--columna-1"],
+      "props":{
+        "blockClass": ["aperturaD", "footerApertura1"]
+      }
+    },
+    "flex-layout.row#home__footer--columna-1":{
+      "children": ["flex-layout.col#home__footer--columna-1--tileFCol"],
+      "props":{
+        "blockClass": "columnas"
+      }
+    },
+    "flex-layout.col#home__footer--columna-1--tileFCol":{
+      "children": ["rich-text#tileFCol"]
+    },
+    "disclosure-content#simple": {
+      "children": ["rich-text#answer", "rich-text#answer2", "rich-text#answer3", /* "rich-text#answer4", */ "rich-text#answer5", "rich-text#answer6", "rich-text#answer7"],
+      "props":{
+        "blockClass":"contenidoD"
+      }
+    },
+    "rich-text#tileFCol": {
+      "props": {
+        "blockClass": "TituloCont",
+        "text": "Acerca de nosotros"
+      }
+    },
+    "rich-text#answer": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Franquicias](/franquicias)"
+      }
+    },
+    "rich-text#answer2": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Nuestra Historia](/historia)"
+      }
+    },
+    "rich-text#answer3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Trabaja con nosotros](https://talento.arturocalle.com/talento/)"
+      }
+    },
+    "rich-text#answer4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Uniformes y dotaciones](http://www.colorearturocalle.com/)"
+      }
+    },
+    "rich-text#answer5": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Fundación ARTURO CALLE](https://fundacionarturocalle.com/)"
+      }
+    },
+    "rich-text#answer6": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Línea Ética](/linea-etica)"
+      }
+    },
+    "rich-text#answer7": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Política Ética Empresarial](/politica-etica-empresarial)"
+      }
+    },
+    /* >>>>>>>>>>>>Cierre de  Columna 1*/
+
+    /*----------------------------------------------------------------------------*/
+    /*                         Comienzo de Columna 2                             */
+    /*--------------------------------------------------------------------------*/
+
+
+    "disclosure-layout#simple2":{
+      "children": ["disclosure-trigger#simple2", "disclosure-content#simple2"],
+      "props": {
+        "animated":"true"
+      }
+    },
+    "disclosure-trigger#simple2": {
+      "children": ["flex-layout.row#home__footer--columna-2"],
+      "props":{
+        "blockClass": ["aperturaD", "footerApertura2"]
+      }
+
+    },
+    "flex-layout.row#home__footer--columna-2":{
+      "children": ["flex-layout.col#home__footer--columna-2--tileFCol"],
+      "props":{
+        "blockClass": "columnas"
+      }
+    },
+    "flex-layout.col#home__footer--columna-2--tileFCol":{
+      "children": ["rich-text#tileFCol2"]
+    },
+    "disclosure-content#simple2": {
+      "children": ["modal-trigger#localizacion-tiendas"],
+      "props":{
+        "blockClass":"contenidoD"
+      }
+    },
+    "rich-text#tileFCol2": {
+      "props": {
+        "blockClass": "TituloCont",
+        "text": "TIENDAS"
+      }
+    },
+    "rich-text#answerCol2": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Select](https://www.arturocalle.com/contenido/franquicias)"
+      }
+    },
+    "rich-text#answer2Col2": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[VER TODAS NUESTAS TIENDAS](https://digitalepartner.com/ac-localizador/localizador.html)"
+      }
+    },
+    /* >>>>>>>>>>>>Cierre de  Columna 2*/
+
+
+    /*----------------------------------------------------------------------------*/
+    /*                         Comienzo de Columna 3                             */
+    /*--------------------------------------------------------------------------*/
+    "disclosure-layout#simple3":{
+      "children": ["disclosure-trigger#simple3", "disclosure-content#simple3"],
+      "props": {
+        "animated":"true"
+      }
+    },
+    "disclosure-trigger#simple3": {
+      "children": ["flex-layout.row#home__footer--columna-3"],
+      "props":{
+        "blockClass": ["aperturaD", "footerApertura3"]
+      }
+    },
+    "flex-layout.row#home__footer--columna-3":{
+      "children": ["flex-layout.col#home__footer--columna-3--tileFCol"],
+      "props":{
+        "blockClass": "columnas"
+      }
+    },
+    "flex-layout.col#home__footer--columna-3--tileFCol":{
+      "children": ["rich-text#tileFCol3"]
+    },
+    "disclosure-content#simple3": {
+      "children": ["rich-text#answer-Col3", "rich-text#answer3-Col3", "rich-text#answer5-Col3", "rich-text#answer2-Col3" , "rich-text#answer6-Col3", "rich-text#answer4-Col3", "rich-text#answer7-Col3"/* , "rich-text#answer8-Col3" */],
+      "props":{
+        "blockClass":"contenidoD"
+      }
+    },
+    "rich-text#tileFCol3": {
+      "props": {
+        "blockClass": "TituloCont",
+        "text": "INFORMACIÓN"
+      }
+    },
+    "rich-text#answer-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Contáctecnos - PQRs](/contacto)"
+      }
+    },
+    "rich-text#answer2-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Términos y condiciones generales](/terminos-y-condiciones)"
+      }
+    },
+    "rich-text#answer3-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Preguntas frecuentes](/preguntas-frecuentes)"
+      }
+    },
+    "rich-text#answer4-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Política de uso de datos personales](/politica-de-datos)"
+      }
+    },
+    "rich-text#answer5-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Terminos y Condiciones actividades comerciales](/condiciones-actividades-comerciales)"
+      }
+    },
+    "rich-text#answer6-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Política de envío, cambios y garantías](/politica-envio-cambios-garantias)"
+      }
+    },
+    "rich-text#answer7-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Autorización tratamiento de datos personales](/autorizacion-tratamiento-datos-personales)"
+      }
+    },
+    "rich-text#answer8-Col3": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[SIC](https://www.sic.gov.co/)"
+      }
+    },
+    /* >>>>>>>>>>>>Cierre de  Columna 3*/
+
+
+    /*----------------------------------------------------------------------------*/
+    /*                         Comienzo de Columna 4                             */
+    /*--------------------------------------------------------------------------*/
+    "disclosure-layout#simple4":{
+      "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"],
+      "props": {
+        "animated":"true"
+      }
+    },
+    "disclosure-trigger#simple4": {
+      "children": ["flex-layout.row#home__footer--columna-4"],
+      "props":{
+        "blockClass": ["aperturaD", "footerApertura4"]
+      }
+
+    },
+    "flex-layout.row#home__footer--columna-4":{
+      "children": ["flex-layout.col#home__footer--columna-4--tileFCol"],
+      "props":{
+        "blockClass": "columnas"
+      }
+    },
+    "flex-layout.col#home__footer--columna-4--tileFCol":{
+      "children": ["rich-text#tileFCol4"]
+    },
+    "disclosure-content#simple4": {
+      "children": ["rich-text#answer-Col4", "rich-text#answer2-Col4", "rich-text#answer3-Col4", "rich-text#answer4-Col4", "rich-text#answer5-Col4", "rich-text#answer6-Col4", "rich-text#answer7-Col4", "rich-text#answer8-Col4"],
+      "props":{
+        "blockClass":"contenidoD"
+      }
+    },
+    "rich-text#tileFCol4": {
+      "props": {
+        "blockClass": "TituloCont",
+        "text": "HERRAMIENTAS AC"
+      }
+    },
+    "rich-text#answer-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[SAP](https://wia.arturocalle.com/AC_AccesoSAP/paginas/VinculosSAP.aspx)"
+      }
+    },
+    "rich-text#answer2-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[WIA](https://wia.arturocalle.com/WIA/Login.aspx)"
+      }
+    },
+    "rich-text#answer3-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[WPB]( http://wpb.arturocalle.com:8080/Manager-CAC/index.htm)"
+      }
+    },
+    "rich-text#answer4-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Isolución](http://acautomprd03/isolucion/)"
+      }
+    },
+    "rich-text#answer5-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Isolución Tiendas](http://isolucion.arturocalle.com/Isolucion)"
+      }
+    },
+    "rich-text#answer6-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Proveedores](https://wia.arturocalle.com/AC_AccesoSAP/paginas/CertificadosProveedor.aspx)"
+      }
+    },
+    "rich-text#answer7-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Campus Virtual AC](https://moodle.arturocalle.com/moodle/login/index.php)"
+      }
+    },
+    "rich-text#answer8-Col4": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Acércate](https://acercate.arturocalle.com/acercate/wp-login.php?redirect_to=https%3A%2F%2Facercate.arturocalle.com%2Facercate%2F)"
+      }
+    },
+    /* >>>>>>>>>>>>Cierre de  Columna 4*/
+
+
+    /*----------------------------------------------------------------------------*/
+    /*                         Comienzo de Columna 5                             */
+    /*--------------------------------------------------------------------------*/
+
+
+    "disclosure-layout#simple5":{
+      "children": ["disclosure-trigger#simple5", "disclosure-content#simple5"],
+      "props": {
+        "initialVisibility": "visible",
+        "animated":"true"
+      }
+    },
+    "disclosure-trigger#simple5": {
+      "children": ["flex-layout.row#home__footer--columna-5"],
+      "props":{
+        "blockClass": "aperturaD"
+      }
+    },
+    "flex-layout.row#home__footer--columna-5":{
+      "children": ["flex-layout.col#home__footer--columna-5--tileFCol"],
+      "props":{
+        "blockClass": "columnas"
+      }
+    },
+    "flex-layout.col#home__footer--columna-5--tileFCol":{
+      "children": ["rich-text#tileFCol5"]
+    },
+    "disclosure-content#simple5": {
+      "children": ["flex-layout.col#suscribete--seccion--text--footer"],
+      "props":{
+        "blockClass":"contenidoD"
+      }
+    },
+    "flex-layout.col#suscribete--seccion--text--footer":{
+      "props":{
+        "blockClass":"suscribete--seccion--text--footer"
+      },
+      "children":[
+        "newsletter-form#footer"
+      ]
+    },
+
+     /*formulario para suscribirse*/
+     "newsletter-form#footer": {
+      "props":{
+        "blockClass":"newsletter-form--footer"
+      },
+      "children": [
+        "flex-layout.row#newsletter-form--footer"
+
+      ]
+    },
+    "flex-layout.row#newsletter-form--footer":{
+      "props":{
+        "blockClass":"newsletter-form--contenedor--footer",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children": [
+        "flex-layout.col#newsletter-form--footer"
+      ]
+    },
+    "flex-layout.col#newsletter-form--footer":{
+      "props":{
+        "horizontalAlign":"center",
+        "blockClass":"newsletter-form--columna--footer"
+      },
+      "children": [
+        "flex-layout.col#newsletter-form--nombre",
+        "flex-layout.col#newsletter-form--email",
+        "flex-layout.col#newsletter-checkbox-confirmation--footer",
+        "flex-layout.col#newsletter-form--submit"
+      ]
+    },
+    "flex-layout.col#newsletter-checkbox-confirmation--footer":{
+      "children":[
+        "newsletter-checkbox-confirmation#footer"
+      ]
+    },
+    "newsletter-checkbox-confirmation#footer":{
+      "props":{
+        "blockClass":"newsletter-checkbox-confirmation--footer",
+        "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
+      }
+    },
+
+    "rich-text#tileFCol5": {
+      "props": {
+        "blockClass": "TituloCont",
+        "text": "SUSCRÍBETE"
+      }
+    },
+    "rich-text#answer-Col5": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Input Nombre](https://www.arturocalle.com/contenido/franquicias)"
+      }
+    },
+    "rich-text#answer2-Col5": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Input Email]()"
+      }
+    },
+    "rich-text#answer3-Col5": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Check autorizo]()"
+      }
+    },
+    "rich-text#answer4-Col5": {
+      "props": {
+        "blockClass": "ContenidoDesplegable",
+        "text": "[Boton Suscribete]()"
+      }
+    },
+    /* >>>>>>>>>>>>Cierre de  Columna 5*/
+
+
+    /*seccion de suscripciones*/
+    /*
+    "flex-layout.row#suscribete--seccion--footer":{
+      "props":{
+        "blockClass":"suscribete--seccion--footer"
+      },
+      "children":[
+        "flex-layout.col#suscribete--seccion--imag--footer",
+        "flex-layout.col#suscribete--seccion--text--footer"
+      ]
+    },
+    "flex-layout.col#suscribete--seccion--imag--footer":{
+      "children":[
+        "image#suscribete--seccion--imag--footer"
+      ]
+    },
+    "image#suscribete--seccion--imag--footer":{
+      "props": {
+        "src": "assets/desk/assets-checkout-AC/suscribete-section.webp"
+      }
+    },
+    "flex-layout.col#suscribete--seccion--text--footer":{
+      "children":[
+        "newsletter-form#footer"
+      ]
+    },
+    */
+    /*formulario para suscribirse*/
+    /*
+    "newsletter-form#footer": {
+      "props":{
+        "blockClass":"newsletter-form--footer"
+      },
+      "children": [
+        "flex-layout.row#newsletter-form--footer"
+
+      ]
+    },
+    "flex-layout.row#newsletter-form--footer":{
+      "props":{
+        "blockClass":"newsletter-form--contenedor--footer",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children": [
+        "flex-layout.col#newsletter-form--footer"
+      ]
+    },
+    "flex-layout.col#newsletter-form--footer":{
+      "props":{
+        "horizontalAlign":"center",
+        "blockClass":"newsletter-form--columna"
+      },
+      "children": [
+        "flex-layout.col#newsletter-form--nombre--footer",
+        "flex-layout.col#newsletter-form--email--footer",
+        "flex-layout.col#newsletter-checkbox-confirmation--footer",
+        "flex-layout.col#newsletter-form--submit--footer"
+      ]
+    },
+    "flex-layout.col#newsletter-form--nombre--footer":{
+      "children":[
+        "newsletter-input-name#footer"
+      ]
+    },
+    "newsletter-input-name#footer":{
+      "props":{
+        "placeholderText":"Nombre"
+      }
+    },
+    "flex-layout.col#newsletter-form--email--footer":{
+      "children":[
+        "newsletter-input-email#footer"
+      ]
+    },
+    "newsletter-input-email#footer":{
+      "props":{
+        "placeholderText":"Email"
+      }
+    },
+
+    "flex-layout.col#newsletter-checkbox-confirmation--footer":{
+      "children":[
+        "newsletter-checkbox-confirmation#footer"
+      ]
+    },
+
+    "flex-layout.col#newsletter-form--submit--footer":{
+      "props":{
+        "blockClass":"newsletter-form--submit--footer"
+      },
+      "children":[
+        "newsletter-submit#footer"
+
+      ]
+    },
+    "newsletter-submit#footer":{
+      "props":{
+        "blockClass":"newsletter-submit--footer",
+        "submitButtonLabel":""
+      }
+    },
+    "newsletter-checkbox-confirmation#footer":{
+      "props":{
+        "blockClass":"newsletter-checkbox-confirmation--footer",
+        "checkboxLabel":"Si, quiero recibir correos electrónicos sobre productos y noticias"
+      }
+    }
+    */
+    "flex-layout.col#newsletter-form--nombre":{
+      "props":{
+        "blockClass":"newsletter-form--nombre"
+      },
+      "children":[
+        "newsletter-input-name"
+      ]
+    },
+    "newsletter-input-name":{
+      "props":{
+        "blockClass":"newsletter-form--nombre--input",
+        "placeholderText":"Nombre"
+      }
+    },
+    "flex-layout.col#newsletter-form--email":{
+      "props":{
+        "blockClass":"newsletter-form--email"
+      },
+      "children":[
+        "newsletter-input-email"
+      ]
+    },
+    "newsletter-input-email":{
+      "props":{
+        "blockClass":"newsletter-form--email--input",
+        "placeholderText":"Email"
+      }
+    },
+
+    "flex-layout.col#newsletter-checkbox-confirmation":{
+      "children":[
+        "newsletter-checkbox-confirmation"
+      ]
+    },
+
+    "flex-layout.col#newsletter-form--submit":{
+      "props":{
+        "blockClass":"newsletter-form--submit"
+      },
+      "children":[
+        "newsletter-submit"
+
+      ]
+    },
+    "newsletter-submit":{
+      "props":{
+        "blockClass":"newsletter-submit",
+        "submitButtonLabel":"SUSCRÍBETE"
+      }
+    },
+    "newsletter-checkbox-confirmation":{
+      "props":{
+        "blockClass":"newsletter-checkbox-confirmation",
+        "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
+      }
+    }
+  }

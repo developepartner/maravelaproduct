@@ -1,0 +1,882 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--termino{
+  font-size: 8px;
+}
+
+.wrapper--terminos{
+  font-size: 10px;
+  color: #033A5F;
+  text-decoration: none;
+}
+
+.link--terminos{
+  color: #033A5F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+
+  .wrapper--item-cat{
+    max-height: 38px;
+  }
+
+  .wrapper--item-cat-clean{
+    max-height: 38px;
+  }
+
+  .wrapper--item-cat-bold{
+    max-height: 38px;
+  }
+
+  .wrapper--item-cat-bold-warn{
+    max-height: 38px;
+  }
+
+  .paragraph--item-cat{
+    text-align:left;
+    width: 100%;
+  }
+
+  .paragraph--item-cat-clean{
+    text-align:left;
+    color:transparent;
+    width: 100%;
+  }
+
+  .paragraph--item-cat-bold{
+    font-weight:bold;
+    text-align:left;
+    width: 100%;
+    color: #033A5F !important;
+    font-weight: bold;
+  }
+
+  .paragraph--item-cat-bold-warn{
+    font-weight:bold;
+    color:red;
+    text-align:left;
+    width: 100%;
+  }
+}
+/*Home Styles*/
+.link--BotonI, .link--BotonD {
+  background: white;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.link--BotonI:hover, .link--BotonD:hover {
+  background: black;
+  color: white;
+}
+.container--BotonI {
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+}
+
+.container--BotonD {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+}
+
+.paragraph--titlem {font-weight: 800;font-size: 38px;}
+
+.link--BotonM {
+  position: absolute;
+  bottom: 23%;
+  transition: 1s;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 134px;
+  text-align: center;
+  background: #0FADC6;
+  color: white;
+  text-transform: initial;
+  font-weight: 900;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 14px 0;
+  border-radius: 5px;
+}
+
+.link--BotonM:hover {
+  background: white;
+  color: #0FADC6;
+  border: 1px solid #0FADC6;
+}
+
+/*Footer Styles*/
+.wrapper--TituloCont {
+  color: #033A5F;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap; /*quitar saltos de linea*/
+}
+
+.wrapper--ContenidoDesplegable .paragraph {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+
+.wrapper--ContenidoDesplegable .link {
+  color: #033A5F;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.paragraph--terminos {
+  color: #033A5F;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight:500 ;
+  letter-spacing: 1px;
+  line-height: 14px;
+}
+
+/*------------------------------*/
+/* rich text titulo contactanos */
+/*------------------------------*/
+
+.wrapper--contactenos--titulo{
+  position: absolute;
+  left: 105px;
+  font-weight: 900;
+}
+
+.container--contactenos--titulo{
+  top: -2px;
+  position: absolute;
+}
+
+.wrapper--telefonos{
+  font-weight: 600;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*------------------------------*/
+/* rich text                    */
+/*------------------------------*/
+
+.wrapper--titulos{
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.wrapper--horario--datos{
+  font-weight: normal;
+  position: absolute;
+  top: 174px;
+  margin-left: 13px;
+}
+
+.wrapper--ventas-whatsapp{
+  font-weight: 600;
+  font-size: 14px;
+  height: 34px;
+}
+
+.wrapper--numero--ventas-whatsapp{
+  margin-top: -10px;
+  font-size: 14px;
+  height: 34px;
+}
+
+.wrapper--correo--datos{
+  font-weight: normal;
+  position: absolute;
+  top: 230px;
+  margin-left: 13px;
+}
+
+.wrapper--pais--guatemala{
+  position: absolute;
+  top: -14px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.wrapper--pais--panama{
+  position: absolute;
+  top: 8px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.wrapper--pais--costa-rica{
+  position: absolute;
+  top: 32px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.wrapper--pais--salvador{
+  position: absolute;
+  top: 59px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/* footer parte payu              */
+/*--------------------------------*/
+.wrapper--terminos--y--logo{
+  font-size: 11px;
+  color: #033A5F;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/* correo arturo calle            */
+/*--------------------------------*/
+
+.paragraph--correo--datos :global(.vtex-rich-text-0-x-link--correo--datos){
+  color: #3f3f40;
+  text-decoration: none;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------*/
+/* vitrinas                        */
+/*---------------------------------*/
+
+.wrapper--titlem :global(.vtex-rich-text-0-x-paragraph--titlem){ /*cambia la letra del titulo de la vitrina... si causa algun problema se puede quitar*/
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+
+/*---------------------------------*/
+/*  hombre collage imagenes        */
+/*---------------------------------*/
+
+.container--hombre__part--2--texto{
+  margin-top: -7%;
+  margin-left: 38%;
+}
+
+.container--hombre__part--2--texto4{
+  margin-top: -7%;
+  margin-left: 16%;
+}
+
+.paragraph--hombre__part--2--texto{
+  font-weight: 600;
+}
+
+.paragraph--hombre__part--2--texto4{
+  font-weight: 600;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------*/
+/*  niño collage imagenes        */
+/*---------------------------------*/
+
+.container--nino__part--2--texto{
+  margin-top: -7%;
+  margin-left: 38%;
+}
+
+.paragraph--nino__part--2--texto{
+  font-weight: 600;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*----------------------------------*/
+/* parte en la que se muestra el producto (Estilos Producto Sección Contenido AC) */
+/*----------------------------------*/
+
+.wrapper--product-identifier{
+  color: #6a6968;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-family: 'Manrope';
+}
+
+.wrapper--product-quantity--opciones--titulo{
+  color: #6a6968;
+    letter-spacing: 2px;
+    font-size: 10px;
+  background: white;
+}
+
+.headingLevel5--Descripcion--producto--titulo{
+  color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.headingLevel5--detalles--de--producto--titulo{
+  color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.headingLevel5--Recomendaciones--de--cuidado--titulo{
+  color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.wrapper--iconos--productos--texto{
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+.wrapper--suscribete--titulo :global(.vtex-rich-text-0-x-paragraph ){
+  color: #181e2a;
+    text-align: left;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    font-size: 38px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.wrapper--suscribete--titulo--contenido :global(.vtex-rich-text-0-x-heading){
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*-------------------------------------*/
+/*  Estilos de menu category - links  */
+/*-----------------------------------*/
+.link--item-cat-bold {
+  text-decoration: none;
+  color: black;
+}
+
+.link--item-cat {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*--------------------------------------*/
+/*      Tiendas con MAPA  - Botón      */
+/*------------------------------------*/
+
+.link--ContenidoDesplegable.link--localizador-tiendas {
+  padding: 10px;
+}
+.link--ContenidoDesplegable.link--localizador-tiendas:hover {
+  background: white;
+  color: #181E2A;
+}
+.container--ContenidoDesplegable.container--localizador-tiendas {
+  margin: 15px auto 0;
+}
+
+
+  /*-----------------------------------*/
+/*       freedom                     */
+/*------------------------------------*/
+
+.paragraph--buttons--freedom1{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.paragraph--buttons--freedom2{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.paragraph--buttons--freedom3{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.paragraph--buttons--freedom4{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.paragraph--buttons--freedom5{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.paragraph--buttons--freedom6{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+/*------------------------------------*/
+
+
+
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 900px) {
+  .container.container--TituloCont {
+    text-align: center;
+  }
+  .paragraph--TituloCont {
+    text-align: center;
+  }
+  .wrapper--TituloCont {
+    width: 100%;
+  }
+  .container--ContenidoDesplegable {
+    margin-left: 0;
+  }
+  }
+  /*----------------------*/
+
+
+  /****************/
+/*MOBILE HOME*/
+/****************/
+.container--titlem {
+  display: block;
+}
+.container--titlem-MOBILE {
+  display: none;
+}
+.paragraph--layout-option{
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .container--BotonI {
+    left: 10%;
+    bottom: 0;
+}
+.container--BotonD {
+    right: 10%;
+    bottom: 0;
+}
+.paragraph--titlem.paragraph--titlem-MOBILE {
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: initial;
+}
+.container--titlem {
+    display: none;
+}
+.container--titlem-MOBILE {
+    display: block;
+}
+.paragraph.paragraph--shelfTitle {
+  font-size: 22px;
+  width: 75%;
+  margin: 23px auto 7px;
+}
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+.container.container--shelfTitle.container--depto-mobile{
+  display: block;
+}
+.link.link--todo-categora.link--depto-mobile {
+  display: none;
+}
+.container--depto-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  .link.link--todo-categora.link--depto-mobile {
+      display: block
+    }
+  .container--depto-mobile {
+      display: block;
+    }
+  .wrapper--todo-categora.wrapper--depto-mobile {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  .paragraph.paragraph--todo-categora.paragraph--depto-mobile {
+    margin: 0 auto;
+    display: flex;
+  }
+  .link--todo-categora.link--depto-mobile {
+    background: #0FADC6;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 97%;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .paragraph--shelfTitle.paragraph--depto-mobile {
+    margin-top: 50px;
+  }
+
+  /*  Estilos para titulo de rangos de precios  */
+  .paragraph--titleRanges.paragraph--titlem-MOBILE {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15%;
+    margin-bottom: -22%;
+  }
+
+  .heading--titleRanges.headingLevel3--titleRanges {
+    display: none;
+  }
+  /*-------------------------------------------*/
+}
+
+/*Category*/
+.paragraph--tituloFiltro {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 6px 25px 6px 38px;
+}
+
+.paragraph--tituloFiltro::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://callearturop.vteximg.com.br/arquivos/iconFilter-maravela-new.png) no-repeat;
+  position: absolute;
+  background-size: 100%;
+  left: 6%;
+  top: 27%;
+}
+
+/*FOOTER*/
+.container--TituloCont {
+  justify-content: center;
+}
+
+.wrapper--TituloCont {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.container--ContenidoDesplegable {
+  width: 100%;
+  display: block;
+}
+
+.paragraph--terminos--y--logo {
+  line-height: 2;
+  font-weight: 300;
+  font-size: 9px;
+  letter-spacing: 1px;
+  position: relative;
+  margin: -3px 0 20px 0;
+}
+
+.imageElement--logo--payu {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.paragraph--terminos--y--logo::after {
+    content: "";
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: "-39px";
+    display: block;
+    background-size: 100%;
+    top: 0;
+    background: url("https://callearturop.vteximg.com.br/arquivos/payuAC.png") no-repeat;
+}
+
+.wrapper.wrapper--buttons-clas {margin: 0  auto;}
+
+
+/*--------------------------------*/
+/* Estilos para tablas de tallas */
+/*------------------------------*/
+.wrapper--labelTallaTutorial{
+  cursor: pointer;
+  font-family: 'Manrope';
+}
+.wrapper--labelTallaTutorial:hover{
+  text-decoration: underline;
+}
+.wrapper--tablaDeCamisetas,
+.wrapper--tablaDeColeccionFreedom{
+  width: 100%;
+}
+.table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableHead--tablaDeCamisetas,
+.tableHead--tablaDeColeccionFreedom{
+  background-color: #e1e1e1;
+}
+.tableTr{
+  border: 1px rgb(139 139 139) solid;
+}
+.tableTh, .tableTd{
+  font-family: 'Manrope';
+  padding: 0.4%;
+  text-align: center;
+}
+.tableTd:hover{
+  background-color: #e1e1e1;
+}
+/*-----------------------------*/
+
+
+/*Esconder CUAL  ES  MI  TALLA  provisional para subir cambios -
+primero agregar script en tag manager*/
+.wrapper--labelTallaTutorial {
+  display: none;
+}
+/*-------------------------------------------------------- */
+/*INI: Texto Envios Gratis en el Head*/
+.wrapper--enviosGratisHead{
+  font-family: 'Manrope';
+  font-size: 13px;
+}
+.container--enviosGratisHead{padding-right: 15px;}
+/*FIN: Texto Envios Gratis en el Head*/
+
+.container--marcas-Item .link {
+  font-size: 0;
+}
+.paragraph--marcas-Item {
+  margin: 0px 0;
+  height: 27px;
+  display: flex;
+  align-items: center;
+}
+.container--marcas-Item {
+  justify-content: center;
+  border-left: 0.337336px solid #d3d3d3;
+}
+.container--arturo-calle  {
+  justify-content: center;
+  border-left: 0;
+}
+.wrapper--arturo-calle .link::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/logo-arturo_calle-png-maravela.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 89px;
+  height: 34px;
+}
+@media(max-width:380px){
+  .wrapper--arturo-calle .link::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/logo-arturo_calle-png-maravela.png) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    display: block;
+    width: 89px;
+    height: 34px;
+  }
+}
+.link--freedom::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/logo-freedom-png-maravela.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 60px;
+  height: 18px;
+}
+.link--colore::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/logo-Colore-png-maravela.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 60px;
+  height: 17px;
+}
+.link--maravela::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/logo-maravela-png-maravela.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 76px;
+  height: 26px;
+}
+.paragraph--enviosGratisHead{
+  display: none;
+}
+.container--maravela {
+  background: #0FADC6;
+}
+
+@media screen and (max-width: 900px){
+  .container--item-cat-bold {
+    text-align: left;
+    width: 87%;
+  }
+  .container--item-cat-bold-warn {
+    width: 87%;
+    text-align: left;
+  }
+  .paragraph--item-cat-bold {
+    margin: 5px 0;
+  }
+  .paragraph--item-cat-bold-warn{
+    margin: 5px 0;
+  }
+  .link--item-cat-bold-warn{
+    color: #0FADC6;
+    font-weight: bold;
+  }
+}

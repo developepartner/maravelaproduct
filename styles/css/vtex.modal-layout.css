@@ -1,0 +1,196 @@
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+.paper--quickview {
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #aaa;
+  padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 0 2.5rem 2rem;
+  overflow-x: hidden;
+}
+
+.triggerContainer--quickview {
+  padding: .75rem;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+.closeButton {
+  padding-right: 1rem;
+}
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}
+
+
+/*---------------------------------------*/
+/*          paginas estaticas            */
+/*---------------------------------------*/
+
+
+.paper--modal-layout--contenedor{
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.container--modal-layout--contenedor{
+  background: white;
+  opacity: 0.93 !important;
+}
+
+
+.paper--modal-layout--contenedor :global(.vtex-modal-layout-0-x-headerContainer){
+  border-color: white;
+  position: relative;
+    top: 4%;
+    right: 2%;
+}
+/*---------------------------------------*/
+
+
+
+/*-------------------------------------*/
+/*          Tiendas con MAPA          */
+/*-----------------------------------*/
+.paper--localizacion-tiendas {
+  width: 85%;
+}
+.headerContainer--localizacion-tiendas {
+  position: fixed;
+  background: #DCDAD7;
+  right: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeButton--localizacion-tiendas {
+  padding: .2rem;
+  margin: 0px;
+  background: transparent;
+  color: #33333D;
+  height: 16px;
+}
+.closeIcon--localizacion-tiendas {
+  color: #33333D;
+  width: 62%;
+  display: block;
+  margin: auto;
+  height: auto;
+  padding: 0;
+}
+.headerContainer.headerContainer--localizacion-tiendas:hover {
+  background: #181E2A;
+}
+.headerContainer.headerContainer--localizacion-tiendas:hover .closeIcon--localizacion-tiendas {
+  color:white;
+}
+/*---------------------------------------*/
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 900px) {
+  .triggerContainer {
+    outline: none;
+    display: block;
+  }
+  .localizacion-tiendas {
+    width: 80%;
+  }
+}
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.paper.paper--Content-Zoom-list {
+  width: 70%;
+}
+.modal.modal--Content-Zoom-list {
+  z-index: 99999 !important;
+}
+@media screen and (max-width: 900px) {
+.paper.paper--Content-Zoom-list {
+  width: 90%;
+}
+}
+
+
+.headerContainer.headerContainer.headerContainer--cerradoPopProducto {position: absolute;right: 0;border: none;}
+
+/*Estilos para modal de tallas en producto camisetsa */
+.modal--modalTallaTutorial{
+  z-index: 99991 !important;
+}
+.paper--modalTallaTutorial{
+  width: auto;
+  max-width: 65%;
+}
+.backdrop--modalTallaTutorial{
+  background-color: black;
+  opacity: 0.8;
+}
+/*--------------------------------------------------*/

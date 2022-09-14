@@ -1,0 +1,85 @@
+/*Buy butom */
+.buttonText::after {
+    content: "";
+    background: url(https://callearturop.vtexassets.com/arquivos/maravela-carrito.png) no-repeat;
+    background-size: 100%;
+    width: 25px;
+    height: 29px;
+    position: absolute;
+    right: 22%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+@media screen and (max-width: 1300px){
+    .buttonText::after {
+        right: 41px;
+    }
+}
+.buttonText {
+    color: white;
+    font-weight: 400;
+}
+
+/* .buttonText:hover {color: black;
+    background: #dadada;
+} */
+
+.buttonDataContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+}
+
+.buttonText {
+    width: 100%;
+    height: 100%;
+    padding: 4% 0%;
+}
+
+.buttonText--botonvitrina {
+    font-size: 0;
+}
+.buttonText--botonvitrina {
+    font-size: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonText--botonvitrina::after {
+    background: none;
+}
+
+.buttonText--botonvitrina {
+    background: url("https://callearturop.vteximg.com.br/arquivos/icono-agregar-alcarrito-new.png") no-repeat;
+    width: 38px;
+    height: 38px;
+    background-size: 100%;
+}
+.buttonText--botonvitrina:hover::after {
+    background: none;
+
+}
+
+@media screen and (max-width: 900px) {
+    .buttonText--botonvitrina {width: 40px;height: 40px;}
+    .buttonText::after {
+        right: 10% !important;
+         }
+    .buttonText--botonvitrina::after {display: none;}
+
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 1026px) {
+
+    .buttonText--botonvitrina {
+      background: url(https://callearturop.vteximg.com.br/arquivos/icono-agregar-alcarrito-new.png) no-repeat;
+      width: 40px;
+      height: 40px;
+      background-size: 100%;
+    }
+    }

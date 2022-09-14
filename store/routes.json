@@ -1,0 +1,223 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#bosque-encantado":{
+    "path": "/coleccion/Productos-online"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#mas": {
+    "path": "/mas-productos"
+  },
+  "store.custom#ofertas": {
+    "path": "/ofertas"
+  },
+  "store.custom#autorizacion-tratamiento-datos-personales": {
+    "path": "/autorizacion-tratamiento-datos-personales"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#linea-etica": {
+    "path": "/linea-etica"
+  },
+  "store.custom#template-base": {
+    "path": "/template-base"
+  },
+  "store.custom#franquicias": {
+    "path": "/franquicias"
+  },
+  "store.custom#politica-etica-empresarial": {
+    "path": "/politica-etica-empresarial"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#historia": {
+    "path": "/historia"
+  },
+  "store.custom#politica-envio-cambios-garantias": {
+    "path": "/politica-envio-cambios-garantias"
+  },
+  "store.custom#politica-de-datos": {
+    "path": "/politica-de-datos"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#condiciones-actividades-comerciales": {
+    "path": "/condiciones-actividades-comerciales"
+  },
+  "store.custom#login": {
+    "path": "/login-custom"
+  },
+
+
+  "store.custom#novedades-hombres": {
+    "path": "/novedades/hombre"
+  },
+  "store.custom#novedades-mujer": {
+    "path": "/novedades/mujer"
+  },
+  "store.custom#novedades-nina": {
+    "path": "/novedades/nina"
+  },
+  "store.custom#novedades-nino": {
+    "path": "/novedades/nino"
+  },
+
+  "store.custom#ac-ofertas": {
+    "path": "/ac-ofertas"
+  },
+
+  "store.custom#ac-ofertas-25-off": {
+    "path": "/ac-ofertas/25-off"
+  },
+
+  "store.custom#AC-ofertas-35-off": {
+    "path": "/AC-ofertas/35-off"
+  },
+  "store.custom#AC-ofertas-Accesorios": {
+    "path": "/AC-ofertas/Accesorios"
+  },
+
+
+  "store.custom#AC-ofertas-Hombre": {
+    "path": "/AC-ofertas/Hombre"
+  },
+  "store.custom#AC-ofertas-Hombre-Accesorios": {
+    "path": "/AC-ofertas/50-off"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa": {
+    "path": "/AC-ofertas/Hombre/Ropa"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Blazers": {
+    "path": "/AC-ofertas/Hombre/Ropa/Blazers"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Buzos": {
+    "path": "/AC-ofertas/Hombre/Ropa/Buzos"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Camisas": {
+    "path": "/AC-ofertas/Hombre/Ropa/Camisas"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Camisetas": {
+    "path": "/AC-ofertas/Hombre/Ropa/Camisetas"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Chaquetas": {
+    "path": "/AC-ofertas/Hombre/Ropa/Chaquetas"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Pantalones": {
+    "path": "/AC-ofertas/Hombre/Ropa/Pantalones"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Polos": {
+    "path": "/AC-ofertas/Hombre/Ropa/Polos"
+  },
+  "store.custom#AC-ofertas-Hombre-Zapatos": {
+    "path": "/AC-ofertas/Hombre/Zapatos"
+  },
+
+
+  "store.custom#AC-ofertas-Mujer": {
+    "path": "/AC-ofertas/Mujer"
+  },
+  "store.custom#AC-ofertas-Mujer-Accesorios": {
+    "path": "/AC-ofertas/Mujer/Accesorios"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa": {
+    "path": "/AC-ofertas/Mujer/Ropa"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Blusas-Camisas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Blusas-Camisas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Camisetas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Camisetas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Chaquetas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Chaquetas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Faldas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Faldas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Pantalones": {
+    "path": "/AC-ofertas/Mujer/Ropa/Pantalones"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Shorts": {
+    "path": "/AC-ofertas/Mujer/Ropa/Shorts"
+  },
+  "store.custom#AC-ofertas-Mujer-Zapatos": {
+    "path": "/AC-ofertas/Mujer/Zapatos"
+  },
+
+
+  "store.custom#AC-ofertas-Nina": {
+    "path": "/AC-ofertas/Nina"
+  },
+  "store.custom#AC-ofertas-Nina-Accesorios": {
+    "path": "/AC-ofertas/Nina/Accesorios"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa": {
+    "path": "/AC-ofertas/Nina/Ropa"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Buzos": {
+    "path": "/AC-ofertas/Nina/Ropa/Buzos"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Camisetas": {
+    "path": "/AC-ofertas/Nina/Ropa/Camisetas"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Pantalones": {
+    "path": "/AC-ofertas/Nina/Ropa/Pantalones"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Pijamas": {
+    "path": "/AC-ofertas/Nina/Ropa/Pijamas"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Ropa-interior": {
+    "path": "/AC-ofertas/Nina/Ropa/Ropa-interior"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Sweaters": {
+    "path": "/AC-ofertas/Nina/Ropa/Sweaters"
+  },
+
+
+  "store.custom#AC-ofertas-Nino": {
+    "path": "/AC-ofertas/Nino"
+  },
+  "store.custom#AC-ofertas-Nino-Accesorios": {
+    "path": "/AC-ofertas/Nino/Accesorios"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa": {
+    "path": "/AC-ofertas/Nino/Ropa"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Blazers": {
+    "path": "/AC-ofertas/Nino/Ropa/Blazers"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Buzos": {
+    "path": "/AC-ofertas/Nino/Ropa/Buzos"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Camisas": {
+    "path": "/AC-ofertas/Nino/Ropa/Camisas"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Chaquetas": {
+    "path": "/AC-ofertas/Nino/Ropa/Chaquetas"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Sueteres": {
+    "path": "/AC-ofertas/Nino/Ropa/Sueteres"
+  },
+
+
+
+  "store.custom#AC-ofertas-nuevos": {
+    "path": "/AC-ofertas/nuevos"
+  },
+  "store.custom#news-letter": {
+    "path": "/newsletter"
+  },
+  "store.custom#vtex-tutorial": {
+    "path": "/vtex-tutorial"
+  }
+
+}

@@ -1,0 +1,129 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #fff;
+}
+
+.sliderTrackContainer {
+  max-width: 2000px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/*Home styles*/
+.sliderLayoutContainer--carousel {
+  margin-bottom: 2rem;
+}
+
+/****************/
+/*MOBILE HOME*/
+/****************/
+.sliderLayoutContainer--slider-moible {
+  display: none;
+
+}
+
+.slide .slideChildrenContainer.slideChildrenContainer--carouselC {margin: 0 !important;}
+
+@media screen and (max-width: 900px) {
+
+.imageElement.imageElement--carouselC {margin: 0 ! important;}
+
+.sliderTrack--carouselC .slide.slide--carouselC {margin: 0px 2px !important;}
+
+.sliderLayoutContainer--slider-moible {
+    display: block;
+}
+.slideChildrenContainer--categorias2-banners.slideChildrenContainer--slider-moible {
+  margin: 0 3px;
+}
+.sliderLayoutContainer.sliderLayoutContainer--shelf {
+  width: 100%;
+}
+.sliderLayoutContainer--shelf {
+  width: 100% !important;
+}
+.caretIcon--shelf {
+  color: black;
+  width: 20px;
+}
+.sliderRightArrow--shelf {
+  position: absolute;
+  right: 0 !important;
+}
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+.sliderLayoutContainer--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+.sliderLayoutContainer--shelfH{
+  width: 100% !important;
+}
+.sliderLayoutContainer--depto-mobile {
+    display: flex;
+  }
+.sliderTrackContainer.sliderTrackContainer--deals.sliderTrackContainer--depto-mobile {
+  margin: 0 25px;
+}
+.sliderLeftArrow--depto-mobile {
+  margin: 0;
+  padding: 0;
+}
+.sliderRightArrow--deals.sliderRightArrow--depto-mobile {
+  padding: 0;
+  margin: 0;
+}
+.slide--depto-mobile {
+  margin: 0 6px;
+}
+.sliderLayoutContainer--deals.sliderLayoutContainer--depto-mobile {
+  margin-top: -30px;
+}
+}
+.caretIcon--shelfH {
+  color: black;
+}
+/*Vitrinas*/
+.dotsContainer{
+  display: none !important;
+}
+
+.sliderLayoutContainer--shelf{
+  padding: 0 !important;
+}
+
+/*Slider vitrinas*/
+.sliderLayoutContainer.sliderLayoutContainer--shelf {
+  width: 100%;
+}
+.sliderLayoutContainer.sliderLayoutContainer--shelfH {
+  width: 80%;
+  padding: 3% !important;
+}
+.caretIcon--shelfH {
+  max-width: 30px;
+}
+
+.sliderLayoutContainer--shelfW {margin: 20px 0 50px 0;}
+.slide--shelfW {max-width: 25%;}
+
+.slide.slide--carouselC {margin: 0 5px !important;}

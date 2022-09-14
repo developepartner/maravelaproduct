@@ -1,0 +1,134 @@
+{
+    "store.custom#template-base": {
+        "blocks": [
+            "flex-layout.row#informacion--linea-etica"
+        ]
+      },
+      "flex-layout.row#informacion--linea-etica":{
+          "props":{
+              "blockClass":"informacion--linea-etica"
+          },
+          "children":[
+            "flex-layout.col#informacion--linea-etica--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--linea-etica--primera--parte":{
+          "props":{
+            "blockClass":"informacion--linea-etica--primera--parte"
+          },
+          "children":[
+              "rich-text#titulo--linea-etica",
+              "image#dia--sin--iva--abc--imagen",
+              "rich-text#subtitulo--linea-etica",
+              "rich-text#recuadro--compromiso",
+              "rich-text#contenido--linea-etica",
+              "rich-text#list--linea-etica", /*titulo que va encima de la lista*/
+              "flex-layout.col#list-items--linea-etica",/*lista---con viñetas*/
+              "flex-layout.row#espacio",
+              "rich-text#recuadro--2",
+              "rich-text#contenido--2--linea-etica"
+          ]
+      },
+      "rich-text#titulo--linea-etica":{
+          "props":{
+            "blockClass":"titulo-principal--linea--etica",
+            "list":true,
+            "text":"Línea Ética"
+          }
+      },
+      /*primera imagen*/
+      "image#dia--sin--iva--abc--imagen":{
+        "props": {
+            "blockClass":"dia--sin--iva--abc--imagen",
+            "src": ""
+          }
+      },
+      /*subtitulo*/
+      "rich-text#subtitulo--linea-etica":{
+        "props":{
+          "blockClass":"subtitulo-principal--linea--etica",
+          "list":true,
+          "text":"Compromiso"
+        }
+    },
+    /*recuadro compromiso*/
+    "rich-text#recuadro--compromiso":{
+        "props":{
+            "blockClass":"recuadro",
+            "list":true,
+            "text":"Comercializadora Arturo Calle S.A.S se encuentra comprometida en promover una cultura de transparencia, honestidad e integridad, con el propósito de fomentar dentro de la Compañía una conducta de cero tolerancias frente al Soborno Transnacional, Corrupción, Lavado de Activos y Financiación del Terrorismo, reforzando de tal manera, los valores y principios para actuar siempre correctamente en todas nuestras actividades."
+        }
+    },
+    "rich-text#list--linea-etica":{
+          "props":{
+            "blockClass":"contenido",
+              "text":"Las situaciones que se pueden reportar por la Línea de Ética son:"
+          }
+      },
+      /*contenedor de los items con viñetas*/
+      "flex-layout.col#list-items--linea-etica":{
+          "props":{
+              "blockClass":"list"
+          },
+          "children":[
+            "flex-layout.row#list-item--1--linea-etica"
+          ]
+      },
+      /*item 1*/
+      "flex-layout.row#list-item--1--linea-etica":{
+          "props":{
+              "blockClass":"list-item"
+          },
+          "children":[
+            "flex-layout.col#list-item--1--img--linea-etica",
+            "flex-layout.col#list-item--1--text--linea-etica"
+          ]
+      },
+        /*contenedor de la viñeta*/
+        "flex-layout.col#list-item--1--img--linea-etica":{
+            "props":{
+                "blockClass":"list-item--img",
+                "width":"1%"
+            },
+            "children":[
+                "image#list-item--punto"
+            ]
+        },
+        /*contenedor texto del item*/
+        "flex-layout.col#list-item--1--text--linea-etica":{
+            "children":[
+                "rich-text#list-item--1--linea-etica"
+            ]
+        },
+      /*texto del item*/
+      "rich-text#list-item--1--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Participación en actividades, negocios u operaciones contrarias a la ley."
+        }
+      },
+
+      /*recuadro 2*/
+    "rich-text#recuadro--2":{
+        "props":{
+            "blockClass":"recuadro",
+            "list":true,
+            "text":"En Comercializadora Arturo Calle S.A.S., velamos por la transparencia y más altas conductas éticas para el desarrollo de nuestras operaciones."
+        }
+    },
+
+      /*resto de contenido---no son listas---no requieren viñetas*/
+      "rich-text#contenido--linea-etica":{
+          "props":{
+            "blockClass":"contenido",
+              "text":"Es un canal de comunicación, que permite a los colaboradores, proveedores, clientes y terceros en general, reportar de manera confidencial y anónima actividades o conductas consideradas como contrarias a la ley o a los intereses de Comercializadora Arturo Calle S.A.S, o realizar consultas relacionadas con temas Éticos, las cuales podrán gestionarse a través del correo lineaetica@aturocalle.com"
+          }
+      },
+      "rich-text#contenido--2--linea-etica":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Ten en cuenta que la línea de ética es un canal de comunicación diferente a la línea de servicio al cliente."
+        }
+    }
+
+}

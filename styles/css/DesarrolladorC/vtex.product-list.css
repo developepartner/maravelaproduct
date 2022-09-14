@@ -1,0 +1,35 @@
+.productName {font-size: 10px;}
+
+.productPriceContainer {text-align: inherit;}
+
+.productVariationsContainer {display: flex;border-bottom: 1px solid #ccc9c9;margin: 0 0 10px 0;}
+
+.productVariationsItem {margin: 0 13px 7px 0;}
+.productBrandName {font-size: 10px;}
+.productVariationsItem {font-size: 11px;}
+
+.deleteIcon{
+    color: #0FADC6;
+}
+.price{
+    color: #033A5F;
+    font-weight: bold;
+}
+.productBrandName {
+    display: none;
+}
+.productName {
+    color: #2A2A2A;
+    font-size: 16px;
+}
+@media (max-width: 600px) {
+    .productName {
+        color: #2A2A2A;
+        font-size: 11px !important;
+    }
+    .price {
+        color: #033A5F;
+        font-weight: bold;
+        text-align: right;
+    }
+}

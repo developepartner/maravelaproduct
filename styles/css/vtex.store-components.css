@@ -1,0 +1,1538 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.container{
+  margin-bottom: 12px;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+  height: 400px;
+}
+.imageElement--minicart-circulo-negro {
+  opacity: 0;
+}
+.infoCardContainer--info-card {
+  width: 95%;
+  margin: 0 ;
+  background-color: #e6f1e6;
+  margin-left: 5%;
+  height: 210px;
+}
+
+/*-----------------------------------------------------------*/
+/*info card modificado*/ /*se puede quitar de ser un problema*/
+.infoCardContainer--info-card--down {
+  width: 95%;
+  margin: 0 ;
+  margin-top: 35px;
+  margin-left: 5%;
+  height: 226px;
+}
+
+.infoCardContainer--info-card--down :global(.vtex-button) {
+  display: none;
+}
+/*-----------------------------------------------------------*/
+
+
+.infoCardContainer--info-card-shoes-left {
+  width: 100%;
+  margin: 0 ;
+  background-color: #e6f1e6;
+  height: 100%;
+}
+
+.infoCardContainer--info-card-shirt-right {
+  width: 100%;
+  margin: 0 ;
+  background-color: #e6f1e6;
+  height: 100%;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+/*-------------------------------------*/
+/*imagenes al lado del mini cart       */
+/*-------------------------------------*/
+
+.imageElement--minicart-home-bolsa{
+  width: 30px;
+}
+
+.imageElement--minicart-circulo-negro{
+  width: 30px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<*/
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .productImageTag.productImageTag--main {
+    max-width: 52%;
+    justify-content: center;
+    margin: 0 auto !important;
+    display: flex;
+  }
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .infoCardContainer--info-card-shoes {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e6f1e6;
+    padding: 0px;
+    height: 470px;
+  }
+
+  .infoCardContainer--info-card-banner-left {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e6f1e6;
+    padding: 0px;
+    height: 250px;
+  }
+
+  .infoCardContainer--info-card-banner-right {
+    width: 97%;
+    margin: 0 auto;
+    background-color: #e6f1e6;
+    margin-left: 3%;
+    padding: 0px;
+    height: 250px;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #0FADC6;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.imageElement--imageinfep{
+  width: 100%;
+}
+.skuSelectorItemImageValue--selector{
+  display: none;
+}
+.infoCardCallActionContainer--info-card-home {
+  visibility: hidden;
+}
+
+.infoCardCallActionContainer--info-card-shoes {
+  visibility: hidden;
+}
+
+.infoCardCallActionContainer--info-card-banner-left {
+  visibility: hidden;
+}
+
+.infoCardCallActionContainer--info-card-banner-right {
+  visibility: hidden;
+}
+
+.infoCardCallActionContainer--info-card-shoes-left {
+  visibility: hidden;
+}
+
+.infoCardCallActionContainer--info-card-shirt-right {
+  visibility: hidden;
+}
+
+.infoCardCallActionContainer--info-card {
+  visibility: hidden;
+}
+
+.logoContainer--logoFooter {
+  margin-top: 15px;
+}
+
+/*-------------------------------------*/
+/*       Color rededor de lupa        */
+/*-----------------------------------*/
+.searchBarIcon--clear-button--search {
+  background-color: white;
+}
+
+.searchBarIcon--clear-button--search :hover .searchBarIcon{
+  background-color: #efefef;
+}
+
+.searchBarIcon .pointer :hover {
+  background-color: #efefef;
+}
+
+
+/* >>>>Cierre Color rededor de lupa*/
+
+
+.suffixWrapper {
+  background-color: #efefef;
+}
+
+
+
+/*-----------------------------------------------------*/
+/*              Posición del buscador                 */
+/*---------------------------------------------------*/
+.searchBarContainer {
+  margin-right: 30px;
+  margin-top: 12px;
+  width: 422px;
+}
+/* >>>>>>>>>>>>Cierre Posición del buscador*/
+
+
+/*-----------------------------------------------------------------------*/
+/*              Color de cuadrado que rodea la lupa                     */
+/*---------------------------------------------------------------------*/
+.autoCompleteOuterContainer--clear-button :global(.vtex-input__suffix) {
+  float: left;
+  box-shadow: none;
+  background-color: #0FADC6;
+  border-radius: 0;
+}
+.searchBarIcon--clear-button {
+  padding: 0;
+}
+.searchIcon--clear-button{
+  color: white;
+}
+
+
+/* >>>>>>>>>>>>Cierre cuadrado que rodea la lupa*/
+
+.autoCompleteOuterContainer--clear-button :global(.vtex-input-prefix__group) {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  height: 33px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*                    Banner secundarios info cards                          */
+/*--------------------------------------------------------------------------*/
+.infoCardContainer--info-card-bannerI, .infoCardContainer--info-card-bannerD {
+  height: 400px;
+}
+
+.imageElement--BannerI, .imageElement--BannerD {
+  width: 100%;
+}
+/* >>>>>>>>>>>>Cierre de  Banner secundarios info cards*/
+
+
+/*-------------------------------------------*/
+/*      Posicion de icono en top-menu       */
+/*-----------------------------------------*/
+.imageElement--storePrint {
+  margin-top: 13px;
+}
+/* >>>>>>>>>>>>Cierre de Posicion de icono en top-menu*/
+
+
+/*----------------------------------------------------*/
+/*               Orden de lupa y buscador            */
+/*--------------------------------------------------*/
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+  display: flex;
+}
+/*.vtex-input-prefix__group.flex.flex-row.items-stretch.overflow-hidden.br2.bw1.b--solid.b--muted-4.hover-b--muted-3.h-large {
+    display: flex;
+}*/
+
+.searchBarIcon :global(.vtex-input__suffix){
+  display: flex;
+  order: 1;
+}
+/*span.c-muted-2.fw5.flex.items-center.t-body.bg-base.vtex-input__suffix.br2.bl-0.br--right.pr5.pl4 {
+    display: flex;
+    order: 1;
+}*/
+
+/*
+input#downshift-1-input {
+    order: 2;
+}
+>>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
+
+
+ /*--------------------------------------------------------*/
+/*        Escala o tamaño estático de logo AC            */
+/*------------------------------------------------------*/
+.logoLink {
+ margin: 10px 0;
+}
+/* >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
+
+/*----------------------------------------------*/
+/* flecha footer hacia abajo                    */
+/*----------------------------------------------*/
+.imageElement--flecha-abajo{
+  margin-left: 50px;
+  margin-top: 12px;
+  width:10px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------------------*/
+/* imagenes iconos redes sociales              */
+/*---------------------------------------------*/
+/*.imageElement--social-network--Facebook{
+  margin-left: 580px;
+  width:20px;
+}
+.imageElement--social-network--Instagram{
+  margin-left: 630px;
+  width:20px;
+}
+.imageElement--social-network--Twitter{
+  margin-left: 680px;
+}
+.imageElement--social-network--Youtube{
+  margin-left: 730px;
+}
+*/
+.imageElement--social-network--Facebook:hover{
+  opacity: 0.3;
+}
+.imageElement--social-network--Instagram:hover{
+  opacity: 0.3;
+}
+.imageElement--social-network--Twitter:hover{
+  opacity: 0.3;
+}
+.imageElement--social-network--Youtube:hover{
+  opacity: 0.3;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+
+/*--------------------------------------------*/
+/* menu header                                */
+/*-------------------------------------------*/
+/*menu contactanos--telefono*/
+.imageElement--imagen--telefono{
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+/*whatsapp menu contactanos */
+.imageElement--whatsapp--logo{
+  position: absolute;
+  left: 27px;
+  top: 13px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*----------------------------------*/
+/* payu logo                        */
+/*----------------------------------*/
+
+.imageElement--logo--payu{
+  height: 20px;
+  margin-left: 5px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+
+
+/*----------------------------------*/
+/*        seccion hombre            */
+/*----------------------------------*/
+
+.imageElement--hombre__part--1{
+  width: 100%;
+}
+
+
+/* imagenes collage seccion hombre*/
+.imageElement--hombre__part--2--img1{
+  border-left: 8px solid #fff;
+}
+
+.imageElement--hombre__part--2--img2{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img3{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img4{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img5{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img5{
+  margin-left: 23px;
+  height: 91%;
+  width: 96%;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*----------------------------------*/
+/*        seccion niño            */
+/*----------------------------------*/
+
+.imageElement--nino__part--1{
+  width: 100%;
+}
+
+
+/* imagenes collage seccion hombre*/
+.imageElement--nino__part--2--img1{
+  border-left: 8px solid #fff;
+}
+
+.imageElement--nino__part--2--img2{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img3{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img4{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img5{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img5{
+  margin-left: 23px;
+  height: 92%;
+  width: 96%;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-----------------------------------*/
+/*   visualizacion del producto Estilos Producto Sección Contenido AC */
+/*----------------------------------*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*-----------------------------------*/
+/* nueva vista hombre                */
+/*-----------------------------------*/
+
+.infoCardContainer--info-card-home{
+  background-image: url(https://callearturop.vteximg.com.br/arquivos/Banner-principalDESK-100.jpg);
+  background-size: cover;
+}
+
+.infoCardImage--info-card-home{
+  display: none;  /*toco quitar la imagen del primer info-card a la fuerza*/
+}
+
+.infoCardTextContainer--info-card-home{
+  display: none; /*toco quitar el texto del primer info-card a la fuerza*/
+
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>*/
+
+/*-----------------------------------*/
+/* vista productos                   */
+/*-----------------------------------*/
+
+.productImagesContainer--list{
+  display: flex;/*convierte product image en un flex y le pone la propiedad wrap para organizarlos uno al lado del otro*/
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.productImagesContainer--list :global(.vtex-store-components-3-x-productImage):last-child{/*mueve el ultimo hijo de las imagenes de product image...(imagenes de los productos)... al centro*/
+  position: relative;
+  left: 28px;
+}
+
+.productImage{
+  overflow:hidden;
+}
+
+.productImage :global(.vtex-store-components-3-x-productImageTag){
+  overflow:hidden;
+  transition: transform .2s;  /*easyzoom*/
+}
+
+.skuSelectorOptionsList{/*diferentes opciones de productos---se colocan los que estan cargados en el sistema*/
+  margin: 0;
+}
+
+.imageElement--Descripcion--producto--suma--imag{
+  margin-top: 8px;
+  margin-left: 58px;
+}
+
+/*linea etica*/
+.imageElement--linea--etica--imagen--portada{
+  border: 1px solid #d7d4cf;
+  padding: 6px;
+  margin-top: -18px;
+}
+
+/*historia*/
+.imageElement--historia--imagen--portada{
+  border: 1px solid #d7d4cf;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+
+
+
+/*-----------------------------------*/
+/*         freedom                   */
+/*-----------------------------------*/
+
+.imageElement--imag--boton{
+  padding: 10px;
+}
+/*-----------------------------------*/
+
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 900px) {
+  /*.imageElement.imageElement--imgCategoriaSliderC {height: 100%;}*/
+
+  .imageElement--flecha-abajo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .imageElement--social-network--Twitter {
+    margin: 0 auto;
+  }
+  .imageElement--social-network--Youtube {
+    margin: 0 auto;
+  }
+  .logoLink--logoFooter {
+    margin: 20px 0 20px;
+    display: block;
+  }
+  .imageElement--social-network--Instagram {
+    margin: 0 auto;
+  }
+  .imageElement--social-network--Facebook {
+    margin: 0 auto;
+  }
+}
+
+
+/****************/
+/*MOBILE HOME*/
+/****************/
+.infoCardContainer--depto-desk {
+  display: block;
+}
+.infoCardContainer--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .infoCardContainer--depto-desk {
+      display: none !important;
+  }
+  .infoCardContainer--depto-mobile {
+    display: block !important;
+  }
+  .infoCardCallActionContainer--categorias2-banners {
+      margin: 0;
+  }
+  .infoCardCallActionContainer--categorias2-banners :global(.vtex-button) {
+      background: white;
+      border: none;
+  }
+  .infoCardCallActionContainer--categorias2-banners :global(.vtex-button) :global(.vtex-button__label) {
+    color: #181e2a;
+    padding: 19px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .infoCardHeadline.infoCardHeadline--categorias2-banners {
+      font-size: 22px;
+      margin-top: 84px;
+      margin-bottom: 13px;
+      color: white;
+  }
+  .infoCardTextContainer.categorias2-banners {
+      margin: 20px;
+  }
+  .imageElement.imageElement--bannerfinal {
+    width: 100%;
+    margin: 2px 0;
+  }
+  .imageElement--bannerfinal2 {
+    width: 98%;
+    margin: 4px auto 0 0;
+    display: block;
+  }
+  .imageElement--bannerfinal3 {
+    width: 98%;
+    margin: 4px 0 0 auto;
+    display: block;
+  }
+}
+
+
+/*Estilos Camilo*/
+
+/*Product estilos angelica ajuste de soporte*/
+/*Product*/
+@media(min-width:1600px){
+  .figure{
+    position: relative;
+    height: 79px;
+    width: auto;
+    overflow: hidden;
+    margin: 0px 4px;
+    padding-top: 75px;
+    display: flex;
+    z-index: 1;
+    border-bottom: 4px solid #0FADC6;
+  }
+  .productImagesThumbActive .figure{
+    padding-top: 107% !important;
+    border-bottom: 4px solid #0FADC6;
+    opacity: 1;
+  }
+}
+@media(max-width:1600px){
+.figure{
+  position: relative;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  margin: 0px 4px;
+  padding-top: 139%;
+  display: flex;
+  z-index: 1;
+  border-bottom: 4px solid #0FADC6;
+
+}
+}
+.thumbImg {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.figure:hover{
+  padding-top: 0px !important;
+}
+.productImagesThumbActive .figure{
+  padding-top: 139%;
+  border-bottom: 4px solid #0FADC6;
+  opacity: 1;
+}
+
+
+.carouselGaleryThumbs{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: -20px;
+  height: 90px;
+}
+.swiperPaginationClickable{
+  display: none;
+}
+/*Colors*/
+/*Colors*/
+.skuSelectorItem--abeto{
+  background: #b68945;
+  border-radius: 7px;
+}
+.skuSelectorItem--aguamarina{
+  background: #1b98c3;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo{
+  background: #fff218;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-cromo{
+  background: #fed85e;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-narciso{
+  background: #cca808;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-pastel{
+  background: #fffe99;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-zinc{
+  background: #fee518;
+  border-radius: 7px;
+}
+.skuSelectorItem--amatista{
+  background: #2e004f;
+  border-radius: 7px;
+}
+.skuSelectorItem--arena{
+  background: #dedaaa;
+  border-radius: 7px;
+}
+.skuSelectorItem--avellana{
+  background: #9f6632;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul{
+  background: #0768ac;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-claro{
+  background: #b2e2ed;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-marino{
+  background: #042850;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-prusia{
+  background: #021427;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-royal{
+  background: #084890;
+  border-radius: 7px;
+}
+.skuSelectorItem--beige{
+  background: #eae3bb;
+  border-radius: 7px;
+}
+.skuSelectorItem--berenjena{
+  background: #21003a;
+  border-radius: 7px;
+}
+.skuSelectorItem--blanco{
+  background: #ffffff;
+  border-radius: 7px;
+}
+.skuSelectorItem--brunette{
+  background: #4f2e14;
+  border-radius: 7px;
+}
+.skuSelectorItem--cadmio{
+  background: #fe4c00;
+  border-radius: 7px;
+}
+.skuSelectorItem--canela{
+  background: #521c04;
+  border-radius: 7px;
+}
+.skuSelectorItem--celeste{
+  background: #e4d1e4;
+  border-radius: 7px;
+}
+.skuSelectorItem--cereza{
+  background: #870927;
+  border-radius: 7px;
+}
+.skuSelectorItem--chocolate{
+  background: #4c2a14;
+  border-radius: 7px;
+}
+.skuSelectorItem--cocoa-brown{
+  background: #38210f;
+  border-radius: 7px;
+}
+.skuSelectorItem--coral{
+  background: #fe3300;
+  border-radius: 7px;
+}
+.skuSelectorItem--crema{
+  background: #fffecc;
+  border-radius: 7px;
+}
+.skuSelectorItem--crudo{
+  background: #d4ca92;
+  border-radius: 7px;
+}
+.skuSelectorItem--dorado{
+  background: #cda434;
+  border-radius: 7px;
+}
+.skuSelectorItem--escarlata{
+  background: #a90000;
+  border-radius: 7px;
+}
+.skuSelectorItem--esmeralda{
+  background: #40a843;
+  border-radius: 7px;
+}
+.skuSelectorItem--fucsia{
+  background: #f63567;
+  border-radius: 7px;
+}
+.skuSelectorItem--ganache{
+  background: #441302;
+  border-radius: 7px;
+}
+.skuSelectorItem--granate{
+  background: #560016;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris{
+  background: #7f7f7f;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-ceniza{
+  background: #b2b2b2;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-claro{
+  background: #cccccc;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-grafito{
+  background: #666666;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-granito{
+  background: #333333;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-oscuro{
+  background: #4c4c4c;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-perla{
+  background: #e5e5e5;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-plata{
+  background: #999999;
+  border-radius: 7px;
+}
+.skuSelectorItem--habano{
+  background: #e2d6a1;
+  border-radius: 7px;
+}
+.skuSelectorItem--hoja-seca{
+  background: #c5b579;
+  border-radius: 7px;
+}
+.skuSelectorItem--hueso{
+  background: #decf90;
+  border-radius: 7px;
+}
+.skuSelectorItem--khaki{
+  background: #d2b15d;
+  border-radius: 7px;
+}
+.skuSelectorItem--lavanda{
+  background: #a59bbd;
+  border-radius: 7px;
+}
+.skuSelectorItem--lila{
+  background: #e4d1e4;
+  border-radius: 7px;
+}
+.skuSelectorItem--lima{
+  background: #99d02b;
+  border-radius: 7px;
+}
+.skuSelectorItem--magenta{
+  background: #ec1943;
+  border-radius: 7px;
+}
+.skuSelectorItem--malva{
+  background: #a3448f;
+  border-radius: 7px;
+}
+.skuSelectorItem--mandarina{
+  background: #fe6611;
+  border-radius: 7px;
+}
+.skuSelectorItem--marfil{
+  background: #fef2ae;
+  border-radius: 7px;
+}
+.skuSelectorItem--menta{
+  background: #cceaad;
+  border-radius: 7px;
+}
+.skuSelectorItem--morado{
+  background: #741e72;
+  border-radius: 7px;
+}
+.skuSelectorItem--mostaza{
+  background: #dba205;
+  border-radius: 7px;
+}
+.skuSelectorItem--naranja{
+  background: #fe7f13;
+  border-radius: 7px;
+}
+.skuSelectorItem--naranja-claro{
+  background: #fe9923;
+  border-radius: 7px;
+}
+.skuSelectorItem--navy{
+  background: #000810;
+  border-radius: 7px;
+}
+.skuSelectorItem--negro{
+  background: #000000;
+  border-radius: 7px;
+}
+.skuSelectorItem--nuez{
+  background: #694e39;
+  border-radius: 7px;
+}
+.skuSelectorItem--ocaso{
+  background: #fecc44;
+  border-radius: 7px;
+}
+.skuSelectorItem--ocre{
+  background: #996e00;
+  border-radius: 7px;
+}
+.skuSelectorItem--oliva{
+  background: #a57f00;
+  border-radius: 7px;
+}
+.skuSelectorItem--oro{
+  background: #b28e00;
+  border-radius: 7px;
+}
+.skuSelectorItem--palo-de-rosa{
+  background: #fcccce;
+  border-radius: 7px;
+}
+.skuSelectorItem--perlado{
+  background: #eae6ca;
+  border-radius: 7px;
+}
+.skuSelectorItem--pistacho{
+  background: #bfe35d;
+  border-radius: 7px;
+}
+.skuSelectorItem--plateado{
+  background: #c5c8c7;
+  border-radius: 7px;
+}
+.skuSelectorItem--rojo{
+  background: #dc0000;
+  border-radius: 7px;
+}
+.skuSelectorItem--rojo-persa{
+  background: #db0f08;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa{
+  background: #fab3c5;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-amaranto{
+  background: #f98db3;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-claro{
+  background: #fbc0ca;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosado{
+  background: #f99ab9;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-lavanda{
+  background: #faa7bf;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-sachet{
+  background: #f881ad;
+  border-radius: 7px;
+}
+.skuSelectorItem--royal-purple{
+  background: #98237f;
+  border-radius: 7px;
+}
+.skuSelectorItem--sepia{
+  background: #d3a96b;
+  border-radius: 7px;
+}
+.skuSelectorItem--tabaco{
+  background: #663c16;
+  border-radius: 7px;
+}
+.skuSelectorItem--taupe{
+  background: #765a42;
+  border-radius: 7px;
+}
+.skuSelectorItem--turquesa{
+  background: #b2e2ed;
+  border-radius: 7px;
+}
+.skuSelectorItem--uva{
+  background: #64146d;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde{
+  background: #006c2c;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-enebro{
+  background: #003d18;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-malaquita{
+  background: #008837;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-manzana{
+  background: #73bf3b;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-musgo{
+  background: #005823;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-oscuro{
+  background: #011408;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-pino{
+  background: #01210e;
+  border-radius: 7px;
+}
+.skuSelectorItem--vinotinto{
+  background: #31000c;
+  border-radius: 7px;
+}
+.skuSelectorItem--violeta{
+  background: #401166;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-carbon{
+  background: #191919;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-palido{
+  background: #fffeb2;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-limon{
+  background: #fffe7f;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-napoles{
+  background: #fee585;
+  border-radius: 7px;
+}
+.skuSelectorItem--ambar{
+  background: #feb22b;
+  border-radius: 7px;
+}
+.skuSelectorItem--salmon{
+  background: #fe6600;
+  border-radius: 7px;
+}
+.skuSelectorItem--rojo-rubi{
+  background: #c90000;
+  border-radius: 7px;
+}
+.skuSelectorItem--carmesi{
+  background: #cc0000;
+  border-radius: 7px;
+}
+.skuSelectorItem--rojo-carmin{
+  background: #94092b;
+  border-radius: 7px;
+}
+.skuSelectorItem--sangria{
+  background: #7b0824;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-crepe{
+  background: #fdd9df;
+  border-radius: 7px;
+}
+.skuSelectorItem--sandia{
+  background: #f76792;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-frances{
+  background: #f74e78;
+  border-radius: 7px;
+}
+.skuSelectorItem--orquidea{
+  background: #98237f;
+  border-radius: 7px;
+}
+.skuSelectorItem--purpura{
+  background: #531477;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-malibu{
+  background: #66bcd8;
+  border-radius: 7px;
+}
+.skuSelectorItem--indigo{
+  background: #073c78;
+  border-radius: 7px;
+}
+.skuSelectorItem--marron{
+  background: #82501e;
+  border-radius: 7px;
+}
+.skuSelectorItem--cafe-mocca{
+  background: #6c3b08;
+  border-radius: 7px;
+}
+.skuSelectorItem--cafe{
+  background: #622d06;
+  border-radius: 7px;
+}
+.skuSelectorItem--cafe-oscuro{
+  background: #260903;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.carouselGaleryCursor{
+  background: #f9f9f9;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.productImagesContainer--carousel {
+  margin: 0 0% 0 0;
+  padding: 0 0 0 2% !important;
+}
+.imageElement--imgCategoriaSlider {
+  width: 85%;
+}
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorName::before {
+  content:"Color disponible";
+  font-size: .875rem;
+  text-transform: uppercase;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorName {
+  font-size: 0;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla .skuSelectorName {
+  text-transform: uppercase;
+}
+
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorItemTextValue {
+  font-size: 0;
+}
+.skuSelectorContainer--selector .skuSelectorItem--selected{
+  border: 2px solid;
+  border-radius: 5px;
+}
+/*.skuSelectorContainer--selector .skuSelectorInternalBox{
+  border: 1px solid #afafaf59;
+}*/
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores {
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 15px;
+}
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla {
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 15px;
+  padding-top: 18px;
+}
+.container{
+  padding: 0px;
+}
+.skuSelectorOptionsList {
+  margin: 0;
+}
+/*Contenido*/
+.contentContainer {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  border: 1px solid #d9d9d9;
+}
+
+.content {
+  font-size: 1rem;
+  padding: 0 4%;
+  font-weight: 100;
+}
+
+.productDescriptionTitle {
+  padding: 20px 4% 0 4%;
+  font-size: 1rem;
+}
+/*Colores vitrinas*/
+.skuSelectorSubcontainer--colores .skuSelectorItemTextValue{
+  font-size: 0 !important;
+}
+
+.skuSelectorSubcontainer--colores .skuSelectorItem--selected {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.skuSelectorName {
+  display: none;
+}
+
+.skuSelectorContainer--selector .skuSelectorName{
+  display: block;
+}
+.skuSelectorSubcontainer {
+  margin-bottom: 0;
+}
+.skuSelectorSubcontainer--colores .skuSelectorItem{
+  width: 24px;
+  height: 24px;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorItem{
+  width: initial;
+  height: 36px;
+}
+.skuSelectorTextContainer {
+  display: none;
+}
+.skuSelectorContainer--selector .skuSelectorTextContainer {
+  display: block;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla {
+  display: flex !important;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla {
+  opacity: initial;
+  visibility: initial;
+  transition: 1s;
+  position: initial;
+
+}
+.skuSelectorSubcontainer--talla {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0s;
+  position: absolute;
+  top: -5px;
+}
+.skuSelectorContainer{
+  transition: 1s;
+}
+
+/*.containerNormal:hover :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+  display: flex;
+  top: 0;
+  position: relative;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+}*/
+
+/*Especifi*/
+.specificationsTitle--especificacionesdeta, .specificationsTitle--especificacionesapli {
+  display: none;
+}
+
+.specificationsTableHead--especificacionesdeta, .specificationsTableHead--especificacionesapli{
+  display: none;
+}
+
+.specificationItemProperty--especificacionesdeta, .specificationItemProperty--especificacionesapli{
+  display: none;
+}
+
+.specificationItemSpecifications--especificacionesdeta, .specificationItemSpecifications--especificacionesapli {
+  background: #fafafa;
+  padding: 2% 1%;
+  border: none;
+}
+
+.specificationsTable--especificacionesdeta, .specificationsTable--especificacionesapli {
+  background: #fafafa;
+}
+
+.content--especificacionesdeta, .content--especificacionesapli {
+  margin: 0;
+  padding: 0;
+}
+
+.specificationsTableContainer--especificacionesdeta, .specificationsTableContainer--especificacionesapli {
+  margin: 0;
+  padding: 0;
+}
+
+.productDescriptionTitle {
+    display: none;
+}
+
+/*NEw
+.productImageTag.productImageTag--imagenunica.productImageTag--main.productImageTag--imagenunica--main {
+  max-width: 100% !important;
+}*/
+
+.imageElement.imageElement--imag--botonN {max-width: 242px;}
+
+.discountInsideContainer{
+  background: rgb(15,173,198);
+  color: white;
+  margin: 2%;
+  font-family: Manrope;
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 13px;
+  transform: rotate(-90deg);
+  left: -25px;
+  width: 78px;
+  top: 30px;
+}
+/*.diagonalCross{
+  display: none;
+}*/
+.frameAround{
+  border: none;
+}
+
+/*---------------------------------------*/
+/*  Estilos de Mililitros en Producto   */
+/*-------------------------------------*/
+.specificationsTitle--especificacionesmili {
+  display: none;
+}
+
+.specificationsTableHead--especificacionesmili {
+  display: none;
+}
+
+.specificationItemProperty--especificacionesmili {
+  padding: 0px 0px 0px 0;
+  color: #807e7b;
+  font-weight: 700;
+}
+
+.specificationItemSpecifications--especificacionesmili {
+  font-weight: 700;
+  color: #807e7b;
+}
+
+.container--especificacionesmili {
+  margin-right: 62%;
+  padding: 0px 20px 0px 0px;
+}
+
+.specificationsTableContainer--especificacionesmili {
+  padding: 0;
+}
+/* Cierre de estilos para mililitros en producto -------*/
+
+
+.imageElement--dia--sin--iva--abc--imagen {
+  padding: 0 30%;
+  border: none;
+}
+
+/* estilos flags */
+.discountInsideContainer::after {
+  content: "OFF";
+}
+.imageElement--social-network--Facebook {
+  width: 11px;
+}
+.swiperCaretNext .caretIcon{
+  display: none;
+}
+.swiperCaretPrev .caretIcon{
+  display: none;
+}
+.swiperCaretNext::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/arrowRight-maravela.png) no-repeat;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.swiperCaretPrev::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/arrowLeft-maravela.png) no-repeat;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+.resultsList {
+  left: 10%;
+  width: 90%;
+}
+.autoCompleteOuterContainer--clear-button :global(.vtex-styleguide-9-x-input){
+  font-size: 12px;
+}
+.searchBarIcon--clear-button .closeIcon {
+  color: white;
+}
+.discountContainer {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .resultsList {
+    left: 0%;
+    width: 100%;
+  }
+  .autoCompleteOuterContainer--clear-button{
+    padding: 10px;
+    background: #0FADC6;
+  }
+  .swiperPaginationClickable{
+    display: block !important;
+  }
+  .swiperBullet {
+    background: white;
+    opacity: 1;
+    border: 1px solid #DADADA;
+  }
+  .swiperBullet.swiperBullet--active{
+    background: #0FADC6;
+  }
+}
+
+/* estilos John S account */
+/* :global(.vtex-account__orders-list){
+    visibility: hidden;
+}
+:global(.vtex-account__orders-list)::before{
+  content: "¡Usted todavía no tiene pedidos!";
+  height: 30px;
+  width: auto;
+  display: block !important;
+  opacity: 1;
+  font-size: 24px;
+  left: 36%;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  visibility: visible;
+  color: #3f3f40;
+}
+
+
+:global(.vtex-my-account-1-x-menuLinks) {
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  padding: 0;
+  margin-left: 30px;
+  width: 217px;
+}
+:global(.vtex-my-account-1-x-menuLinks).c-on-base {
+  border: 1px solid #0FADC6;
+  border-radius: 7px;
+  width: 216px;
+}
+ */
+:global(.vtex-account__page){
+  width: 100% !important;
+}

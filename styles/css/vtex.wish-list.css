@@ -1,0 +1,21 @@
+.outline {
+    background-position: center !important;
+    background-size: 100% !important;
+    background: url(https://callearturop.vteximg.com.br/arquivos/iconFavoritos-maravela.png) no-repeat;
+    padding: 17% 0px;
+    width: 34px;
+}
+.wishlistIconContainer--wishflotante :global(.vtex-button) {background: #ece9e9;min-height: 100%;margin: 0 0px 0 17px;display: block;}
+
+.wishlistIconContainer--wishflotante {height: 100%;}
+
+.wishlistIconContainer {height: 100%;}
+
+.wishlistIconContainer :global(.vtex-button) {height: 100%;}
+@media screen and (max-width: 900px){
+
+    .wishlistIconContainer :global(.vtex-button__label){
+        padding: 20px;
+    }
+    
+}

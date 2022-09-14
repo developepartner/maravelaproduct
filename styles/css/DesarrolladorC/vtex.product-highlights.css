@@ -1,0 +1,13 @@
+.productHighlightWrapper.productHighlightWrapper--collectionC {position: absolute;top: 14rem;left: 2%;text-transform: uppercase;z-index: 9991;font-weight: 900;font-size: 14px;letter-spacing: 1px;}
+
+.productHighlightWrapper--collectionC .productHighlightText {background: white;border-radius: 0;border: 1px solid #e5e4e4;padding: 10px 11px;color: #3f3f40;}
+
+.productHighlightWrapper--collection .productHighlightText {background: white;border-radius: 0;border: 1px solid #dddcdc;text-transform: uppercase;font-size: 12px;min-height: 16px;display: block;width: 29%;}
+
+.productHighlightText{display: none !important;}
+
+@media screen and (min-width: 700px) and (max-width: 1026px) {
+
+  .productHighlightWrapper.productHighlightWrapper--collectionC {position: absolute;top: 10rem !important;left: 2%;text-transform: uppercase;z-index: 9991;font-weight: 900;font-size: 14px;letter-spacing: 1px;}
+
+  }

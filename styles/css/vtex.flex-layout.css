@@ -1,0 +1,1139 @@
+.flexCol--maq, .maq,
+.flexColChild--maq,
+.flexRow--maq,
+.flexRowContent--maq{
+  border: 1px red solid !important;
+}
+.flexCol--dNone, .dNone,
+.flexColChild--dNone,
+.flexRow--dNone,
+.flexRowContent--dNone{display: none !important;}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: white;
+  color: black;
+}
+
+.flexRowContent--main-header {
+  background-color: white;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #0FADC6;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: black;
+  font-size: 10px;
+  height: 23%;
+  display: block;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 0.5rem;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.flexCol--minicart-slayout-home-bolsa{
+  margin-right: 5px;
+}
+
+.flexRow--deals {
+  background-color: transparent;
+  padding: 14px 0px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: -50px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--more{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+/*Imagenes (4) pequeñas que van superpuestas*/
+.flexColChild--dealschild{
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 9999;
+}
+
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRowContent--main-header {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.flexRowContent--menu-row {
+  margin-top: 10px;
+  margin-left: 15%;
+  align-items: center;
+  color: #fff;
+}
+
+.flexRowContent--menu-nivel-hombre-cats{
+  background-color: white;
+  margin-top: -15px;
+  position: fixed;
+  left: 0px;
+  width: 100em;
+}
+
+.flexCol--menu-nivel-hombre-cat-sub{
+  width:100% !important;
+}
+
+/*Borde del header*/
+.flexRow--menu-link {
+  border-bottom: 1px solid rgb(228, 224, 224);
+}
+
+.flexRowContent--main-header {
+  height: 56px;
+  align-items: flex-start;
+}
+
+/*Estilos home diagramación*/
+.flexRowContent--Bannersec {
+  justify-content: center;
+}
+
+.flexCol--Bannerone, .flexCol--Bannertwo {
+  padding: 0 10px;
+}
+
+.flexCol--Bannertwo {
+  position: relative;
+}
+
+.flexCol--Bannertwo1 {
+  padding: 0 8px;
+  position: relative;
+}
+
+/*Estilos Footer */
+
+.flexRowContent--menu-rowC {
+  text-align: center;
+  margin: 0px auto;
+  width: 85%;
+}
+
+.items-stretch.w-100 {
+  height: 35px;
+}
+
+
+/*----------------------------------*/
+/*      estilos mini cart           */
+/*----------------------------------*/
+.flexRow--minicart-footer{
+  width: 365px;
+  background-color: white;
+  margin-left: -17px;
+  margin-bottom: -10px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*----------------------------------*/
+/*flex layout iconos redes sociales */
+/*----------------------------------*/
+.flexColChild--social-network{
+  width:22px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------------------*/
+/* whatsap datos meno contactanos */
+/*--------------------------------*/
+
+.flexRow--whatsapp--datos{
+  position: absolute;
+  left: 13px;
+  top: 276px;
+  background: #ECECEC;
+  width: 280px;
+  height: 74px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* terminos y condiciones footer con logo payu*/
+/*------------------------------*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*------------------------------*/
+/* vitrina                      */
+/*------------------------------*/
+
+/*espacio total de la vitrina en pantalla*/
+.flexRow--product-main{
+  width: 96%;
+
+}
+
+
+/*titulo vitrina*/
+
+
+.flexCol--titleS-columna--1{
+  background: black;
+  margin-left: 147px;
+  margin-top: 44px;
+  margin-right: -115px;
+  height: 1px;
+}
+
+.flexCol--titleS-titulo{
+  margin-left: 8px;
+  background: rgb(250 250 250);
+}
+
+.flexCol--titleS-columna--2{
+  background: black;
+  margin-left: 0px;
+  margin-top: 44px;
+  margin-right: 130px;
+  height: 1px;
+}
+
+.flexRow--titleS{
+  margin-top: -22px;
+  margin-bottom: -32px;
+}
+/*------------------------------------------------------------------------------------*/
+
+.flexCol--productRating{
+  margin-bottom: 1rem !important; /*si hay problemas con otras margenes...se puede quitar este...es una idea inicial*/
+}
+
+.flexRow :global(.vtex-product-price-1-x-sellingPrice){
+  margin-left: 15px;
+  margin-top: -8px; /*se utilizo para mover el precio a la mitad de la imagen... si causa algun problema en las margenes se puede quitar*/
+}
+/*------------------------------*/
+
+
+/*--- tamaño slider           ---*/
+
+
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+/* hombre  collage imagenes      */
+/*-------------------------------*/
+
+.flexRow--hombre__part--2{
+  width: 65%;
+  margin-left: 16%;
+  margin-top: 5%;
+}
+
+
+.flexColChild--hombre__part--2--block1 :global(.vtex-flex-layout-0-x-flexRowContent){
+  flex-wrap: wrap;
+}
+
+.flexColChild--hombre__part--2--block1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 13rem !important;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* niño  collage imagenes      */
+/*-------------------------------*/
+
+.flexRow--nino__part--2{
+  width: 65%;
+  margin-left: 16%;
+  margin-top: 5%;
+}
+
+
+.flexColChild--nino__part--2--block1 :global(.vtex-flex-layout-0-x-flexRowContent){
+  flex-wrap: wrap;
+}
+
+.flexColChild--nino__part--2--block1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 13rem !important;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* parte en la que se elige los detalles del producto...talla... se ven las fotos en fila...
+Estilos Producto Sección Contenido AC*/
+/*-------------------------------*/
+
+.flexCol--Descripcion :global(.vtex-disclosure-layout-1-x-trigger){
+  background: #181e2a;
+  width: 100%;
+  height: 38px
+}
+
+.flexCol--Descripcion{
+  position:relative;
+}
+
+
+.flexCol--detalles--de--producto{
+  margin-top: 4px;
+  position:relative;
+}
+
+.flexCol--detalles--de--producto :global(.vtex-disclosure-layout-1-x-trigger){
+  background: #181e2a;
+  width: 100%; /*llena el 100% del espacio del trigger...para que el boton + quede lejos del texto*/
+  height: 38px
+}
+
+.flexCol--Recomendaciones--de--cuidado{
+  margin-top: 8px;
+  position:relative;
+}
+
+.flexCol--Recomendaciones--de--cuidado :global(.vtex-disclosure-layout-1-x-trigger){
+  background: #181e2a;
+  width: 100%;
+  height: 38px
+}
+
+.flexCol--product-identifier--ref{
+  margin-top: -7px;
+}
+
+.flexRow--buy-button-row{
+  border: 2px solid #EB921A;
+  background: #EB921A;
+  height: 68px;
+  margin-bottom: 10px;
+}
+
+.flexRow--product-quantity--opciones{
+  background: white;
+    width: 134px;
+    height: 42px;
+}
+
+.flexColChild--product-quantity--opciones--titulo{
+  margin-top: 5px;
+  margin-left: 9px;
+}
+
+.flexColChild--product-quantity--opciones--cantidad{
+  margin-top: 5px;
+  margin-left: -26px;
+}
+
+.flexCol--add-to-cart-button :global(.vtex-button){
+  background: transparent;
+  border: transparent;
+}
+
+.flexColChild--add-to-cart-button :global(.vtex-add-to-cart-button-0-x-buttonText){
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.flexCol--iconos--productos--info{
+  display: flex;
+  align-items: center;
+  height: 96px;
+}
+
+
+
+/*suscribirse*/
+
+.flexRowContent--suscribete--seccion{
+  width: 1262px;
+  margin-left: 38px;
+}
+
+.flexColChild--suscribete--seccion--text{
+  margin-left: 68px;
+}
+
+.flexCol--newsletter-form--columna{
+  width: 100%;
+  margin-bottom: 39px;
+}
+
+.flexColChild--newsletter-form--columna{
+  width: 100%;
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/*footer                          */
+/*--------------------------------*/
+
+/*suscribete*/
+
+.flexCol--newsletter-form--columna--footer{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.flexColChild--newsletter-form--columna--footer{
+  width: 100%;
+}
+
+/*-------------------------------*/
+
+
+/*-----------------------------------*/
+/*      paginas estaticas            */
+/*-----------------------------------*/
+
+/*autorizacion-tratamiento-datos-personales*/
+.flexRow--informacion--autorizacion-tratamiento-datos-personales{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexCol--list{
+  margin-left: 23px;
+}
+
+/*punto en la lista (viñeta)*/
+.flexColChild--list-item--img{
+  display: flex;
+    align-items: center;
+}
+
+.flexRow--list-item{
+  margin-bottom: -24px;
+}
+
+/*preguntas frecuentes*/
+
+.flexRow--informacion--preguntas-frecuentes{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexColChild--colomnas--preguntas--frecuentes :global(.vtex-disclosure-layout-1-x-trigger){
+  width: 100%;
+  background: #f8f8f8;
+  border: 1px solid #ececec;
+}
+
+.flexColChild--disclosure-state-indicator--preguntas--frecuentes{
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+/*espacio que se coloca...para que el espacio del contenido...sea suficiente para ver las respuesta*/
+.flexRow--espacio{
+  height: 24px;
+}
+
+.flexCol--respuesta--columna--n{
+  border: 1px solid #ececec;
+}
+
+.flexColChild--respuesta--columna--n{
+  width: 96%;
+  margin-left: 14px;
+}
+
+/*linea-etica*/
+.flexRow--informacion--linea-etica{
+  width: 90%;
+  margin-left: 4%;
+}
+
+
+.flexCol--list {
+  padding: 10px 0px 10px 0px;
+  z-index: 555555;
+}
+
+.flexColChild--list {
+  padding: 6px 0 0;
+}
+
+/*franquicias*/
+.flexRow--informacion--franquicias{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexColChild--informacion--franquicias--primera--parte :global(.vtex-store-link-0-x-link){
+  text-decoration: none;
+}
+
+/*politica-etica-empresarial*/
+.flexRow--informacion--politica-etica-empresarial{
+  width: 90%;
+  margin-left: 52px;
+}
+
+/*terminos y condiciones*/
+.flexRow--informacion--terminos-y-condiciones{
+  width: 90%;
+  margin-left: 4%;
+}
+
+
+/*historia*/
+.flexRow--informacion--historia{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*politica envio cambios garantias*/
+.flexRow--informacion--politica-envio-cambios-garantias{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*politica de datos*/
+.flexRow--informacion--politica-de-datos{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*contacto*/
+.flexRow--informacion--contacto{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexColChild--informacion--contacto--primera--parte :global(.vtex-iframe-0-x-container){
+  width: 100%;
+
+}
+
+/*condiciones-actividades-comerciales*/
+
+.flexRow--informacion--condiciones-actividades-comerciales{
+  width: 90%;
+  margin-left: 4%;
+}
+
+
+.flexCol--grid :global(.vtex-store-components-3-x-imageElement):hover{
+  box-shadow: 0px 0px 20px -7px rgb(0 0 0 / 70%);
+}
+
+/*-----------------------------------*/
+
+.flexRowContent--table--grid-6-1{
+  margin-left: 15%;
+    width: 70%;
+    height: 36px;
+}
+
+.flexCol--table--col{
+  border: 1px solid #dddddd;
+}
+
+
+.flexColChild--table--col{
+  height: 151% !important;
+}
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*       freedom                     */
+/*------------------------------------*/
+
+.flexRow--buttons--images{
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+
+.flexRow--video--freedom{
+  height: 458px;
+  background-size: cover;
+  background-image: url("assets/desk/freedom/video.webp");
+  margin-bottom: 1%;
+}
+
+.flexRow--lo--mas--vendido{
+  height: 315px;
+  background-size: cover;
+  background-image: url("assets/desk/freedom/lo-mas-vendido.webp");
+}
+/*-----------------------------------*/
+
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 900px) {
+.flexRowContent--footer-mobile .flexRowContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+}
+.flexRowContent--footer-mobile .flexRowContent .stretchChildrenWidth:last-child {
+  width: 10% !important;
+}
+.flexRowContent--footer-mobile .flexRowContent .stretchChildrenWidth:first-child {
+  width: 80% !important;
+}
+.flexCol--social-network {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+.flexColChild--social-network {
+  display: block;
+  margin: auto;
+}
+.imageElement--social-network--Twitter {
+  margin: 0 auto;
+}
+.imageElement--social-network--Youtube {
+  margin: 0 auto;
+}
+.flexRow--social-network {
+  width: 75% !important;
+  margin: 22px auto;
+}
+.flexCol--social-network {
+  margin: auto;
+}
+.flexRow--terminos--y--logo {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.justify-center.flexRowContent--terminos--y--logo .stretchChildrenWidth:last-child {
+  width: 20% !important;
+}
+.vflexRowContent--footer-mobile .flexRow--terminos--y--logo .stretchChildrenWidth:last-child {
+  width: 20% !important;
+}
+}
+/****************/
+/*MOBILE HOME*/
+/****************/
+@media screen and (max-width: 900px) {
+  .flexRowContent--social-network
+  {
+    display: flex;
+    width: 48%;
+    margin: 0 auto;
+  }
+
+
+.flexCol--Bannerone {
+  padding: 0 0 20px;
+}
+.flexCol--Bannertwo {
+  padding: 0;
+}
+.flexRowContent--Bannersec.flexRowContent--banner-categorias-home {
+  display: none;
+}
+.flexRow.flexRow--titleS {
+  display: none;
+}
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO           */
+/*------------------------------------*/
+.flexRow--depto-desk {
+  display: block;
+}
+.flexRow--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+.flexRow--depto-desk {
+    display: none;
+  }
+  .flexRow--depto-mobile {
+    display: block;
+  }
+.flexRowContent--vitrina2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--vitrina2 .stretchChildrenWidth:first-child {
+  order: 2;
+}
+.flexRowContent.flexRowContent--more.flexRowContent--depto-mobile {
+  display: flex;
+  height: 165px;
+}
+.flexRowContent.flexRowContent--more.flexRowContent--depto-mobile {
+  display: flex;
+  height: 165px;
+}
+.flexRowContent--more.flexRowContent--depto-mobile .stretchChildrenWidth {
+  padding: 5px;
+}
+.flexRowContent--bannerfinal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--bannerfinal .stretchChildrenWidth:last-child {
+  display: flex;
+  flex-wrap: unset;
+}
+.flexRowContent--bannerfinal .stretchChildrenWidth:first-child {
+  padding: 0 0 0px 0;
+}
+.flexRowContent--bannerfinal.flexRowContent--depto-mobile {
+  display: flex;
+  height: 100% !important;
+}
+.flexRow.flexRow--bannerfinal-child {
+  width: 100%;
+  margin: 0;
+}
+.flexRowContent--bannerfinal .stretchChildrenWidth:last-child {
+  padding: 0;
+}
+.flexRowContent.flexRowContent--newsletter-form--contenedor--footer {
+  justify-content: center;
+}
+}
+
+/*Product*/
+.flexRow--breadproduct {
+  position: absolute;
+}
+
+.flexRow--breadproduct {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  width: 100%;
+  margin-top: 0;
+  z-index: 9991;
+}
+.flexCol--lateralCol {
+  z-index: 10;
+}
+.flexCol--filtroContent {
+  width: 30%;
+  background: white;
+}
+.flexRow--InformacionDos {
+  margin: 4% 0%;
+}
+
+/*Category styles*/
+
+.flexRow--breadcrumbC {
+  padding-top: 15px;
+  border-top: 2px solid #f3f1f1;
+  margin: 5px 2% 0 2%;
+}
+.flexRow--tituloCat {
+  margin: 0 2% 0 2%;
+}
+.flexRow--rowSearchInfo {
+  margin: 0 2% 0 2%;
+}
+.flexRowContent--rowSearchInfo {
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+.flexRowContent--tituloCat {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--orderByAndSwitcher {
+    padding: 0;
+}
+.flexRow--row-vitrine-category {
+  margin: 0 2%;
+}
+.flexRowContent--imageCP {
+  border-top: 1px solid #e3e1e1;
+  padding-right: 0%;
+  padding-top: 5%;
+}
+.flexRowContent--contenedorP {margin-top: 0;padding-top: 1.4%;}
+
+.flexRow--preciosC {
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 5px;
+}
+.flexRow--menu-rowC{
+  background: transparent;
+}
+.flexColChild--botoncomp :global(.vtex-button):hover {
+  background: #DADADA;
+  color: #181E2A;
+}
+.flexColChild--botoncomp :global(.vtex-button__label){
+  padding: 0 !important;
+  margin: 0;
+}
+.flexColChild--buycolection :global(.vtex-button){
+  background: transparent;
+  border: none;
+}
+/*vitrinas*/
+.flexCol--buycolection {
+  display: flex;
+  justify-content: end;
+  margin-left: 50%;
+}
+.flexColChild--precios {
+  display: flex;
+  align-items: end;
+  margin-bottom: 5%;
+}
+.flexRow--breadproduct {
+  background: transparent;
+}
+.flexColChild--filtroContent {
+  max-height: 50px;
+}
+
+/*Footer New*/
+.flexRow--columnas {
+  background: transparent;
+}
+
+.flexRow--columnas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flexCol--apertura {
+  position: relative;
+}
+
+.flexRow--social-network {
+  background: transparent;
+}
+
+.flexRow--row1-footer {
+  background: transparent;
+}
+
+.flexRow--terminos--y--logo {
+  background: transparent;
+}
+.flexRowContent--social-network {
+  justify-content: center;
+  padding: 1% 0;
+}
+
+.flexRowContent--social-network .stretchChildrenWidth {
+  min-width: 35px;
+}
+/*Precio*/
+.flexRow--selling-price{
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 5px;
+}
+.flexRowContent--selling-price{
+  margin-top: 0;
+}
+/*Adjunto*/
+.flexColChild--botonwhish :global(.vtex-button){
+  background: rgba(15, 173, 198, 0.2);
+  width: 89%;
+}
+.flexRow--titleS {margin: 35px 0 -38px 0;}
+/*NEW*/
+.flexRow.flexRow--contenedorP {z-index: 9990;position: relative;}
+
+.flexColChild.flexColChild--bloqueimg.flexColChild--bloqueimgC {
+  margin-top: 7%;
+  margin-bottom: 4%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 4%;
+}
+
+.flexColChild.flexColChild--bloqueimg {margin: 0 auto;min-width: 72%;}
+
+/*Estilos de Rango de Precios en Category*/
+.flexColChild--rangePriceContainer{
+  padding: 6% 0px;
+  text-align: center;
+  font-size: small;
+}
+.flexCol--modalContentTalla{
+  padding: 0px 3% 2% 3%;
+}
+/*---------------------------------*/
+
+/* Puntos de listas en Linea Etica y flecha de preguntas frecuentes version mobile*/
+@media (max-width: 900px) {
+  .flexColChild--list-item--img{
+    position: relative;
+    top: 29px;
+    left: -18px;
+  }
+  .flexRowContent--preguntas--frecuetes--trigger{
+    display: flex;
+  }
+  .flexRowContent--preguntas--frecuetes--trigger .stretchChildrenWidth:nth-child(2n){
+    width: 20% !important;
+  }
+  .flexCol--disclosure-state-indicator--preguntas--frecuentes{
+    position: relative;
+  }
+  .flexColChild--disclosure-state-indicator--preguntas--frecuentes{
+    position: absolute;
+    width: 12px !important;
+  }
+  .flexCol--list{
+    margin: 0;
+    padding: 0px 23px;
+  }
+  /* INI: Estilos de Rango precios para tamaño mobile */
+  .flexRow--rangePrice{
+    background-color: #ececec;
+    padding: 4% 10px 5px;
+    position: relative;
+    left: -5px;
+    margin-top: 23%;
+  }
+  .flexRowContent--rangePrice{
+    display: flex;
+  }
+  .flexCol--rangePriceContainer1,
+  .flexCol--rangePriceContainer2,
+  .flexCol--rangePriceContainer3,
+  .flexCol--rangePriceContainer4{
+    border-right: 1px #8b8b8b solid;
+  }
+  /* FIN: Estilos de Rango precios para tamaño mobile */
+  .flexRowContent--main-header-mobile :global(.vtex-store-drawer-0-x-openIconContainer)::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/menu-icno-mafravela.png) no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+  :global(.vtex-store-drawer-0-x-menuIcon){
+    display: none;
+  }
+}
+
+
+.flexRow--rangePrice{
+  background-color: #ececec;
+}
+.flexColChild--productCountCol {
+  display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.flexRow--orderByAndSwitcher{
+  padding-right: 0 !important;
+}
+.flexColChild.flexColChild--lateralCol :global(.vtex-store-components-3-x-skuSelectorTextContainer){
+  display: flex;
+}
+.flexColChild.flexColChild--lateralCol :global(.vtex-store-components-3-x-skuSelectorItem--selector){
+  margin: 6px 10px 6px 0;
+}
+.flexColChild.flexColChild--lateralCol :global(.vtex-store-components-3-x-skuSelectorItem--selector):first-child{
+  margin-left: 0;
+}
+.flexColChild.flexColChild--lateralCol  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItem){
+  border: 0;
+  background: #D8D8D8;
+  border-radius: 5px;
+}
+.flexColChild.flexColChild--lateralCol  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItem--selected){
+  border: 0;
+  background: #033A5F;
+}
+.flexColChild.flexColChild--lateralCol  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItemTextValue--selector){
+  color: #565656;
+}
+.flexColChild.flexColChild--lateralCol  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItem--selected) :global(.vtex-store-components-3-x-skuSelectorItemTextValue--selector){
+  color: white;
+}
+.flexColChild.flexColChild--lateralColM  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItem){
+  border: 0;
+  background: #D8D8D8;
+  border-radius: 5px;
+}
+.flexColChild.flexColChild--lateralColM  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItem--selected){
+  border: 0;
+  background: #033A5F;
+}
+.flexColChild.flexColChild--lateralColM  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItemTextValue--selector){
+  color: #565656;
+}
+.flexColChild.flexColChild--lateralColM  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorItem--selected) :global(.vtex-store-components-3-x-skuSelectorItemTextValue--selector){
+  color: white;
+}
+.flexRowContent--contenedorP {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.flexRowContent--marcas-header .flexColChild {
+  height: auto!important;
+}
+.flexRowContent--marcas-header{
+  width: 60%;
+  border: 0.337336px solid #d3d3d3;
+  margin-left: 40px;
+} 
+.flexRow--newsletterP :global(.vtex-store-components-3-x-container){
+  margin: 0;
+}
+.flexRowContent--buy-buttons .stretchChildrenWidth:first-child{
+  padding-right: 10px;
+}
+.flexRow--newsletterP{
+  margin-top: 40px;
+}
+@media (max-width: 900px) {
+  .flexRow--menu-rowC :global(.vtex-store-components-3-x-container){
+    width:90%;
+  }
+  .flexRow--newsletterP{
+    margin-top: 20px;
+  }
+  .flexRowContent--buyinfer .stretchChildrenWidth:first-child{
+    padding-right: 10px !important;
+  }
+  .flexColChild--botonwhish {
+    height: 100% !important;
+  }
+  .flexRowContent--menu-link .stretchChildrenWidth{
+    width: 100% !important;
+  }
+  .flexRowContent--marcas-header {
+    display: flex;
+  }
+  .flexRowContent--menu-link .stretchChildrenWidth:last-child{
+    display: none;
+  }
+  .flexRowContent--marcas-header .stretchChildrenWidth:last-child{
+    display: block;
+  }
+  .flexRowContent--marcas-header {
+    width: 100%;
+    margin-left: 0;
+  }
+  .flexRowContent--menu-rowC {
+    text-align: center;
+    margin: 0 2%;
+    width: 96%;
+  }
+  .flexRowContent.flexRowContent--newsletterP {padding: 2% 0;}
+  .flexRowContent--rowSearchInfo .stretchChildrenWidth{
+    width: 50% !important;
+  }
+  .flexRow.flexRow--orderByAndSwitcher{
+    padding: 0 !important;
+  }
+  .flexRowContent.flexRowContent--newsletterP {
+    background: url(https://callearturop.vteximg.com.br/arquivos/backgroundnewsdesk.png) no-repeat !important;
+    background-size: 100%;
+    padding: 2% 0;
+  }
+  .flexRow--breadproduct :global(.vtex-store-components-3-x-container){
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+  .flexColChild--lateralCol :global(.vtex-store-components-3-x-specificationsTableContainer--especificacionesmili){
+    margin: 0;
+  }
+}

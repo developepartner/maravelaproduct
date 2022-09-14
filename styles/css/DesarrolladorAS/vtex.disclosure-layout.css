@@ -1,0 +1,22 @@
+/*Estilos de filtros en productos category*/
+.trigger--fitroTrigger2--visible::after{
+  content: "cerrar";
+  font-size: 22px;
+  position: absolute;
+  top: 3%;
+  width: 28%;
+  text-transform: uppercase;
+  left: -32%;
+  cursor: pointer;
+  text-align: end;
+  font-weight: 700;
+  color: #0FADC6;
+}
+
+.trigger--fitroTrigger2--visible :global(.vtex-rich-text-0-x-paragraph--tituloFiltro){
+  display: none;
+}
+.trigger--fitroTrigger2--visible {position: absolute;width: 70%;height: 100%;z-index: 1;right: 0;}
+
+
+

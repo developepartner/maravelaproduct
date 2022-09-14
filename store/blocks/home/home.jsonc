@@ -1,0 +1,672 @@
+{
+  "store.home": {
+    "blocks": [
+      //"video#backgroundVideoBanner",
+
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#banners",
+      "flex-layout.row#banners1",
+      // "__fold__.experimentalLazyAssets",
+      //"flex-layout.row#deals",
+      "rich-text#title",
+      "rich-text#titleM",
+      "slider-layout#slider-categorias-mobile",
+      "flex-layout.row#bannersbulletsecond",
+      "flex-layout.row#bannersbulletsecond1",
+      // "rich-text#title2",
+      // "flex-layout.row#bannersbulletthrid",
+      "flex-layout.row#titleS",
+      "flex-layout.row#shelf"
+    ]
+  },
+
+  //VIDEO BANNER
+  "video#backgroundVideoBanner": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      //"src": "https://www.youtube.com/watch?v=HjIIRgOXeHg",
+      "src": "https://vimeo.com/102945028",
+      "blockClass": "videoBanner"
+    }
+  },
+
+  //Slider principal Mobil y desktop
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 920,
+      "images": [
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/banner-principal-desk-maravela-2.jpg",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-principal-mobile-maravela-2.jpg",
+          "link":{
+            "url":"/mujer/ropa"
+          }
+        },
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/banner-principal-desk-maravela-2.jpg",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-principal-mobile-maravela-2.jpg",
+          "link":{
+            "url":"/hombre/ropa"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/productos-exclusivos-1924.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/productos-exclusivos-415.jpg",
+          "link":{
+            "url":"/coleccion/bosque-encantado"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots": "never",
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  //banners secundarios
+  "flex-layout.row#banners": {
+    "props":{
+      "blockClass": "Bannersec",
+      "marginTop": 4
+    },
+    "children": ["flex-layout.col#bannerone", "flex-layout.col#bannertwo"]
+  },
+  "flex-layout.col#bannerone": {
+    "props":{
+      "blockClass": "Bannerone",
+      "width": "40%"
+    },
+    "children": ["image#banner1"]
+  },
+  "flex-layout.col#bannertwo": {
+    "props":{
+      "blockClass": "Bannertwo",
+      "width": "40%"
+    },
+    "children": ["image#banner2"]
+  },
+  "image#banner1": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/categoria-desk-mujer-maravela.jpg",
+      "blockClass": "BannerI",
+      "link": {
+        "url": "/maravela/mujer"
+    }
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/categoria-desk-hombre-maravela.jpg",
+      "blockClass": "BannerD",
+      "link": {
+        "url": "/maravela/hombre"
+    }
+    }
+  },
+
+  //Banners secundarios segunda caja
+
+  "flex-layout.row#banners1": {
+    "props":{
+      "blockClass": "Bannersec",
+      "marginTop": 4
+    },
+    "children": ["flex-layout.col#bannerone1", "flex-layout.col#bannertwo1"]
+  },
+  "flex-layout.col#bannerone1": {
+    "props":{
+      "blockClass": "Bannerone",
+      "width": "40%"
+    },
+    "children": ["image#banner3"]
+  },
+  "flex-layout.col#bannertwo1": {
+    "props":{
+      "blockClass": "Bannertwo",
+      "width": "40%"
+    },
+    "children": ["image#banner4"]
+  },
+
+  "image#banner3": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/categoria-desk-niños-maravela.jpg",
+      "blockClass": "BannerI",
+      "link": {
+          "url": "/maravela/nino"
+      }
+    }
+  },
+  "image#banner4": {
+    "props": {
+      "src": "https://maravela.vteximg.com.br/arquivos/HOMEDESKTOP%20maravela.jpg",
+      "blockClass": "BannerD",
+      "link": {
+          "url": "/maravela/nina"
+      }
+    }
+  },
+
+//Cierre Banners
+//Titulo intermedio
+"rich-text#title": {
+  "props": {
+    "text": "New look",
+    "blockClass": ["titlem"],
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#titleM": {
+  "props": {
+    "text": "New look \n Descubre MARAVELLA",
+    "blockClass": ["titlem", "titlem-MOBILE"],
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+
+
+//Banners terciarios
+"flex-layout.row#bannersbulletsecond": {
+  "props":{
+    "blockClass": ["Bannersec","banner-categorias-home"],
+    "marginTop": 4
+  },
+  "children": ["flex-layout.col#bullets1", "flex-layout.col#bullets2", "flex-layout.col#bullets3"]
+},
+
+"flex-layout.col#bullets1": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner5", "rich-text#bulletbotton1"]
+},
+"flex-layout.col#bullets2": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner6", "rich-text#bulletbotton2"]
+},
+"flex-layout.col#bullets3": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner7", "rich-text#bulletbotton3"]
+},
+"image#banner5": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/vestidos-maravela.jpg",
+    "blockClass": "BannerD"
+  }
+},
+
+"rich-text#texto1": {
+  "props": {
+    "blockClass": "BotonM"
+  }
+},
+
+"rich-text#bulletTextCamisetasM": {
+  "props": {
+    "text": "camisetas",
+    "blockClass": "TextoM"
+  }
+},
+"rich-text#bulletbotton1": {
+  "props": {
+    "text": "[Ver más](/maravela/mujer/ropa/vestido-mujer)",
+    "blockClass": "BotonM"
+    }
+  },
+"image#banner6": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/camisetas-maravela.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletTextPolosH": {
+  "props": {
+    "text": "Polos",
+    "blockClass": "TextoH"
+  }
+},
+"rich-text#bulletbotton2": {
+  "props": {
+    "text": "[Ver más](/maravela/hombre/ropa/camisa-hombre)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner7": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/pantalonetas-maravela.jpg",
+    "blockClass": "BannerD"
+  }
+},
+
+"rich-text#bulletTextChaquetasH": {
+  "props": {
+    "text": "Chaquetas",
+    "blockClass": "TextoM"
+  }
+},
+"rich-text#bulletbotton3": {
+  "props": {
+    "text": "[Ver más](/maravela/hombre/ropa/pantaloneta)",
+    "blockClass": "BotonM"
+  }
+},
+
+//Banners terciarios segundo bullet
+"flex-layout.row#bannersbulletsecond1": {
+  "props":{
+    "blockClass": ["Bannersec","banner-categorias-home"],
+    "marginTop": 4
+  },
+  "children": ["flex-layout.col#bullets4", "flex-layout.col#bullets5", "flex-layout.col#bullets6"]
+},
+
+"flex-layout.col#bullets4": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner8", "rich-text#bulletbotton4"]
+},
+"flex-layout.col#bullets5": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner9", "rich-text#bulletbotton5"]
+},
+"flex-layout.col#bullets6": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner10", "rich-text#bulletbotton6"]
+},
+"image#banner8": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/vestidos-baño-maravela.jpg",
+    "blockClass": "BannerD"
+  }
+},
+
+"rich-text#bulletTextCamisetasH": {
+  "props": {
+    "text": "Camisetas",
+    "blockClass": "TextoM"
+  }
+},
+"rich-text#bulletbotton4": {
+  "props": {
+    "text": "[Ver más](/maravela/mujer/ropa/Vestidos-de-Baño)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner9": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/blusas-maravela.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletTextJeansH": {
+  "props": {
+    "text": "Jeans",
+    "blockClass": "TextoH"
+  }
+},
+"rich-text#bulletbotton5": {
+  "props": {
+    "text": "[Ver más](/maravela/mujer/ropa/blusa-mujer)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner10": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/zapatos-maravela.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletTextCamisasH": {
+  "props": {
+    "text": "Camisas",
+    "blockClass": "TextoM"
+  }
+},
+"rich-text#bulletbotton6": {
+  "props": {
+    "text": "[Ver más](/maravela/hombre/zapatos)",
+    "blockClass": "BotonM"
+  }
+},
+
+//Cierre banners terciarios
+
+//title secundario
+
+"rich-text#title2": {
+  "props": {
+    "text": "Descubre MARAVELLA",
+    "blockClass": "titlem",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+//Comienzo banners cuaternarios
+
+"flex-layout.row#bannersbulletthrid": {
+  "props":{
+    "blockClass": ["Bannersec","banner-categorias-home"],
+    "marginTop": 4
+  },
+  "children": ["flex-layout.col#bullets7", "flex-layout.col#bullets8", "flex-layout.col#bullets9"]
+},
+
+"flex-layout.col#bullets7": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner11", "rich-text#bulletbotton7"]
+},
+"flex-layout.col#bullets8": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner12", "rich-text#bulletbotton8"]
+},
+"flex-layout.col#bullets9": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner13", "rich-text#bulletbotton9"]
+},
+"image#banner11": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/descubre1.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/"
+  }
+  }
+},
+"rich-text#bulletbotton7": {
+  "props": {
+  //  "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner12": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/descubre2.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/zapatos/tenis"
+  }
+  }
+},
+"rich-text#bulletbotton8": {
+  "props": {
+  //  "text": "[Comprar Jeans](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner13": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/descubre3.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/ropa/freedom?initialMap=c,c&initialQuery=hombre/ropa&map=category-1,category-2,brand"
+  }
+  }
+},
+"rich-text#bulletbotton9": {
+  "props": {
+  //  "text": "[Comprar Camisas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+
+//fin banners cuaternarios
+//Inicio Slider
+
+"flex-layout.row#titleS":{
+  "props": {
+    "blockClass": "titleS"
+  },
+  "children":[
+    "flex-layout.col#titleS--col--1",
+    "flex-layout.col#titleS--title",
+    "flex-layout.col#titleS--col--2"
+  ]
+},
+"flex-layout.col#titleS--col--1":{
+  "props": {
+    "blockClass": "titleS-columna--1"
+  }
+},
+"flex-layout.col#titleS--title":{
+  "props":{
+    "blockClass": "titleS-titulo"
+  },
+  "children":[
+    "rich-text#titleS"
+  ]
+},
+"flex-layout.col#titleS--col--2":{
+  "props": {
+    "blockClass": "titleS-columna--2"
+  }
+},
+
+"rich-text#titleS": {
+  "props": {
+    "text": "Lo Más Vendido",
+    "blockClass": "titlem",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+
+
+
+
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "arrowSize":50,
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelfH",
+      "showPaginationDots":"never"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+
+
+
+
+
+  /*SLIDER CATEGORIAS MOBILE*/
+"slider-layout#slider-categorias-mobile": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "height": 400,
+    "showNavigationArrows": "never",
+    "centerModeSlidesGap": "center",
+    "showPaginationDots": "never",
+    "fullWidth": true,
+    "centerMode": "center",
+    "blockClass": ["categorias2-banners", "slider-moible"]
+  },
+  "children": [
+    "info-card#categoria-1",
+    "info-card#categoria-2",
+    "info-card#categoria-3",
+    "info-card#categoria-4",
+    "info-card#categoria-5",
+    "info-card#categoria-6"]
+},
+"info-card#categoria-1": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/descubre1-m.jpg",
+    "headline": "Pantalones",
+    "callToActionText": "Ver más",
+    "callToActionUrl": "/maravela/mujer/ropa/Pantalones",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-2": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/descubre2-m.jpg",
+    "headline": "Polos",
+    "callToActionText": "Ver más",
+    "callToActionUrl": "/maravela/hombre/ropa/polo",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-3": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/descubre3-m.jpg",
+    "headline": "Vestidos de baño",
+    "callToActionText": "Ver más",
+    "callToActionUrl": "/maravela/mujer/ropa/Vestidos-de-Baño",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-4": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/descubre4-m.jpg",
+    "headline": "Shorts",
+    "callToActionText": "Ver más",
+    "callToActionUrl": "/mujer/ropa/short-mujer",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-5": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/descubre3-m.jpg",
+    "headline": "Vestidos Baños",
+    "callToActionText": "Ver más",
+    "callToActionUrl": "/maravela/mujer/ropa/Vestidos-de-Baño",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-6": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/descubre1-m.jpg",
+    "headline": "Pantalones",
+    "callToActionText": "Ver más",
+    "callToActionUrl": "/maravela/mujer/ropa/Pantalones",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+}
+
+
+}
+
+
+
+
+

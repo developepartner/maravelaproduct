@@ -1,0 +1,624 @@
+{
+  "store.custom#nino": {
+  "blocks": [
+    "image#nino-home",
+    "info-card#nino-home-Mobile",
+    //"list-context.image-list#demo",
+    /* You can make references to blocks defined in other files.
+     * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+    "__fold__.experimentalLazyAssets",
+    "flex-layout.row#dealsNino",
+    "slider-layout#nino-deals-mobile",
+    "rich-text#shelf-titleDepto",
+    "flex-layout.row#shoes-nino",
+    "flex-layout.row#shirt-nino",
+    "flex-layout.row#nino-banner",
+    "flex-layout.row#nino-bannerM",
+
+
+    "flex-layout.row#product__tabs-nino",
+
+
+    "flex-layout.row#nino-banner2",
+    "flex-layout.row#nino-banner2M",
+    "shelf#descubre-mas-nino",
+    "shelf#lo-mas-vendido-nino"
+  ]
+},
+
+"list-context.image-list#demo-nino": {
+  "children": ["slider-layout#demo-images-nino"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      },
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      }
+    ]
+  }
+},
+"slider-layout#demo-images-nino": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "carousel"
+  }
+},
+
+/*--------------------------------------------------------*/
+/* Banner vitrina 1 --> CONOCE NUESTRA LINEA DE ZAPATOS  */
+/*------------------------------------------------------*/
+"rich-text#shelf-title": {
+  "props": {
+    "text": "CONOCE NUESTRA LINEA DE ZAPATOS",
+    "blockClass": "shelfTitle"
+  }
+},
+"flex-layout.row#shoes-nino":{
+  "props": {
+    "blockClass": ["more","vitrina1"]
+  },
+  "children": [
+    "flex-layout.col#shoes-nino-left",
+    "flex-layout.col#shoes-nino-right"]
+},
+"flex-layout.col#shoes-nino-left": {
+  "props": {
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-1"]
+  },
+  "children": [
+    "image#col-shoes-nino-left",
+    "info-card#col-shoes-nino-leftM"
+  ]
+},
+"flex-layout.col#shoes-nino-right": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shoes-nino"
+  ]
+},
+
+/*Banner izquierdo vertical*/
+"image#col-shoes-nino-left": {
+  "props": {
+    "src": "assets/desk/nino/banner-vitrina1.jpg",
+    "blockClass": ["info-card-shoes-left", "depto-desk"],
+    "link": {
+      "url": "/kids/nino/ropa/chaquetas-y-chalecos"
+    }
+  }
+},
+
+"shelf#shoes-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shoes",
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 189,
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+
+/*--------------------------------------------------------*/
+/* Banner vitrina 2 --> CONOCE NUESTRA LINEA DE CAMISAS  */
+/*------------------------------------------------------*/
+"flex-layout.row#shirt-nino":{
+  "props": {
+    "blockClass": ["more","vitrina2"]
+  },
+  "children": [
+    "flex-layout.col#shirt-nino-left",
+    "flex-layout.col#shirt-nino-right"]
+},
+"flex-layout.col#shirt-nino-left": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shirt-nino"
+  ]
+},
+"flex-layout.col#shirt-nino-right": {
+  "props": {
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-2"]
+  },
+  "children": [
+    "image#col-shirt-nino-right",
+    "info-card#col-shirt-nino-rightM"
+  ]
+},
+
+"image#col-shirt-nino-right": {
+  "props": {
+    "src": "assets/desk/nino/banner-vitrina2.jpg",
+    "blockClass":["info-card-shirt-right", "depto-desk"],
+    "link": {
+      "url": "/kids/nino/ropa/camisetas?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+"info-card#col-shirt-nino-rightM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-nino-banner-vitrina2.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-mobile"]
+  }
+},
+
+"shelf#shirt-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shirt",
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 171,
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+/*-----------------------------------------------*/
+/* Banners SECUNDARIOS --> Izquierda y Derecha  */
+/*---------------------------------------------*/
+"flex-layout.row#nino-banner":{
+  "props": {
+    "blockClass": ["more","depto-desk"]
+  },
+  "children": [
+    "flex-layout.col#banner-nino-left",
+    "flex-layout.col#banner-nino-right"]
+},
+"flex-layout.row#nino-bannerM":{
+  "props": {
+    "blockClass": ["more","depto-mobile"]
+  },
+  "children": [
+    "info-card#col-banner-nino-leftM",
+    "info-card#col-banner-nino-rightM"]
+},
+"flex-layout.col#banner-nino-left": {
+  "props": {
+    "width": "30%"
+  },
+  "children": [
+    "image#col-banner-nino-left"
+  ]
+},
+"flex-layout.col#banner-nino-right": {
+  "props": {
+    "width": "70%"
+  },
+  "children": [
+    "image#col-banner-nino-right"
+  ]
+},
+
+"flex-layout.row#nino-banner2": {
+  "props": {
+    "blockClass": ["bannerfinal","more","depto-desk"]
+  },
+  "children": [
+    "flex-layout.col#left-nino",
+    "flex-layout.col#right-nino"]
+},
+"flex-layout.col#left-nino": {
+  "props": {
+    "width": "60%"
+  },
+  "children": [
+    "image#col-left-nino"
+  ]
+},
+"flex-layout.col#right-nino": {
+  "props": {
+    "width": "40%"
+  },
+  "children": [
+    "image#col-right-1-nino",
+    "image#col-right-2-nino"
+  ]
+},
+
+/*------------------------*/
+/* Banner secundario 1   */
+/*----------------------*/
+"image#col-banner-nino-left": {
+  "props": {
+    "src": "assets/desk/nino/banner-secundario-1.jpg",
+    "blockClass": "info-card-banner-left",
+    "link": {
+      "url": "/kids/nino/ropa/camisetas?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+/*------------------------*/
+/* Banner secundario 2   */
+/*----------------------*/
+"image#col-banner-nino-right": {
+  "props": {
+    "src": "assets/desk/nino/banner-secundario2.jpg",
+    "blockClass": "info-card-banner-right",
+    "link": {
+      "url": "/kids/nino/ropa?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+/*---------------------------*/
+/* Banner Grid 1 izquierdo  */
+/*-------------------------*/
+"image#col-left-nino": {
+  "props": {
+    "src": "assets/desk/nino/banner-grid1.jpg",
+    "blockClass": "info-card-shoes",
+    "link": {
+      "url": "/kids/nino/ropa/pantalones?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+
+"list-context.product-list#demo1-nino": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#demo-products-nino"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#demo-products-nino": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "shelf"
+  }
+},
+
+/*-------------------*/
+/* Banner PRINCIPAL */
+/*-----------------*/
+"image#nino-home": {
+  "props": {
+    "src": "assets/desk/nino/banner-principal.jpg",
+    "blockClass": ["info-card-home","depto-desk"],
+    "link": {
+      "url": "/kids/nino/ropa?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+
+"rich-text#question": {
+  "props": {
+    "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+    "blockClass": "question"
+  }
+},
+
+"rich-text#link": {
+  "props": {
+    "text": "\n**Reach us at**\nwww.vtex.com.br",
+    "blockClass": "link"
+  }
+},
+
+"flex-layout.col#col-right2-nino": {
+  "children": [
+    "image#col-right-1-nino",
+    "image#col-right-2-nino"
+  ]
+},
+
+
+/*-------------------------------*/
+/* Banner Grid 2 Arriba derecho */
+/*-----------------------------*/
+"image#col-right-1-nino": {
+  "props": {
+    "src": "assets/desk/nino/banner-grid2.jpg",
+    "blockClass": "info-card",
+    "link": {
+      "url": "/kids/nino/ropa/pantalones?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+
+/*------------------------------*/
+/* Banner Grid 3 Abajo derecho */
+/*----------------------------*/
+"image#col-right-2-nino": {
+  "props": {
+    "src": "assets/desk/nino/banner-grid3.jpg",
+    "blockClass": "info-card--down",/*se le puso el mismo info card que nino...para que quedara alineado*/
+    "link": {
+      "url": "/kids/nino/ropa/bermudas?O=OrderByReleaseDateDESC"
+    }
+  }
+},
+
+
+"shelf#cats-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 183,
+    "blockClass": "depto-tab",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#cats1-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 173,
+    "blockClass": "depto-tab",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#descubre-mas-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 191,
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "DESCUBRE MÁS"
+    }
+  }
+},
+
+"shelf#lo-mas-vendido-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass":"slider--general",
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 178,
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "LO MÁS VENDIDO"
+    }
+  }
+},
+
+
+
+
+
+//product tabs
+"flex-layout.row#product__tabs-nino":{
+  "props":{
+    "blockClass": "home__product__tabs"
+  },
+  "children":[
+    "tab-layout#product__tabs-nino"
+  ]
+},
+"tab-layout#product__tabs-nino":{
+  "children":[
+    "tab-list#product__tab--list-nino",
+    "tab-content#product__tab--content-nino"
+  ]
+},
+"tab-list#product__tab--list-nino":{
+  "children":[
+    "tab-list.item#tabs__list--nino",
+    "tab-list.item#tabs__list--nino2"
+  ]
+},
+"tab-list.item#tabs__list--nino":{
+  "props":{
+    "tabId":"Jean",
+    "label":"Jean",
+    "defaultActiveTab":true,
+    "blockClass": "tab-depto"
+  }
+},
+"tab-list.item#tabs__list--nino2":{
+  "props":{
+    "tabId":"Camisetas",
+    "label":"Camisetas",
+    "blockClass": "tab-depto"
+  }
+},
+"tab-content#product__tab--content-nino":{
+  "children":[
+    "tab-content.item#tabs__content--nino",
+    "tab-content.item#tabs__content--nino2"
+  ]
+},
+"tab-content.item#tabs__content--nino":{
+  "props":{
+    "tabId":"Jean",
+    "blockClass": "tab-depto"
+  },
+  "children":["shelf#cats-nino","rich-text#tab-bottom-jean-nino","rich-text#tab-bottom-jean-ninoM"]
+},
+"tab-content.item#tabs__content--nino2":{
+  "props":{
+    "tabId":"Camisetas",
+    "blockClass": "tab-depto"
+  },
+  "children":["shelf#cats1-nino","rich-text#tab-bottom-camisetas-nino","rich-text#tab-bottom-camisetas-ninoM"]
+},
+"rich-text#tabs__content--nino":{
+  "props":{
+    "text":"aqui van otros sliders"
+  }
+},
+
+
+
+"info-card#nino-home-Mobile": {
+  "props": {
+    "id": ["info-card-home","depto-mobile"],
+    "isFullModeStyle": true,
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-nino-banner-principal.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-home","depto-mobile"]
+  }
+},
+"info-card#col-shoes-nino-leftM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-nino-banner-vitrina1.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-mobile"]
+  }
+},
+"info-card#col-banner-nino-leftM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nino-banner-secundario1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-left"
+  }
+},
+"info-card#col-banner-nino-rightM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nino-banner-secundario2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-right"
+  }
+},
+"rich-text#tab-bottom-jean-nino":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-desk"]
+  }
+},
+"rich-text#tab-bottom-jean-ninoM":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+},
+"rich-text#tab-bottom-camisetas-nino":{
+  "props":{
+    "text":"[Ver Categoría Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-desk"]
+  }
+},
+"rich-text#tab-bottom-camisetas-ninoM":{
+  "props":{
+    "text":"[Ver Categoría Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+},
+"flex-layout.row#nino-banner2M": {
+  "props": {
+    "blockClass": ["bannerfinal" ,"more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-left-ninoM",
+    "flex-layout.row#right-ninoM"]
+},
+"image#col-left-ninoM": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/dep-nino-banner-grid1.jpg",
+    "blockClass": ["bannerfinal"]
+  }
+},
+
+
+"flex-layout.row#right-ninoM": {
+  "props": {
+    "blockClass": ["bannerfinal-child", "more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-right-1-ninoM",
+    "image#col-right-2-ninoM"
+  ]
+},
+
+"image#col-right-1-ninoM": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/dep-nino-banner-grid2.jpg",
+    "blockClass": ["bannerfinal2"]
+  }
+},
+"image#col-right-2-ninoM": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/dep-nino-banner-grid3.jpg",
+    "blockClass": ["bannerfinal3"]
+  }
+}
+
+
+
+
+}

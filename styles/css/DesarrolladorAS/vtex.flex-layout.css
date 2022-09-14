@@ -1,0 +1,273 @@
+.flexRow.flexRow--deals.flexRow--depto-desk {
+  background: transparent;
+}
+
+@media screen and (max-width: 900px) {
+  .flexCol--banner-vitrina2.flexCol--vitrina2-1 .flexColChild--vitrina2-1:last-child {
+      height: 135px !important;
+  }
+
+  /*Acomoda la visualización de los precios*/
+  .flexCol.flexCol--precios {
+    margin-right: 250%;
+  }
+  :global(.vtex-search-result-3-x-gallery--grid) .flexCol.flexCol--precios {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+}
+
+
+@media screen and (max-width: 1026px) {
+  .flexRowContent--main-header-mobile {
+    max-height: 48px;
+  }
+}
+
+
+/*-----------------------------------*/
+/* Línea de separador entre títulos */
+/*---------------------------------*/
+/*Línea izquierda*/
+.flexCol--titleS-columna--1 {
+  background: black;
+  margin-left: 89px;
+  margin-top: 44px;
+  margin-right: 204px;
+  height: 1px;
+}
+
+/*Línea derecha*/
+.flexCol--titleS-columna--2 {
+  background: black;
+  margin-left: 210px;
+  margin-top: 44px;
+  margin-right: 91px;
+  height: 1px;
+}
+/*-----------------*/
+
+
+/*-------------------------------------------------*/
+/* Línea de separador entre títulos DEPARTAMENTOS */
+/*-----------------------------------------------*/
+/*DESCUBRE MÁS*/
+/*Línea izquierda*/
+.flexCol--titleDescubreMas-columna--3 {
+  background: black;
+  margin-left: 89px;
+  margin-top: 44px;
+  margin-right: 210px;
+  height: 1px;
+}
+
+/*Línea derecha*/
+.flexCol--titleDescubreMas-columna--4 {
+  background: black;
+  margin-left: 210px;
+  margin-top: 44px;
+  margin-right: 97px;
+  height: 1px;
+}
+
+/*MAS VENDIDOS*/
+/*Línea izquierda*/
+.flexCol--titleMasVendidos-columna--3 {
+  background: black;
+  margin-left: 89px;
+  margin-top: 44px;
+  margin-right: 210px;
+  height: 1px;
+}
+
+/*Línea derecha*/
+.flexCol--titleMasVendidos-columna--4 {
+  background: black;
+  margin-left: 210px;
+  margin-top: 44px;
+  margin-right: 97px;
+  height: 1px;
+}
+/*-----------------*/
+
+
+/***********************************/
+/*         AJUSTES DISEÑO          */
+/***********************************/
+.flexRow.flexRow--more.flexRow--vitrina1 {
+  height: 620px;
+}
+.flexRow.flexRow--more.flexRow--vitrina2 {
+  height: 620px;
+}
+.flexRowContent.flexRowContent--home__product__tabs :global(.vtex-tab-layout-0-x-contentContainer) {
+  border: none;
+  width: 90%;
+}
+@media screen and (min-width: 1500PX) {
+  .flexRow.flexRow--deals.flexRow--depto-desk {
+      max-width: 1200px;
+      margin: -53px auto 40px;
+  }
+  }
+  @media screen and (max-width: 1200px) {
+.flexRow.flexRow--more.flexRow--vitrina1 {
+      height: 485px;
+  }
+.flexRow.flexRow--more.flexRow--vitrina2 {
+     height: 485px;
+}
+}
+
+/***********************************/
+/*      ORDENA LAS VITRINAS       */
+/**********************************/
+@media screen and (max-width: 900px) {
+  .flexRow.flexRow--more.flexRow--vitrina1 {
+      height: 560px;
+  }
+  .flexRow.flexRow--more.flexRow--vitrina2 {
+    height: 560px;
+  }
+  .flexCol.flexCol--banner-vitrina2.flexCol--vitrina2-1 {
+    padding-bottom: 15px;
+  }
+  .flexCol.flexCol--banner-vitrina2.flexCol--vitrina2-2 {
+    padding-bottom: 15px;
+  }
+  }
+
+/*Breadcrumb ajuste*/
+@media screen and (min-width: 700px) {
+  .flexRow--breadproduct {
+    width: 50%;
+    padding-left: 1.2% !important;
+  }
+}
+/*Títulos vitrinas en Mobile*/
+@media screen and (max-width: 900px) {
+  .flexRow.flexRow--titleS.flexRow--titulosDepartamento {
+    display: block;
+  }
+
+  .flexRowContent.flexRowContent--titleS.flexRowContent--titulosDepartamento .stretchChildrenWidth:first-child {
+    display: none;
+  }
+  .flexRowContent.flexRowContent--titleS.flexRowContent--titulosDepartamento .stretchChildrenWidth:last-child {
+    display: none;
+  }
+
+  /* /guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos
+  .flexCol.flexCol--imagenColumnCategoryC {
+    width: 161%;*/
+    /*z-index: 777;
+    -webkit-appearance: none !important;
+  }*/
+
+  /*/guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos*/
+  .flexRowContent--row-vitrine-category {
+    display: grid;
+    grid-template-columns: 45% 50% !important;
+    max-height: 160px;
+  }
+  .flexRowContent--row-vitrine-category .stretchChildrenWidth {
+    width: 100% !important;
+    height: 90% !important;
+  }
+  /*---------------------------------------------------------------*/
+
+  /*----------------------------------------------------------------------------*/
+  /*  Acomodando vitrinas con titulos de producto - bolsita - precio visibles  */
+  /*--------------------------------------------------------------------------*/
+  .flexRowContent.flexRowContent--inferior {
+    margin-top: 36px;
+  }
+
+  .flexRowContent.flexRowContent--inferior.items-stretch {
+    margin-left: 8em;
+  }
+
+  .flexCol.flexCol--precios {
+    margin-left: 250%;
+  }
+
+  .stretchChildrenWidth.flex {
+    margin-right: -7em;
+  }
+
+  .flexRow.flexRow--inferior {
+    height: 0%;
+  }
+  /*------------------------------------------------------------------*/
+
+}
+
+
+/*
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  /* /guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos
+  .flexCol.flexCol--imagenColumnCategoryC {
+    width: 161% !important;
+    z-index: 999999 !important;
+    height: 100% !important;
+  }
+  /*---------------------------------------------------------------
+}*/
+
+
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.flexRowContent.flexRowContent--producto-image-and-zoom {
+  position: relative;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  z-index: 9991 !important;
+  width: 82px !important;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:first-child {
+  width: 100% !important;
+}
+
+
+@media screen and (max-width: 900px) {
+  .flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+    right: 1%;
+  }
+
+  /*bajar un poco banner secundario mobile*/
+  .flexRow.flexRow--more.flexRow--depto-mobile {
+    margin-top: 30px;
+  }
+}
+
+/*-------------------------------------------*/
+/* Scroll para filtros de producto category */
+/*-----------------------------------------*/
+.flexCol.flexCol--filtroContent {
+  overflow-y: scroll;
+}
+/*--------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Posición arriba de ORDENAR POR RELEVANCIA para dar espacio visual a los filtros  */
+/*---------------------------------------------------------------------------------*/
+/*--------------------------------------*/
+
+
+/*-----------------------------------------------------------*/
+/* Filtro Velo que cierra desde afuera los filtros category */
+/*---------------------------------------------------------*/
+.flexCol.flexCol--filtroContent.flexCol--fitroTrigger.flexCol--fitroTrigger2 {
+  position: relative;
+}
+/*---------------------------------------------------*/
+.flexRowContent--rowSearchInfo .stretchChildrenWidth:first-child{
+  justify-content: flex-start;
+}

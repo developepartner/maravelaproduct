@@ -1,0 +1,331 @@
+{
+  "store.custom#guia-regalos-padres": {
+    "blocks": [
+      "flex-layout.row#vitrineCategoryC-padres",
+      "rich-text#tituloRangoPrecio",
+      "rich-text#tituloRangoPrecioM",
+      "flex-layout.row#rangePrice",
+      "search-result-layout.customQuery#guia-regalos-padres"
+    ]
+  },
+  "image#freedom": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://arturocalle.vteximg.com.br/arquivos/Banner-Categoria-Freedom.jpg"
+    }
+  },
+  "search-result-layout.customQuery#guia-regalos-padres": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "751",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#customC",
+      "search-result-layout.mobile#customC",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#customC": {
+    "children": [
+      //"flex-layout.row#vitrinaDestacadaSearch",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "maxItemsPerPage": 12
+    }
+  },
+  "search-result-layout.mobile#customC": {
+    "children": [
+      "flex-layout.row#searchinfoM",
+      //"flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  },
+
+
+  "flex-layout.row#vitrineCategoryC-padres":{
+      "children": [
+          "flex-layout.col#col-vitrine-categoryC-padres",
+          "flex-layout.col#col-vitrine-imagecarrusel-padres"
+      ],
+      "props":{
+          "blockClass": "row-vitrine-category",
+          "preserveLayoutOnMobile": "true"
+      }
+  },
+  "flex-layout.col#col-vitrine-categoryC-padres":{
+      "children": [
+          "image#imagenCategoryC-padres"
+      ],
+      "props":{
+          "width":"25%",
+          "blockClass": "imagenColumnCategoryC"
+      }
+  },
+  "flex-layout.col#col-vitrine-imagecarrusel-padres":{
+    "children": [
+      "list-context.image-list#democ-padres"
+    ],
+    "props":{
+        "width":"75%",
+        "blockClass": "vitrinaImage"
+    }
+},
+  "image#imagenCategoryC-padres": {
+      "props": {
+        "src": "https://arturocalle.vteximg.com.br/arquivos/image-regalos-padres.jpg",
+        "blockClass": "imgCategoriaSliderC"
+      }
+  },
+  "list-context.image-list#democ-padres": {
+    "children": ["slider-layout#demo-imagesC"],
+    "props": {
+      "height": 920,
+      "images": [
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nina.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nina.jpg",
+          "link":{
+            "url":"/guia-de-regalos/nina"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/imagen-extra.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/imagen-extra.jpg",
+          "link":{
+            "url":"/guia-de-regalos/mujers-de-regalo"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-gift-card.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-gift-card.jpg",
+          "link":{
+            "url":"/guia-de-regalos/bonos-de-regalo"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-hombre.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-hombre.jpg",
+          "link":{
+            "url":"/guia-de-regalos/hombre"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-mujer.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-mujer.jpg",
+          "link":{
+            "url":"/guia-de-regalos/mujer"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nino.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nino.jpg",
+          "link":{
+            "url":"/guia-de-regalos/nino"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-imagesC": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "centerMode":"center",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselC"
+    }
+  },
+
+  "flex-layout.row#vitrineCategoryMC":{
+      "children": [
+          "flex-layout.col#col-vitrine-categoryMC",
+          "flex-layout.col#col-vitrine-category-1MC"
+      ],
+      "props":{
+          "blockClass": "row-vitrine-category",
+          "preserveLayoutOnMobile": "true"
+      }
+  },
+  "flex-layout.col#col-vitrine-categoryMC":{
+      "children": [
+          "image#imagenCategoryMC"
+      ],
+      "props":{
+          "width":"50%",
+          "blockClass": "imagenColumnCategory"
+      }
+  },
+  "image#imagenCategoryMC": {
+      "props": {
+        "src": "https://arturocalle.vteximg.com.br/arquivos/ids/431656/celebramostodo.jpg",
+        "blockClass": "imgCategoriaSlider"
+      }
+  },
+  "flex-layout.col#col-vitrine-category-1MC":{
+      "children": [
+          "list-context.product-list#category-2"
+      ],
+      "props":{
+          "width":"50%",
+          "blockClass": "sliderVitrine"
+      }
+  },
+  "list-context.product-list#category-2M": {
+      "blocks": ["product-summary.shelf#2"],
+      "children": ["slider-layout#demo-category-2M"]
+  },
+  "slider-layout#demo-category-2M": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 3,
+          "phone": 1
+        },
+        "infinite": true,
+        "fullWidth": false,
+        "blockClass": "shelf",
+        "showPaginationDots":"false",
+        "showNavigationArrows": "never"
+      }
+  },
+
+  //Titulo de rangos precios
+  "rich-text#tituloRangoPrecio": {
+    "props": {
+      "text": "### ESCOGE TU REGALO POR RANGO DE PRECIO",
+      "blockClass": ["titleRanges"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+
+  "rich-text#tituloRangoPrecioM": {
+    "props": {
+      "text": "ESCOGE TU REGALO \n POR RANGO DE PRECIOS ",
+      "blockClass": ["titleRanges", "titlem-MOBILE"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  //Cierre de ritulo de rangos precios
+
+
+
+  //Filtros Rango Precios Categoty
+  "flex-layout.row#rangePrice":{
+    "props":{
+      "blockClass":"rangePrice"
+    },
+    "children":[
+      "flex-layout.col#rangePrice_1",
+      "flex-layout.col#rangePrice_2",
+      "flex-layout.col#rangePrice_3",
+      "flex-layout.col#rangePrice_4",
+      "flex-layout.col#rangePrice_5"
+    ]
+  },
+
+  "flex-layout.col#rangePrice_1":{
+    "props":{
+      "blockClass": ["rangePriceContainer", "rangePriceContainer1"]
+    },
+    "children":[
+      "link#rangePriceLink_1B"
+    ]
+  },
+  "flex-layout.col#rangePrice_2":{
+    "props":{
+      "blockClass": ["rangePriceContainer", "rangePriceContainer2"]
+    },
+    "children":[
+      "link#rangePriceLink_2"
+    ]
+  },
+  "flex-layout.col#rangePrice_3":{
+    "props":{
+      "blockClass": ["rangePriceContainer", "rangePriceContainer3"]
+    },
+    "children":[
+      "link#rangePriceLink_3"
+    ]
+  },
+  "flex-layout.col#rangePrice_4":{
+    "props":{
+      "blockClass": ["rangePriceContainer", "rangePriceContainer4"]
+    },
+    "children":[
+      "link#rangePriceLink_4"
+    ]
+  },
+  "flex-layout.col#rangePrice_5":{
+    "props":{
+      "blockClass": ["rangePriceContainer", "rangePriceContainer5"]
+    },
+    "children":[
+      "link#rangePriceLink_5"
+    ]
+  },
+
+  "link#rangePriceLink_1B": {
+    "props": {
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=860&operator=and&priceRange=50000%20TO%2099900&searchState",
+      "label": "$50.000 a $99.900"
+    }
+  },
+  "link#rangePriceLink_2": {
+    "props": {
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=859&operator=and&priceRange=100000%20TO%20149000&searchState",
+      "label": "$100.000 a $149.000"
+    }
+  },
+  "link#rangePriceLink_3": {
+    "props": {
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=858&operator=and&priceRange=150000%20TO%20199900&searchState",
+      "label": "$150.000 a $199.900"
+    }
+  },
+  "link#rangePriceLink_4": {
+    "props": {
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=857&operator=and&priceRange=200000%20TO%20399900&searchState",
+      "label": "$200.000 a $399.900"
+    }
+  },
+  "link#rangePriceLink_5": {
+    "props": {
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=856&operator=and&priceRange=300000%20TO%20399900&searchState",
+      "label": "Mayor a $400.000"
+    }
+  }
+  //----> CIERRE de Filtros Rango Precios Categoty
+}

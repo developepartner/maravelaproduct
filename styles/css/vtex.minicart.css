@@ -1,0 +1,136 @@
+.openIconContainer {
+  margin-top: 8px;
+}
+.overlay--visible {
+  z-index: 99999;
+}
+.openIconContainer--minicart-home{
+  margin-right: 30px;
+}
+
+/*---------------------------------*/
+/* mini cart css                   */
+/*---------------------------------*/
+
+.minicartContainer--minicart-home{
+  margin-top: 20px;
+  margin-right: 34px;
+}
+
+.minicartQuantityBadge--minicart-home{
+  top: 6px;
+  left: 39px;
+  background: transparent;
+}
+.popupStyles{ /*define el largo maximo del minicart...si produce problemas..se puede quitar*/
+  max-height: 479px;
+}
+
+.popupChildrenContainer--minicart-home{
+  box-shadow: 0px -2px 0px rgb(0 0 0 / 70%), 0px 0px 20px -7px rgb(0 0 0 / 70%);
+}
+
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer){
+  color: #033A5F;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+  background: #0FADC6;
+  border-color: transparent;
+  border-radius: 5px;
+  transition: 400ms all;
+}
+.minicartCheckoutButton :global(.vtex-button):hover{
+  background: white !important;
+  border-color: #0FADC6 !important;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+  visibility: hidden;
+  color: white;
+}
+.minicartProductListContainer::-webkit-scrollbar{
+  background: #D3D3D3;
+  width: 7px;
+  border-radius: 5px; 
+}
+.minicartProductListContainer::-webkit-scrollbar-thumb{
+   background: #0FADC6;
+   border-radius: 5px;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button):hover :global(.vtex-button__label){/*hace que cuando toque el boton...el texto cambie de color tambien*/
+  color: #0FADC6;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+  content: 'Ir a pagar';
+  visibility: visible;
+  margin-left: -127px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover{
+  background: #485a7e;
+  border-color: #485a7e;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+  content: 'Ir a pagar';
+  visibility: visible;
+  margin-left: -127px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer){
+  font-size: 12px;
+  text-transform:initial;
+  display: inline-block;
+  height: 24px;
+}
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child{
+  color: #033A5F;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemLabel){
+  position: relative;
+  top: 2px;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-price){
+  position: relative;
+  top: -18px;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+  display: none;
+}
+
+.opened {z-index: 99999;}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+.closeIconContainer {
+    position: absolute;
+    right: 19px;
+    top: 10px;
+}
+.minicartSideBarContentWrapper {
+  height: 100vh !important;
+  padding-top: 25px;
+}
+@media (max-width: 600px) {
+  .closeIconContainer {
+    position: absolute;
+    right: 19px;
+    top: 19px;
+  }
+}

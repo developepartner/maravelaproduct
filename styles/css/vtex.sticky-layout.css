@@ -1,0 +1,16 @@
+.wrapper--stuck :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(1);
+}
+
+.wrapper--StickyP--stuck {position: absolute !important;}
+.container--sticky-header {
+  background: white;
+}
+.container {
+  z-index: 9999;
+}
+@media screen and (max-width: 900px){
+  .wrapper--stuck .container{
+    z-index: 9999;
+  }
+}

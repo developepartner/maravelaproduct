@@ -1,0 +1,30 @@
+/*Modifica el tamaño del titulo de las vitrinas, del nombre el producto*/
+@media screen and (max-width: 900px) {
+  .nameContainer {
+    height: 41px;
+    overflow: hidden;
+  }
+
+  .skuSelectorItem--vitrina {
+    border: transparent;
+    border-radius: 5px;
+  }
+
+  /* .valueWrapper {
+    background-color: #f5f5f5;
+    border-radius: 35%;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+  } */
+
+  .skuSelectorInternalBox {
+    border-color: transparent;
+  }
+
+  /*Espacio entre precios y descripción del producto en mobile*/
+  .nameContainer {
+    margin-bottom: -2em;
+  }
+}

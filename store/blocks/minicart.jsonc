@@ -1,0 +1,118 @@
+{
+//inicio mini cart
+
+"minicart.v2": {
+  "props": {
+    "MinicartIcon": "flex-layout.row#home__minicart",
+    "maxDrawerWidth":"500px"
+  },
+  "children": ["minicart-base-content"]
+},
+"icon-cart#minicart-icon": {
+  "props": {
+    "size": 24
+  }
+},
+"minicart-base-content": {
+  "blocks": ["minicart-empty-state"],
+  "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+},
+"flex-layout.row#minicart-footer": {
+  "props": {
+    "blockClass": "minicart-footer"
+  },
+  "children": ["flex-layout.col#minicart-footer"]
+},
+"flex-layout.col#minicart-footer": {
+  "children": ["minicart-summary", "minicart-checkout-button"]
+},
+"minicart-product-list": {
+  "blocks": ["product-list#minicart"]
+},
+"product-list#minicart": {
+  "blocks": ["product-list-content-mobile"]
+},
+"minicart-summary": {
+  "blocks": ["checkout-summary.compact#minicart"]
+},
+"minicart-checkout-button": {
+  "props": {
+    "finishShoppingButtonLink": "/checkout"
+}
+},
+
+"checkout-summary.compact#minicart": {
+  "children": ["summary-totalizers#minicart"],
+  "props": {
+    "totalizersToShow": ["Items", "Discounts"]
+  }
+},
+"summary-totalizers#minicart": {
+  "props": {
+    "showTotal": true,
+    "showDeliveryTotal": false
+  }
+},
+"minicart-empty-state": {
+  "children": ["flex-layout.row#empty-state"]
+},
+"flex-layout.row#empty-state": {
+  "children": ["flex-layout.col#empty-state"]
+},
+"flex-layout.col#empty-state": {
+  "children": [
+    "icon-cart#minicart-empty-state",
+    "rich-text#minicart-default-empty-state"
+  ],
+  "props": {
+    "horizontalAlign": "center",
+    "verticalAlign": "middle",
+    "rowGap": 5
+  }
+},
+"icon-cart#minicart-empty-state": {
+  "props": {
+    "size": 64,
+    "blockClass": "minicart-empty-state"
+  }
+},
+"rich-text#minicart-default-empty-state": {
+  "props": {
+    "text": "Tu carrito esta vacio."
+  }
+},
+  "flex-layout.row#home__minicart":{
+    "children":[
+      "flex-layout.col#home__minicart--bolsa-de-compra",
+      "flex-layout.col#home__minicart--circulo-negro"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": "true",
+      "blockClass": "minicart"
+    }
+  },
+  "flex-layout.col#home__minicart--bolsa-de-compra":{
+    "props":{
+      "blockClass": "minicart-slayout-home-bolsa"
+    },
+    "children":["image#minicart-icon-bolsa-de-compra"]
+  },
+  "image#minicart-icon-bolsa-de-compra": {
+    "props": {
+      "blockClass": "minicart-home-bolsa",
+      "src": "https://callearturop.vteximg.com.br/arquivos/maravela-carrito.png"
+    }
+  },
+  "flex-layout.col#home__minicart--circulo-negro":{
+    "children":["image#minicart-icon-circulo-negro"],
+    "props":{
+      "blockClass": "circuloN"
+    }
+  },
+  "image#minicart-icon-circulo-negro": {
+    "props": {
+      "blockClass": "minicart-circulo-negro",
+      "src": "https://callearturop.vteximg.com.br/arquivos/circuloNegro.png"
+    }
+  }
+}

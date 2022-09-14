@@ -1,0 +1,97 @@
+
+  .buttonShowMore :global(.vtex-button) {
+    background: #0FADC6;
+    border-radius: 5px;
+    min-width: 15%;
+    border: 0;
+    justify-content: center;
+  }
+
+  .buttonShowMore :global(.vtex-button__label) {
+    font-size: 15px;
+    padding: 1% 4%;
+    color: white !important;
+    text-transform: initial;
+  }
+  .searchResultContainer {
+    max-width: 2000px;
+  }
+  :global(.vtex-disclosure-layout-1-x-content--filtroContent) .filter__container--selectedFilters .filterItem--filtros--selected{
+    background: #edecec;
+    margin: 0 10% 0 0;
+    position: relative;
+    height: 38px;
+    border-radius: 5px;
+    padding: 0 8% 0 6%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin:10px 0 ;
+  }
+  :global(.vtex-disclosure-layout-1-x-content--filtroContent) .filter__container--selectedFilters .filterItem--filtros--selected :global(.vtex-checkbox__label)::after{
+    content: "x";
+    position: absolute;
+    top: -39%;
+    right: -35px;
+    font-size: 20px;
+  }
+  :global(.vtex-disclosure-layout-1-x-content--filtroContent) .filter__container--selectedFilters :global(.vtex-checkbox__container){
+    display: none;
+  }
+
+@media screen and (max-width: 900px) {
+
+  .orderByButton{padding: 0;}
+
+  .totalProducts--layout {justify-content: initial;display: flex;padding: 0 3%;}
+  .filterPopupButton {padding: 0 10%;margin: 0;max-height: 32px;}
+
+  .filters {border: 1px solid;border-radius: 5px;max-height: 34px;margin: 0 7px 0 0;}
+  .filterApplyButtonWrapper :global(.vtex-button) {background: black;color: white;}
+  .buttonShowMore :global(.vtex-button){
+    min-width: 40%;
+  }
+  .galleryLayoutSwitcher {
+    position: absolute;
+    right: 10px;
+  }
+  .galleryLayoutOptionButton.galleryLayoutOptionButton--selected:first-child::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/activemobile.-maravela-1.png);
+    background-size: cover;
+    width: 26px;
+    height: 25px;
+    display: block;
+  }
+  .galleryLayoutOptionButton.galleryLayoutOptionButton--selected:last-child::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/viewX2Active-png-maravela.png);
+    background-size: 100%;
+    width: 26px;
+    height: 25px;
+    display: block;
+  }
+  .galleryLayoutOptionButton:last-child::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/viewX2Default-png-maravela.png);
+    background-size: cover;
+    width: 26px;
+    height: 25px;
+    display: block;
+  }
+  .galleryLayoutOptionButton:first-child::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/viewX1Default-png-maravela.png);
+    background-size: cover;
+    width: 26px;
+    height: 25px;
+    display: block;
+  }
+  .gallery--list .galleryItem {
+    width: 25% !important;
+  }
+}
+
+.filter__container.filter__container--filtros.filter__container--category-5 {
+  display: none;
+}

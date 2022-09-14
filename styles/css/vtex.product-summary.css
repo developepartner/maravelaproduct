@@ -1,0 +1,111 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.brandName {
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+/*------------------------------------------*/
+/* arrglando los productos vitrinas         */
+/*------------------------------------------*/
+.nameContainer--product-summary-name{
+  margin-top: 43px;
+  margin-left: 19px;
+}
+.nameContainer--product-summary-name :global(.vtex-product-summary-2-x-productBrand){
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.nameContainer--product-summary-name :global(.vtex-product-summary-2-x-productNameContainer--product-summary-name){
+  text-align:center;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*Vitrina camilo*/
+.skuSelectorContainer--vitrina {
+  margin: 0 !important;
+}
+.skuSelectorItem--selected{
+  border: 1px solid black;
+}
+.valueWrapper--vitrina {
+  font-size: 11px;
+  padding: 0 9px;
+}
+
+.skuSelectorItem {
+  height: 25px;
+}
+/*vitrina*/
+.nameWrapper {
+  min-height: 38px;
+  padding: 0 5px;
+}
+.containerNormal:hover :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+  display: flex;
+  top: 0;
+  position: relative;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+}
+.skuSelectorItemImageValue--vitrina {
+  display: none;
+}
+.SKUSelectorContainer--vitrina :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--vitrina {
+  background: rgba(242,242,242,0.7);
+  border: 1.21051px solid #D8D8D8;
+  border-radius: 5px;
+} 
+.skuSelectorInternalBox--vitrina {
+  border: 0;
+}
+.SKUSelectorContainer--vitrina :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--vitrina--selected{
+  background: #033A5F;
+}
+.SKUSelectorContainer--vitrina :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--vitrina--selected .skuSelectorItemTextValue--vitrina{
+  color: white;
+}
+@media screen and (max-width: 900px){
+  .skuSelectorItem {
+    height: 25px;
+    width: 25px;
+  }
+  .SKUSelectorContainer--vitrina :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--vitrina {
+    width: auto;
+  }
+}

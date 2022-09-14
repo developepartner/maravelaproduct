@@ -1,0 +1,759 @@
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}
+.filter__container.filter__container--filtros.filter__container--color:first-child {
+  display: none;
+}
+
+.accordionFilterContainer--category-4 {
+  display: none;
+}
+
+.filterItem--filtros--selected :global(.vtex-checkbox__inner-container)::before{
+  display: none !important;
+}
+.filterTitleSpan--filtros{
+  color: #033A5F;
+  font-weight: bold;
+}
+.filter--filtros{
+  border-bottom: 2px solid #DADADA;
+  padding: 16px 0 !important;
+  margin: 0 4%;
+}
+.filtersWrapperMobile--filtros2{
+  background: #0FADC6;
+  border: 0;
+  border-radius: 5px;
+  padding: 1px;
+}
+.filterPopupTitle--filtros2 {
+  color: white;
+}
+.filters{
+  border: 0 !important;
+  border-radius: 5px !important;
+}
+.filterPopupArrowIcon--filtros2 {
+  display: none;
+}
+.filtersWrapperMobile--filtros2::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://callearturop.vteximg.com.br/arquivos/iconFilter-maravela-new.png) no-repeat;
+  display: block;
+  background-size: 100%;
+}
+/*Category*/
+
+.galleryTitle--layout {
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0FADC6;
+}
+
+.orderByDropdown {
+  border: 1px solid #0FADC6;
+  border-radius: 5px;
+  padding: 0px;
+}
+.orderByText {
+  color: #0FADC6;
+  font-weight: bold;
+}
+
+.orderByButton {
+  padding: 9px 0px 9px 6px;
+  background: transparent;
+}
+.totalProducts--layout {
+  padding-right: 0;
+}
+.galleryLayoutSwitcher {
+  justify-content: flex-end;
+  align-items: center;
+}
+.galleryLayoutSwitcher::before {
+  content: "Visualizar";
+  font-size: 14px;
+  color: rgb(42, 42, 42);
+  font-weight: 500;
+  display: block;
+  margin-right: 22px;
+}
+@media (max-width: 1300px) {
+  .galleryLayoutSwitcher::before {
+    margin-right: 4px;
+  }
+}
+/* layout switcher */
+.galleryLayoutOptionButton {
+  background: transparent;
+  padding: 0;
+  margin: 0 5px;
+}
+.galleryLayoutOptionButton.galleryLayoutOptionButton--selected:first-child::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/viewX2Active-png.png);
+  background-size: cover;
+  width: 26px;
+  height: 25px;
+  display: block;
+}
+.galleryLayoutOptionButton.galleryLayoutOptionButton--selected:last-child::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/viewX3Active-png.png);
+  background-size: 100%;
+  width: 26px;
+  height: 25px;
+  display: block;
+}
+.galleryLayoutOptionButton:last-child::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/viewX3-png.png);
+  background-size: cover;
+  width: 26px;
+  height: 25px;
+  display: block;
+}
+.galleryLayoutOptionButton:first-child::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/viewX2dedault-png.png);
+  background-size: cover;
+  width: 26px;
+  height: 25px;
+  display: block;
+}
+
+.gallery {
+  padding: 0;
+}
+.buttonShowMore--layout{
+  margin-top: 40px;
+}
+.container--layout{
+  background: #fafafa;
+}
+
+
+/*Filtros*/
+
+.filterItem :global(.vtex-checkbox__container) {
+  position: absolute;
+  right: -13px;
+  top: 15%;
+}
+
+.filter--filtros {
+  text-transform: uppercase;
+  padding: 16px 4%;
+}
+
+.filter__container--filtros {
+  border: none;
+}
+
+.filterItem :global(.vtex-checkbox__line-container) { padding: 1% 0;}
+
+/*Colores Filtros*/
+.filterItem--filtros--azul :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #08356d;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+
+.filterItem--filtros--azul :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--azul.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--azul :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--blanco :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: white;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--blanco :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--blanco.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--blanco :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fe4201;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--naranja.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--naranja :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fe4201;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--naranja.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--naranja :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--verde :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #017d30;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--verde :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--verde.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--verde :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--morado :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #98237f;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--morado :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--morado.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--morado :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--negro :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: black;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--negro :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--negro.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--negro :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--rosado :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #f98db3;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+
+}
+.filterItem--filtros--rosado :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--rosado.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--rosado :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--cafe :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #77461c;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--cafe :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--cafe.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--cafe :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--vino :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #4c0016;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--vino :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--vino.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--vino :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--gris :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #666;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--gris :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--gris.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--gris :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--rojo :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #dc0000;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--rojo :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--rojo.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--rojo :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--caqui :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #cca753;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--caqui :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--caqui.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--caqui :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--beige :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #e2d6a1;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--beige :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--beige.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--beige :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--amarillo :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fff018;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--amarillo :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--amarillo.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--amarillo :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--multicolor :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fff6e2;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+.filterItem--filtros--multicolor :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--multicolor.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--multicolor :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filterItem--filtros--ocre :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #9b7301;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  border-radius: 5px;
+}
+
+.filterItem--filtros--ocre :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--ocre.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--ocre :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.filter__container--talla :global(.vtex-checkbox__container) {
+  /*display: none;*/
+  opacity: 0;
+}
+.filter__container--talla :global(.vtex-checkbox__line-container) {
+  width: auto;
+  min-width:50px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height:30px;
+  border-radius:5px;
+  border:1px solid;
+}
+
+.filter__container--talla :global(.vtex-checkbox__label) {
+  font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.filter__container--talla .filterItem--filtros {
+  display: flex;
+  width: 20%;
+  margin: 4px 5px 4px 5px;
+}
+
+.filter__container--talla .filterContent--filtros {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6%;
+}
+
+
+.filter__container--color .filterContent--filtros{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 !important;
+}
+
+.filter__container--color .filterItem--filtros {
+  margin: 6px;
+  display: flex;
+  width: 7%;
+  margin-right: 22px;
+}
+/*Segundo filtro de cierre*/
+.filtersWrapper--filtros2 .filter__container--selectedFilters {
+  display: block !important;
+  border: none;
+}
+
+.filter__container--filtros2 .filter__container--title .filter__container--filtros2--title {
+  display: none;
+}
+
+.filter__container--filtros2 {
+  display: none;
+}
+
+.filterItem--filtros2 :global(.vtex-checkbox__container){
+  display: none;
+}
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filterTitleSpan.filterTitleSpan--filtros2{
+  display: none;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+  display: none;
+}
+
+.filterItem--filtros2--selected {
+  background: #F4F4F4;
+  margin: 0 10% 0 0;
+  position: relative;
+  height: 38px;
+  border-radius: 5px;
+  padding: 0 8% 0 6%;
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2--selected :global(.vtex-checkbox__label)::after {
+  content: "x";
+  position: absolute;
+  top: -30%;
+  right: -20px;
+  font-size: 20px;
+}
+.buttonShowMore--layout {
+  margin-bottom: 50px;
+}
+.filter__container--priceRange .filterTemplateOverflow--filtros {padding: 0 8%;}
+
+.filter__container--filtros--title {display: none;}
+
+.filtersWrapper--filtros {margin: 38px 0 0 0;}
+
+.filterTitleSpan--filtros {
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  padding-top: 4px;
+}
+
+.filterTemplateOverflow--filtros {padding: 0 8%;}
+
+.filter__container--filtros2.filter__container--selectedFilters {margin: 1px 0 0 -50%;}
+
+/*Espacio entre tallas*/
+.filterContent.filterContent--filtros {
+  margin-right: -23%;
+  width: 89%;
+}
+/*INI: Los tags de los filtros se hicieron mas grandes y estan alineados*/
+.filterTitleSpan--filtros :global(.vtex-tag){
+  position: relative;
+  top: -2px;
+  font-size: 12px;
+}
+/*FIN: Los tags de los filtros se hicieron mas grandes y estan alineados*/
+
+.totalProducts--layout {
+  color: #DADADA;
+  font-size: 12px;
+}
+.totalProductsMessage {
+  color: #DADADA;
+  font-size: 12px;
+}
+.accordionFilterContainer--marca,
+.filter__container--brand{
+  display: none;
+}

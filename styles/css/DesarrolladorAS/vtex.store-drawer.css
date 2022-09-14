@@ -1,0 +1,52 @@
+.overlay--visible {
+    top: 47px;
+}
+
+.opened {
+    top: 47px;
+}
+@media  (max-width: 700px) {
+  .overlay--visible {
+    top: 76px;
+  }
+  .opened {
+      top: 76px;
+  }
+}
+.closeIcon {
+  color: white;
+  animation: rotation 2s;
+}
+
+
+.closeIcon {
+  position: absolute;
+  z-index: 5;
+  margin-top: -52px;
+  margin-left: 0.5%;
+  background-color: #0FADC6;
+}
+
+@media screen and (max-width: 900px){
+  .closeIconContainer {
+    background-color: #f8f8f8;
+  }
+
+  /*colocar menú encima de producto*/
+  .drawer.opened {
+    z-index: 9999;
+  }
+
+  .overlay.overlay--visible {
+    z-index: 9992;
+  }
+  /*--------------------------*/
+
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+  .opened {
+    top: 76px;
+  }
+}
+
+
